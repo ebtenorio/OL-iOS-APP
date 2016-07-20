@@ -1,0 +1,36 @@
+﻿<Properties StartupItem="OneTradeCentral.iOS/OrderLinc-MPE.iOS.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OneTradeCentral.iOS/Orders/OrderViewController.cs">
+    <Files>
+      <File FileName="OneTradeCentral.iOS/Orders/OrderViewController.cs" Line="273" Column="7" />
+      <File FileName="OneTradeCentral.iOS/Orders/EmailAddressTableSource.cs" Line="16" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc-REINTEGRATION/OneTradeCentral.iOS/AppInfoViewController.cs" line="153" column="1" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc-REINTEGRATION/OneTradeCentral.iOS/DAO/DALFacade.cs" line="34" column="1" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc-REINTEGRATION/OneTradeCentral.iOS/Utility/WebServiceFacade.cs" line="230" column="1" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc-REINTEGRATION/OneTradeCentral.iOS/Orders/OrderConfirmationController.cs" line="95" column="1" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc-REINTEGRATION/OneTradeCentral.iOS/Utility/BackgroundWorker.cs" line="124" column="1" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc-REINTEGRATION/OneTradeCentral.iOS/DAO/SQLiteDAOFactory.cs" line="500" column="38" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc-REINTEGRATION/OneTradeCentral.iOS/DAO/SQLiteDAOFactory.cs" line="564" column="1" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc-REINTEGRATION/OneTradeCentral.iOS/Utility/BackgroundWorker.cs" line="112" column="1" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc-REINTEGRATION/OneTradeCentral.iOS/Utility/WebServiceFacade.cs" line="233" column="1" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc-REINTEGRATION/OneTradeCentral.iOS/Utility/BackgroundWorker.cs" line="121" column="7" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc Pre-sell Future-Dated Orders/OneTradeCentral.iOS/DAO/SQLiteDAOFactory.cs" line="2379" column="1" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc Pre-sell Future-Dated Orders/OneTradeCentral.iOS/Products2/ProductsListingsController.cs" line="125" column="45" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc Pre-sell Future-Dated Orders/OneTradeCentral.iOS/Products/ProductListController.cs" line="89" column="40" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc Pre-sell Future-Dated Orders/OneTradeCentral.iOS/Products/ProductListSource.cs" line="67" column="83" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc Pre-sell Future-Dated Orders/OneTradeCentral.iOS/Products2/ProductsListingsController.cs" line="60" column="1" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc Pre-sell Future-Dated Orders/OneTradeCentral.iOS/DAO/SQLiteDAOFactory.cs" line="637" column="1" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc Pre-sell Future-Dated Orders/OneTradeCentral.iOS/Products2/ProductsListingsSource.cs" line="45" column="1" />
+      <Breakpoint file="/Users/2linc-solutions/Desktop/OrderLinc Pre-sell Future-Dated Orders/OneTradeCentral.iOS/Main.cs" line="30" column="30" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.OrderLinc-MPE.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F4D0C7A5-B9D6-42D4-BDCF-EA7901781EF7" />
+  <DisabledProjects>
+    <String>OneTradeCentral.Tests.iOS/OrderLinc.Tests.iOS.csproj</String>
+  </DisabledProjects>
+</Properties>
