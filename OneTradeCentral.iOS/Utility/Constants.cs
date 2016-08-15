@@ -36,8 +36,8 @@ namespace OneTradeCentral.iOS
 //				return "http://login.orderlinc.com/OrderLincRegistry.asmx"; // Original OrderLinc
 //				return DEVELOPMENT_URL;
 //				return STAGING_URL;
-				return TEST_URL;
-				//return PRODUCTION_URL;
+				//return TEST_URL;
+				return PRODUCTION_URL;
 //				return AWSRDS_URL;
 				}
 		}

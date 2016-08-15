@@ -109,7 +109,7 @@
     <MtouchUseThumb>true</MtouchUseThumb>
     <MtouchUseSGen>true</MtouchUseSGen>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
-    <CodesignProvision>f7cd0ffc-370f-44a1-b06b-10a22259e6f7</CodesignProvision>
+    <CodesignProvision>e2e8486e-f97e-4fc7-8219-92c99404cc47</CodesignProvision>
     <AssemblyName>OrderLincTST</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">

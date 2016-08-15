@@ -1,0 +1,14 @@
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/OrderLincTST.exe
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/System.dll
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/System.Xml.dll
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/Xamarin.iOS.dll
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/System.Core.dll
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/TimesSquare.iOS.dll
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/System.Data.dll
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/BTProgressHUD.dll
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/mscorlib.dll
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/SQLite-net.dll
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/SignaturePad.iOS.dll
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/System.Numerics.dll
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/SQLitePCL.raw.dll
+/Users/webdeveloper/GitHubRepos/OrderLinc-iOS-APP/OneTradeCentral.iOS/obj/iPhone/Ad-Hoc/mtouch-cache/64/Link/System.Web.Services.dll

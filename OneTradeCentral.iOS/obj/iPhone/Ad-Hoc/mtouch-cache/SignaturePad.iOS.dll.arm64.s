@@ -1,0 +1,3904 @@
+.subsections_via_symbols
+.section __DWARF, __debug_abbrev,regular,debug
+
+	.byte 1,17,1,37,8,3,8,27,8,19,11,17,1,18,1,16,6,0,0,2,46,1,3,8,135,64,8,58,15,59,15,17
+	.byte 1,18,1,64,10,0,0,3,5,0,3,8,73,19,2,10,0,0,15,5,0,3,8,73,19,2,6,0,0,4,36,0
+	.byte 11,11,62,11,3,8,0,0,5,2,1,3,8,11,15,0,0,17,2,0,3,8,11,15,0,0,6,13,0,3,8,73
+	.byte 19,56,10,0,0,7,22,0,3,8,73,19,0,0,8,4,1,3,8,11,15,73,19,0,0,9,40,0,3,8,28,13
+	.byte 0,0,10,57,1,3,8,0,0,11,52,0,3,8,73,19,2,10,0,0,12,52,0,3,8,73,19,2,6,0,0,13
+	.byte 15,0,73,19,0,0,14,16,0,73,19,0,0,16,28,0,73,19,56,10,0,0,18,46,0,3,8,17,1,18,1,0
+	.byte 0,0
+.section __DWARF, __debug_info,regular,debug
+Ldebug_info_start:
+
+LDIFF_SYM0=Ldebug_info_end - Ldebug_info_begin
+	.long LDIFF_SYM0
+Ldebug_info_begin:
+
+	.short 2
+	.long 0
+	.byte 8,1
+	.asciz "Mono AOT Compiler 4.4.2 (mono-4.4.0-branch-c7sr1/f72fe45 Thu Jul 28 12:04:28 EDT 2016)"
+	.asciz "SignaturePad.iOS.dll"
+	.asciz ""
+
+	.byte 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LDIFF_SYM1=Ldebug_line_start - Ldebug_line_section_start
+	.long LDIFF_SYM1
+LDIE_I1:
+
+	.byte 4,1,5
+	.asciz "sbyte"
+LDIE_U1:
+
+	.byte 4,1,7
+	.asciz "byte"
+LDIE_I2:
+
+	.byte 4,2,5
+	.asciz "short"
+LDIE_U2:
+
+	.byte 4,2,7
+	.asciz "ushort"
+LDIE_I4:
+
+	.byte 4,4,5
+	.asciz "int"
+LDIE_U4:
+
+	.byte 4,4,7
+	.asciz "uint"
+LDIE_I8:
+
+	.byte 4,8,5
+	.asciz "long"
+LDIE_U8:
+
+	.byte 4,8,7
+	.asciz "ulong"
+LDIE_I:
+
+	.byte 4,8,5
+	.asciz "intptr"
+LDIE_U:
+
+	.byte 4,8,7
+	.asciz "uintptr"
+LDIE_R4:
+
+	.byte 4,4,4
+	.asciz "float"
+LDIE_R8:
+
+	.byte 4,8,4
+	.asciz "double"
+LDIE_BOOLEAN:
+
+	.byte 4,1,2
+	.asciz "boolean"
+LDIE_CHAR:
+
+	.byte 4,2,8
+	.asciz "char"
+LDIE_STRING:
+
+	.byte 4,8,1
+	.asciz "string"
+LDIE_OBJECT:
+
+	.byte 4,8,1
+	.asciz "object"
+LDIE_SZARRAY:
+
+	.byte 4,8,1
+	.asciz "object"
+.section __DWARF, __debug_loc,regular,debug
+Ldebug_loc_start:
+.section __DWARF, __debug_frame,regular,debug
+	.align 3
+
+LDIFF_SYM2=Lcie0_end - Lcie0_start
+	.long LDIFF_SYM2
+Lcie0_start:
+
+	.long -1
+	.byte 3
+	.asciz ""
+
+	.byte 1,120,30
+	.align 3
+Lcie0_end:
+.text
+	.align 3
+jit_code_start:
+_mono_aot_SignaturePad_iOSjit_code_start:
+	.globl _mono_aot_SignaturePad_iOSjit_code_start
+
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+.text
+	.align 4
+	.no_dead_strip SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_System_nfloat_bool_bool
+SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_System_nfloat_bool_bool:
+.word 0xd2804810
+.word 0x910003f1
+.word 0xcb100231
+.word 0x9100023f
+.word 0xa9007bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xaa0003f6
+.word 0xaa0103f7
+.word 0xaa0203f8
+.word 0xfd001fa0
+.word 0xfd0023a1
+.word 0xfd003fa2
+.word 0xaa0303f9
+.word 0xaa0403fa
+.word 0xd2800000
+.word 0xf900d7a0
+.word 0xf900dba0
+.word 0xf900dfa0
+.word 0xf900e3a0
+.word 0xd2800000
+.word 0xf900c7a0
+.word 0xf900cba0
+.word 0xf900cfa0
+.word 0xf900d3a0
+.word 0xd2800000
+.word 0xf900b7a0
+.word 0xf900bba0
+.word 0xf900bfa0
+.word 0xf900c3a0
+.word 0xd2800000
+.word 0xf900aba0
+.word 0xf900afa0
+.word 0xf900b3a0
+.word 0xfd401fa0
+.word 0xd2800000
+.word 0x1e620001
+.word 0x1e612000
+.word 0x9a9f17e0
+.word 0x350001e0
+.word 0xfd4023a0
+.word 0xd2800000
+.word 0x1e620001
+.word 0x1e612000
+.word 0x9a9f17e0
+.word 0x35000120
+.word 0xfd403fa0
+.word 0xd2800000
+.word 0x1e620001
+.word 0x1e612000
+.word 0x9a9fc7e0
+.word 0x35000060
+.word 0xb4000057
+.word 0xb5000078
+.word 0xd2800000
+.word 0x14000149
+.word 0xd2800000
+.word 0xf900d7a0
+.word 0xf900dba0
+.word 0xf900dfa0
+.word 0xf900e3a0
+.word 0x34001139
+.word 0xaa1603e0
+bl _p_127
+.word 0xaa0003e1
+.word 0xaa0103e0
+.word 0xf900f3a1
+
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x15, [x16, #112]
+bl _p_128
+.word 0x53001c00
+.word 0x34000fc0
+.word 0x9106a3a0
+.word 0xf900f7a0
+.word 0xaa1603e0
+.word 0xf940f3a1
+bl _p_129
+.word 0xf940f7be
+.word 0xfd0003c0
+.word 0xfd0007c1
+.word 0xfd000bc2
+.word 0xfd000fc3
+.word 0xfd40dfa0
+.word 0xfd403fa1
+.word 0x1e611800
+.word 0xfd00dfa0
+.word 0xfd40e3a0
+.word 0xfd403fa1
+.word 0x1e611800
+.word 0xfd00e3a0
+.word 0xfd40d7a0
+.word 0xd28000a0
+.word 0x1e620001
+.word 0x1e612000
+.word 0x9a9fb7e0
+.word 0x34000160
+.word 0xfd40d7a0
+.word 0xd28000a0
+.word 0x1e620001
+.word 0x1e613800
+.word 0xfd00d7a0
+.word 0xfd40dfa0
+.word 0xd28000a0
+.word 0x1e620001
+.word 0x1e612800
+.word 0xfd00dfa0
+.word 0xfd40dba0
+.word 0xd28000a0
+.word 0x1e620001
+.word 0x1e612000
+.word 0x9a9fb7e0
+.word 0x34000160
+.word 0xfd40dba0
+.word 0xd28000a0
+.word 0x1e620001
+.word 0x1e613800
+.word 0xfd00dba0
+.word 0xfd40e3a0
+.word 0xd28000a0
+.word 0x1e620001
+.word 0x1e612800
+.word 0xfd00e3a0
+.word 0xfd40d7a0
+.word 0xfd40dfa1
+.word 0x1e612800
+.word 0xfd401fa1
+.word 0xd28000a0
+.word 0x1e620002
+.word 0x1e623821
+.word 0x1e612000
+.word 0x9a9fc7e0
+.word 0x340000c0
+.word 0xfd40dfa0
+.word 0xd28000a0
+.word 0x1e620001
+.word 0x1e612800
+.word 0xfd00dfa0
+.word 0xfd40dba0
+.word 0xfd40e3a1
+.word 0x1e612800
+.word 0xfd4023a1
+.word 0xd28000a0
+.word 0x1e620002
+.word 0x1e623821
+.word 0x1e612000
+.word 0x9a9fc7e0
+.word 0x340000c0
+.word 0xfd40e3a0
+.word 0xd28000a0
+.word 0x1e620001
+.word 0x1e612800
+.word 0xfd00e3a0
+.word 0xfd40dfa0
+.word 0xfd011ba0
+.word 0x910623a0
+.word 0xf900f7a0
+.word 0xaa1603e0
+.word 0xf94002c1
+.word 0xf9418430
+.word 0xd63f0200
+.word 0xf940f7be
+.word 0xfd0003c0
+.word 0xfd0007c1
+.word 0xfd000bc2
+.word 0xfd000fc3
+.word 0xfd411ba0
+.word 0xfd40cfa1
+.word 0x1e611800
+.word 0xfd00fba0
+.word 0xfd40e3a0
+.word 0xfd0117a0
+.word 0x9105a3a0
+.word 0xf900f7a0
+.word 0xaa1603e0
+.word 0xf94002c1
+.word 0xf9418430
+.word 0xd63f0200
+.word 0xf940f7be
+.word 0xfd0003c0
+.word 0xfd0007c1
+.word 0xfd000bc2
+.word 0xfd000fc3
+.word 0xfd4117a0
+.word 0xfd40c3a1
+.word 0x1e611800
+.word 0xfd00ffa0
+.word 0xd2800020
+.word 0x1e620000
+.word 0xfd0113a0
+.word 0xfd40fba0
+.word 0xfd40ffa1
+bl _p_37
+.word 0x1e604001
+.word 0xfd4113a0
+.word 0x1e611800
+.word 0xfd00e7a0
+.word 0x14000003
+.word 0xfd403fa0
+.word 0xfd00e7a0
+.word 0x3400013a
+.word 0xf9401fa0
+.word 0xf9008ba0
+.word 0xf94023a0
+.word 0xf9008fa0
+.word 0xfd408ba0
+.word 0xfd408fa1
+bl _p_130
+.word 0x14000014
+.word 0xfd40dfa0
+.word 0xfd40e7a2
+.word 0x1e604001
+.word 0x1e620821
+.word 0xfd40e3a0
+.word 0xfd40e7a2
+.word 0x1e620800
+.word 0xd2800000
+.word 0xf900a3a0
+.word 0xf900a7a0
+.word 0xfd00a3a1
+.word 0xfd00a7a0
+.word 0xf940a3a0
+.word 0xf90083a0
+.word 0xf940a7a0
+.word 0xf90087a0
+.word 0xfd4083a0
+.word 0xfd4087a1
+bl _p_130
+bl _p_131
+.word 0xaa0003fa
+.word 0xaa1a03e0
+.word 0xf9011fa0
+.word 0xaa1803e0
+.word 0xf9400301
+.word 0xf940e030
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xf9411fa2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_132
+.word 0xd2800000
+.word 0x1e620000
+.word 0xd2800000
+.word 0x1e620001
+.word 0xfd401fa2
+.word 0xfd4023a3
+.word 0xd2800000
+.word 0xf90093a0
+.word 0xf90097a0
+.word 0xf9009ba0
+.word 0xf9009fa0
+.word 0x910483a0
+bl _p_39
+.word 0xf94093a0
+.word 0xf90073a0
+.word 0xf94097a0
+.word 0xf90077a0
+.word 0xf9409ba0
+.word 0xf9007ba0
+.word 0xf9409fa0
+.word 0xf9007fa0
+.word 0xaa1a03e0
+.word 0xfd4073a0
+.word 0xfd4077a1
+.word 0xfd407ba2
+.word 0xfd407fa3
+.word 0xf940035e
+bl _p_133
+.word 0xaa1703e0
+.word 0xf94002e1
+.word 0xf940e030
+.word 0xd63f0200
+.word 0xaa0003e1
+.word 0xaa1a03e0
+.word 0xf940035e
+bl _p_134
+.word 0xbd40aad0
+.word 0x1e22c200
+.word 0x1e624010
+.word 0xbd01d3b0
+.word 0xbd41d3b0
+.word 0x1e22c200
+.word 0xaa1a03e0
+.word 0xf940035e
+bl _p_135
+.word 0xaa1a03e0
+.word 0xd2800021
+.word 0xf940035e
+bl _p_136
+.word 0xaa1a03e0
+.word 0xd2800021
+.word 0xf940035e
+bl _p_137
+.word 0xfd40e7a0
+.word 0xfd40e7a1
+.word 0xaa1a03e0
+.word 0xf940035e
+bl _p_138
+.word 0xf94032c1
+.word 0x910543a8
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_139
+.word 0x14000038
+
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x0, [x16, #120]
+.word 0xf940b3b8
+.word 0xaa1803e1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf940d030
+.word 0xd63f0200
+.word 0xaa0003f8
+.word 0xb4000178
+.word 0xf9400300
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400800
+
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x1, [x16, #128]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x540008a1
+.word 0xaa1803f7
+.word 0x34000319
+.word 0xfd40d7a0
+.word 0x1e614000
+.word 0xfd40dba1
+.word 0x1e614021
+.word 0x9102c3a8
+bl _p_140
+.word 0xaa1703e0
+.word 0x910203a1
+.word 0xf9405ba2
+.word 0xf90043a2
+.word 0xf9405fa2
+.word 0xf90047a2
+.word 0xf94063a2
+.word 0xf9004ba2
+.word 0xf94067a2
+.word 0xf9004fa2
+.word 0xf9406ba2
+.word 0xf90053a2
+.word 0xf9406fa2
+.word 0xf90057a2
+.word 0xf94002e2
+.word 0xf9410050
+.word 0xd63f0200
+.word 0xaa1703e0
+.word 0xf94002e1
+.word 0xf940ec30
+.word 0xd63f0200
+.word 0xaa0003f8
+.word 0xaa1a03e0
+.word 0xaa1803e1
+.word 0xf940035e
+bl _p_141
+.word 0x910543a0
+
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x15, [x16, #120]
+bl _p_142
+.word 0x53001c00
+.word 0x35fff860
+.word 0x94000002
+.word 0x14000009
+.word 0xf9010bbe
+.word 0x910543a0
+
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x1, [x16, #120]
+.word 0xf900efa0
+.word 0xf9410bbe
+.word 0xd61f03c0
+.word 0xaa1a03e0
+.word 0xf940035e
+bl _p_143
+bl _p_144
+.word 0xaa0003fa
+bl _p_145
+.word 0xaa1a03e0
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa9407bfd
+.word 0xd2804810
+.word 0x910003f1
+.word 0x8b100231
+.word 0x9100023f
+.word 0xd65f03c0
+.word 0xd2802080
+.word 0xaa1103e1
+bl _p_146
+
+Lme_1f:
+.text
+ut_72:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint__ctor_System_Array
+ut_end:
+.section __TEXT, __const
+_unbox_trampoline_p:
+
+	.long 0
+LDIFF_SYM3=ut_end - ut_72
+	.long LDIFF_SYM3
+.text
+ut_73:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_Dispose
+.text
+ut_74:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_MoveNext
+.text
+ut_75:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_get_Current
+.text
+ut_76:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_System_Collections_IEnumerator_Reset
+.text
+ut_77:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_System_Collections_IEnumerator_get_Current
+.text
+ut_127:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+.text
+ut_128:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint_ToArray
+.text
+ut_144:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+.text
+	.align 4
+	.no_dead_strip System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_Dispose
+System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_Dispose:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9400ba0
+.word 0xb9806400
+.word 0xf9400ba1
+.word 0xd280003e
+.word 0x3901803e
+.word 0xf9400ba1
+.word 0x9280001e
+.word 0xf2bffffe
+.word 0xb900643e
+.word 0xf9000fa0
+.word 0xd280007e
+.word 0x6b1e001f
+.word 0x54000602
+.word 0xf9400fa0
+.word 0xd37df000
+.word 0x2a0003e1
+
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x0, [x16, #136]
+.word 0x8b010000
+.word 0xf9400000
+.word 0xd61f0000
+.word 0x94000002
+.word 0x14000025
+.word 0xf9001bbe
+.word 0xf9400ba0
+.word 0xf9400c00
+.word 0xb4000180
+.word 0xf9400ba0
+.word 0xf9400c01
+.word 0xaa0103e0
+.word 0xf9400021
+
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x15, [x16, #144]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0xf9401bbe
+.word 0xd61f03c0
+.word 0x94000002
+.word 0x14000012
+.word 0xf90023be
+.word 0xf9400ba0
+.word 0xf9401400
+.word 0xb4000180
+.word 0xf9400ba0
+.word 0xf9401401
+.word 0xaa0103e0
+.word 0xf9400021
+
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x15, [x16, #144]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0xf94023be
+.word 0xd61f03c0
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_9d:
+.text
+ut_163:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat__ctor_System_Array
+.text
+ut_164:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_Dispose
+.text
+ut_165:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_MoveNext
+.text
+ut_166:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_get_Current
+.text
+ut_167:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_System_Collections_IEnumerator_Reset
+.text
+ut_168:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_System_Collections_IEnumerator_get_Current
+.text
+ut_199:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint
+.text
+ut_200:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_Dispose
+.text
+ut_201:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNext
+.text
+ut_202:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNextRare
+.text
+ut_203:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_get_Current
+.text
+ut_204:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_System_Collections_IEnumerator_get_Current
+.text
+ut_205:
+add x0, x0, 16
+b _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_System_Collections_IEnumerator_Reset
+.text
+	.align 3
+jit_code_end:
+_mono_aot_SignaturePad_iOSjit_code_end:
+	.globl _mono_aot_SignaturePad_iOSjit_code_end
+
+	.byte 0,0,0,0
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView__ctor
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView__ctor_Foundation_NSCoder
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView__ctor_intptr
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView__ctor_CoreGraphics_CGRect
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_get_Points
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_get_IsBlank
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_get_StrokeColor
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_set_StrokeColor_UIKit_UIColor
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_get_StrokeWidth
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_set_StrokeWidth_single
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_get_SignaturePrompt
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_set_SignaturePrompt_UIKit_UILabel
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_get_Caption
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_set_Caption_UIKit_UILabel
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_get_SignatureLineColor
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_set_SignatureLineColor_UIKit_UIColor
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_get_BackgroundImageView
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_set_BackgroundImageView_UIKit_UIImageView
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_get_ClearLabel
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_get_SignatureLine
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_Initialize
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_Clear
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_bool_bool
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_CoreGraphics_CGSize_bool_bool
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_System_nfloat_bool_bool
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_bool_bool
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_CoreGraphics_CGSize_bool_bool
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_System_nfloat_bool_bool
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_bool_bool
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_bool_bool
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_System_nfloat_bool_bool
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_getCroppedRectangle_CoreGraphics_CGPoint__
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_getScaleFromSize_CoreGraphics_CGSize_CoreGraphics_CGRect
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_getSizeFromScale_System_nfloat_CoreGraphics_CGRect
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_LoadPoints_CoreGraphics_CGPoint__
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_updateBounds_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_resetBounds_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_smoothedPathWithGranularity_int_System_Collections_Generic_List_1_CoreGraphics_CGPoint_
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_TouchesMoved_Foundation_NSSet_UIKit_UIEvent
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_TouchesEnded_Foundation_NSSet_UIKit_UIEvent
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_Draw_CoreGraphics_CGRect
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView_LayoutSubviews
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView__Initializem__0_object_System_EventArgs
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__1_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__2_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__3_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__4_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__5_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__6_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__7_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__8_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__ICollection_get_Count
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__ICollection_get_IsReadOnly
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__ICollection_Clear
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+.no_dead_strip _SignaturePad_iOS_wrapper_delegate_invoke_System_Predicate_1_CoreGraphics_CGPoint___invoke_bool_T_CoreGraphics_CGPoint__
+.no_dead_strip _SignaturePad_iOS_wrapper_delegate_invoke_System_Comparison_1_CoreGraphics_CGPoint___invoke_int_T_T_CoreGraphics_CGPoint___CoreGraphics_CGPoint__
+.no_dead_strip _SignaturePad_iOS_wrapper_delegate_invoke_System_Func_2_CoreGraphics_CGPoint___bool_invoke_TResult_T_CoreGraphics_CGPoint__
+.no_dead_strip _SignaturePad_iOS_wrapper_delegate_invoke_System_Predicate_1_UIKit_UIBezierPath_invoke_bool_T_UIKit_UIBezierPath
+.no_dead_strip _SignaturePad_iOS_wrapper_delegate_invoke_System_Comparison_1_UIKit_UIBezierPath_invoke_int_T_T_UIKit_UIBezierPath_UIKit_UIBezierPath
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint__ctor_System_Array
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_Dispose
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_MoveNext
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_get_Current
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_System_Collections_IEnumerator_Reset
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_System_Collections_IEnumerator_get_Current
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__IEnumerable_GetEnumerator_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__ICollection_Add_CoreGraphics_CGPoint_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__ICollection_Remove_CoreGraphics_CGPoint_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__ICollection_Contains_CoreGraphics_CGPoint_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__ICollection_CopyTo_CoreGraphics_CGPoint_CoreGraphics_CGPoint___int
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint__ctor
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_get_Default
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_CreateComparer
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint___CoreGraphics_CGPoint_int_int
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_System_Collections_IEqualityComparer_GetHashCode_object
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_System_Collections_IEqualityComparer_Equals_object_object
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_GenericEqualityComparer_1_CoreGraphics_CGPoint__ctor
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_GenericEqualityComparer_1_CoreGraphics_CGPoint_Equals_CoreGraphics_CGPoint_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_GenericEqualityComparer_1_CoreGraphics_CGPoint_GetHashCode_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_GenericEqualityComparer_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint___CoreGraphics_CGPoint_int_int
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_GenericEqualityComparer_1_CoreGraphics_CGPoint_Equals_object
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_GenericEqualityComparer_1_CoreGraphics_CGPoint_GetHashCode
+.no_dead_strip _SignaturePad_iOS_wrapper_delegate_invoke_System_Predicate_1_CoreGraphics_CGPoint_invoke_bool_T_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_wrapper_delegate_invoke_System_Comparison_1_CoreGraphics_CGPoint_invoke_int_T_T_CoreGraphics_CGPoint_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_wrapper_delegate_invoke_System_Func_2_CoreGraphics_CGPoint_bool_invoke_TResult_T_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_wrapper_delegate_invoke_System_Func_2_CoreGraphics_CGPoint_System_nfloat_invoke_TResult_T_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_ToArray_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint_ToArray
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Concat_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint__cctor
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Clear
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Any_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Max_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Where_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Min_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Count_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint_int
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_ToList_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_ToArray
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Add_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_get_Item_int
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Insert_int_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__get_Item_CoreGraphics_CGPoint_int
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_ObjectEqualityComparer_1_CoreGraphics_CGPoint__ctor
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_ObjectEqualityComparer_1_CoreGraphics_CGPoint_Equals_CoreGraphics_CGPoint_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_ObjectEqualityComparer_1_CoreGraphics_CGPoint_GetHashCode_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_ObjectEqualityComparer_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint___CoreGraphics_CGPoint_int_int
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_ObjectEqualityComparer_1_CoreGraphics_CGPoint_Equals_object
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_ObjectEqualityComparer_1_CoreGraphics_CGPoint_GetHashCode
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_ConcatIterator_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint__ctor
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_MoveNext
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerator_TSource_get_Current
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_System_Collections_IEnumerator_get_Current
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_Reset
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_System_Collections_IEnumerable_GetEnumerator
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_TSource_GetEnumerator
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Max_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat__ctor_System_Array
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_Dispose
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_MoveNext
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_get_Current
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_System_Collections_IEnumerator_Reset
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_System_Collections_IEnumerator_get_Current
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__IEnumerable_GetEnumerator_System_nfloat
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat__ctor
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_get_Default
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_System_Collections_IComparer_Compare_object_object
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_GenericComparer_1_System_nfloat__ctor
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_GenericComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_GenericComparer_1_System_nfloat_Equals_object
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_GenericComparer_1_System_nfloat_GetHashCode
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Select_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereArrayIterator_1_CoreGraphics_CGPoint__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereArrayIterator_1_CoreGraphics_CGPoint_Clone
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereArrayIterator_1_CoreGraphics_CGPoint_MoveNext
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereArrayIterator_1_CoreGraphics_CGPoint_Where_System_Func_2_CoreGraphics_CGPoint_bool
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint__ctor
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_get_Current
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_Dispose
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_GetEnumerator
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_System_Collections_IEnumerator_get_Current
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_System_Collections_IEnumerable_GetEnumerator
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_System_Collections_IEnumerator_Reset
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereListIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereListIterator_1_CoreGraphics_CGPoint_Clone
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereListIterator_1_CoreGraphics_CGPoint_MoveNext
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereListIterator_1_CoreGraphics_CGPoint_Where_System_Func_2_CoreGraphics_CGPoint_bool
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_Dispose
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNext
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNextRare
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_get_Current
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_System_Collections_IEnumerator_get_Current
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_System_Collections_IEnumerator_Reset
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint_Clone
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint_Dispose
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint_MoveNext
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint_Where_System_Func_2_CoreGraphics_CGPoint_bool
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Min_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat
+.no_dead_strip _SignaturePad_iOS_System_Array_IndexOf_CoreGraphics_CGPoint_CoreGraphics_CGPoint___CoreGraphics_CGPoint_int_int
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_EnsureCapacity_int
+.no_dead_strip _SignaturePad_iOS_System_Array_InternalArray__get_Item_System_nfloat_int
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_ObjectComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_ObjectComparer_1_System_nfloat_Equals_object
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_ObjectComparer_1_System_nfloat_GetHashCode
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectArrayIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectArrayIterator_2_CoreGraphics_CGPoint_System_nfloat_Clone
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectArrayIterator_2_CoreGraphics_CGPoint_System_nfloat_MoveNext
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectArrayIterator_2_CoreGraphics_CGPoint_System_nfloat_Where_System_Func_2_System_nfloat_bool
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat__ctor
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_get_Current
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_Dispose
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_GetEnumerator
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_System_Collections_IEnumerator_get_Current
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_System_Collections_IEnumerable_GetEnumerator
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_System_Collections_IEnumerator_Reset
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectListIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectListIterator_2_CoreGraphics_CGPoint_System_nfloat_Clone
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectListIterator_2_CoreGraphics_CGPoint_System_nfloat_MoveNext
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectListIterator_2_CoreGraphics_CGPoint_System_nfloat_Where_System_Func_2_System_nfloat_bool
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat_Clone
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat_Dispose
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat_MoveNext
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat_Where_System_Func_2_System_nfloat_bool
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_bool
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable__CombinePredicatesc__AnonStorey1A_1_CoreGraphics_CGPoint__ctor
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable__CombinePredicatesc__AnonStorey1A_1_CoreGraphics_CGPoint__m__0_CoreGraphics_CGPoint
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_GetEnumerator
+.no_dead_strip _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_set_Capacity_int
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_System_nfloat_System_Func_2_System_nfloat_bool
+.no_dead_strip _SignaturePad_iOS_wrapper_delegate_invoke_System_Func_2_System_nfloat_bool_invoke_TResult_T_System_nfloat
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat_Clone
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat_Dispose
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat_MoveNext
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat_Where_System_Func_2_System_nfloat_bool
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_System_nfloat_System_Func_2_System_nfloat_bool_System_Func_2_System_nfloat_bool
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable__CombinePredicatesc__AnonStorey1A_1_System_nfloat__ctor
+.no_dead_strip _SignaturePad_iOS_System_Linq_Enumerable__CombinePredicatesc__AnonStorey1A_1_System_nfloat__m__0_System_nfloat
+
+.text
+	.align 3
+method_addresses:
+_mono_aot_SignaturePad_iOSmethod_addresses:
+	.globl _mono_aot_SignaturePad_iOSmethod_addresses
+	.no_dead_strip method_addresses
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView__ctor
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView__ctor_Foundation_NSCoder
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView__ctor_intptr
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView__ctor_CoreGraphics_CGRect
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_get_Points
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_get_IsBlank
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_get_StrokeColor
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_set_StrokeColor_UIKit_UIColor
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_get_StrokeWidth
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_set_StrokeWidth_single
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_get_SignaturePrompt
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_set_SignaturePrompt_UIKit_UILabel
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_get_Caption
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_set_Caption_UIKit_UILabel
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_get_SignatureLineColor
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_set_SignatureLineColor_UIKit_UIColor
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_get_BackgroundImageView
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_set_BackgroundImageView_UIKit_UIImageView
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_get_ClearLabel
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_get_SignatureLine
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_Initialize
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_Clear
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_bool_bool
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_CoreGraphics_CGSize_bool_bool
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_System_nfloat_bool_bool
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_bool_bool
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_CoreGraphics_CGSize_bool_bool
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_System_nfloat_bool_bool
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_bool_bool
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_bool_bool
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_System_nfloat_bool_bool
+bl SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_System_nfloat_bool_bool
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_getCroppedRectangle_CoreGraphics_CGPoint__
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_getScaleFromSize_CoreGraphics_CGSize_CoreGraphics_CGRect
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_getSizeFromScale_System_nfloat_CoreGraphics_CGRect
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_LoadPoints_CoreGraphics_CGPoint__
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_updateBounds_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_resetBounds_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_smoothedPathWithGranularity_int_System_Collections_Generic_List_1_CoreGraphics_CGPoint_
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_TouchesBegan_Foundation_NSSet_UIKit_UIEvent
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_TouchesMoved_Foundation_NSSet_UIKit_UIEvent
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_TouchesEnded_Foundation_NSSet_UIKit_UIEvent
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_Draw_CoreGraphics_CGRect
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView_LayoutSubviews
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView__Initializem__0_object_System_EventArgs
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__1_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__2_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__3_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__4_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__5_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__6_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__7_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_SignaturePad_SignaturePadView__getCroppedRectanglem__8_CoreGraphics_CGPoint
+bl method_addresses
+bl _SignaturePad_iOS_System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+bl _SignaturePad_iOS_System_Array_InternalArray__ICollection_get_Count
+bl _SignaturePad_iOS_System_Array_InternalArray__ICollection_get_IsReadOnly
+bl _SignaturePad_iOS_System_Array_InternalArray__ICollection_Clear
+bl _SignaturePad_iOS_System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+bl _SignaturePad_iOS_System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+bl _SignaturePad_iOS_System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+bl _SignaturePad_iOS_System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+bl _SignaturePad_iOS_wrapper_delegate_invoke_System_Predicate_1_CoreGraphics_CGPoint___invoke_bool_T_CoreGraphics_CGPoint__
+bl _SignaturePad_iOS_wrapper_delegate_invoke_System_Comparison_1_CoreGraphics_CGPoint___invoke_int_T_T_CoreGraphics_CGPoint___CoreGraphics_CGPoint__
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl _SignaturePad_iOS_wrapper_delegate_invoke_System_Func_2_CoreGraphics_CGPoint___bool_invoke_TResult_T_CoreGraphics_CGPoint__
+bl _SignaturePad_iOS_wrapper_delegate_invoke_System_Predicate_1_UIKit_UIBezierPath_invoke_bool_T_UIKit_UIBezierPath
+bl _SignaturePad_iOS_wrapper_delegate_invoke_System_Comparison_1_UIKit_UIBezierPath_invoke_int_T_T_UIKit_UIBezierPath_UIKit_UIBezierPath
+bl method_addresses
+bl _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint__ctor_System_Array
+bl _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_Dispose
+bl _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_MoveNext
+bl _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_get_Current
+bl _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_System_Collections_IEnumerator_Reset
+bl _SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_System_Collections_IEnumerator_get_Current
+bl _SignaturePad_iOS_System_Array_InternalArray__IEnumerable_GetEnumerator_CoreGraphics_CGPoint
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl _SignaturePad_iOS_System_Array_InternalArray__ICollection_Add_CoreGraphics_CGPoint_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Array_InternalArray__ICollection_Remove_CoreGraphics_CGPoint_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Array_InternalArray__ICollection_Contains_CoreGraphics_CGPoint_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Array_InternalArray__ICollection_CopyTo_CoreGraphics_CGPoint_CoreGraphics_CGPoint___int
+bl method_addresses
+bl _SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint__ctor
+bl _SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_get_Default
+bl _SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_CreateComparer
+bl method_addresses
+bl method_addresses
+bl _SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint___CoreGraphics_CGPoint_int_int
+bl _SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_System_Collections_IEqualityComparer_GetHashCode_object
+bl _SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_System_Collections_IEqualityComparer_Equals_object_object
+bl _SignaturePad_iOS_System_Collections_Generic_GenericEqualityComparer_1_CoreGraphics_CGPoint__ctor
+bl _SignaturePad_iOS_System_Collections_Generic_GenericEqualityComparer_1_CoreGraphics_CGPoint_Equals_CoreGraphics_CGPoint_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Collections_Generic_GenericEqualityComparer_1_CoreGraphics_CGPoint_GetHashCode_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Collections_Generic_GenericEqualityComparer_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint___CoreGraphics_CGPoint_int_int
+bl _SignaturePad_iOS_System_Collections_Generic_GenericEqualityComparer_1_CoreGraphics_CGPoint_Equals_object
+bl _SignaturePad_iOS_System_Collections_Generic_GenericEqualityComparer_1_CoreGraphics_CGPoint_GetHashCode
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl _SignaturePad_iOS_wrapper_delegate_invoke_System_Predicate_1_CoreGraphics_CGPoint_invoke_bool_T_CoreGraphics_CGPoint
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl _SignaturePad_iOS_wrapper_delegate_invoke_System_Comparison_1_CoreGraphics_CGPoint_invoke_int_T_T_CoreGraphics_CGPoint_CoreGraphics_CGPoint
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl _SignaturePad_iOS_wrapper_delegate_invoke_System_Func_2_CoreGraphics_CGPoint_bool_invoke_TResult_T_CoreGraphics_CGPoint
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl _SignaturePad_iOS_wrapper_delegate_invoke_System_Func_2_CoreGraphics_CGPoint_System_nfloat_invoke_TResult_T_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Linq_Enumerable_ToArray_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint_ToArray
+bl _SignaturePad_iOS_System_Linq_Enumerable_Concat_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint__cctor
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Clear
+bl _SignaturePad_iOS_System_Linq_Enumerable_Any_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Linq_Enumerable_Max_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+bl _SignaturePad_iOS_System_Linq_Enumerable_Where_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool
+bl _SignaturePad_iOS_System_Linq_Enumerable_Min_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+bl _SignaturePad_iOS_System_Linq_Enumerable_Count_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint_int
+bl _SignaturePad_iOS_System_Linq_Enumerable_ToList_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_ToArray
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Add_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_get_Item_int
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Insert_int_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+bl _SignaturePad_iOS_System_Array_InternalArray__get_Item_CoreGraphics_CGPoint_int
+bl _SignaturePad_iOS_System_Collections_Generic_ObjectEqualityComparer_1_CoreGraphics_CGPoint__ctor
+bl _SignaturePad_iOS_System_Collections_Generic_ObjectEqualityComparer_1_CoreGraphics_CGPoint_Equals_CoreGraphics_CGPoint_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Collections_Generic_ObjectEqualityComparer_1_CoreGraphics_CGPoint_GetHashCode_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Collections_Generic_ObjectEqualityComparer_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint___CoreGraphics_CGPoint_int_int
+bl _SignaturePad_iOS_System_Collections_Generic_ObjectEqualityComparer_1_CoreGraphics_CGPoint_Equals_object
+bl _SignaturePad_iOS_System_Collections_Generic_ObjectEqualityComparer_1_CoreGraphics_CGPoint_GetHashCode
+bl _SignaturePad_iOS_System_Linq_Enumerable_ConcatIterator_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint__ctor
+bl _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_MoveNext
+bl _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerator_TSource_get_Current
+bl _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_System_Collections_IEnumerator_get_Current
+bl System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_Dispose
+bl _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_Reset
+bl _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_System_Collections_IEnumerable_GetEnumerator
+bl _SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_TSource_GetEnumerator
+bl _SignaturePad_iOS_System_Linq_Enumerable_Max_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat
+bl method_addresses
+bl _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat__ctor_System_Array
+bl _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_Dispose
+bl _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_MoveNext
+bl _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_get_Current
+bl _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_System_Collections_IEnumerator_Reset
+bl _SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_System_Collections_IEnumerator_get_Current
+bl _SignaturePad_iOS_System_Array_InternalArray__IEnumerable_GetEnumerator_System_nfloat
+bl _SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat__ctor
+bl _SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_get_Default
+bl _SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer
+bl method_addresses
+bl _SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_System_Collections_IComparer_Compare_object_object
+bl _SignaturePad_iOS_System_Collections_Generic_GenericComparer_1_System_nfloat__ctor
+bl _SignaturePad_iOS_System_Collections_Generic_GenericComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
+bl _SignaturePad_iOS_System_Collections_Generic_GenericComparer_1_System_nfloat_Equals_object
+bl _SignaturePad_iOS_System_Collections_Generic_GenericComparer_1_System_nfloat_GetHashCode
+bl method_addresses
+bl _SignaturePad_iOS_System_Linq_Enumerable_Select_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereArrayIterator_1_CoreGraphics_CGPoint__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereArrayIterator_1_CoreGraphics_CGPoint_Clone
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereArrayIterator_1_CoreGraphics_CGPoint_MoveNext
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereArrayIterator_1_CoreGraphics_CGPoint_Where_System_Func_2_CoreGraphics_CGPoint_bool
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint__ctor
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_get_Current
+bl method_addresses
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_Dispose
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_GetEnumerator
+bl method_addresses
+bl method_addresses
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_System_Collections_IEnumerator_get_Current
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_System_Collections_IEnumerable_GetEnumerator
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_System_Collections_IEnumerator_Reset
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereListIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereListIterator_1_CoreGraphics_CGPoint_Clone
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereListIterator_1_CoreGraphics_CGPoint_MoveNext
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereListIterator_1_CoreGraphics_CGPoint_Where_System_Func_2_CoreGraphics_CGPoint_bool
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_Dispose
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNext
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNextRare
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_get_Current
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_System_Collections_IEnumerator_get_Current
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_System_Collections_IEnumerator_Reset
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint_Clone
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint_Dispose
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint_MoveNext
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint_Where_System_Func_2_CoreGraphics_CGPoint_bool
+bl _SignaturePad_iOS_System_Linq_Enumerable_Min_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat
+bl _SignaturePad_iOS_System_Array_IndexOf_CoreGraphics_CGPoint_CoreGraphics_CGPoint___CoreGraphics_CGPoint_int_int
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_EnsureCapacity_int
+bl _SignaturePad_iOS_System_Array_InternalArray__get_Item_System_nfloat_int
+bl _SignaturePad_iOS_System_Collections_Generic_ObjectComparer_1_System_nfloat__ctor
+bl _SignaturePad_iOS_System_Collections_Generic_ObjectComparer_1_System_nfloat_Compare_System_nfloat_System_nfloat
+bl _SignaturePad_iOS_System_Collections_Generic_ObjectComparer_1_System_nfloat_Equals_object
+bl _SignaturePad_iOS_System_Collections_Generic_ObjectComparer_1_System_nfloat_GetHashCode
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectArrayIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectArrayIterator_2_CoreGraphics_CGPoint_System_nfloat_Clone
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectArrayIterator_2_CoreGraphics_CGPoint_System_nfloat_MoveNext
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectArrayIterator_2_CoreGraphics_CGPoint_System_nfloat_Where_System_Func_2_System_nfloat_bool
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat__ctor
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_get_Current
+bl method_addresses
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_Dispose
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_GetEnumerator
+bl method_addresses
+bl method_addresses
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_System_Collections_IEnumerator_get_Current
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_System_Collections_IEnumerable_GetEnumerator
+bl _SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_System_Collections_IEnumerator_Reset
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectListIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectListIterator_2_CoreGraphics_CGPoint_System_nfloat_Clone
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectListIterator_2_CoreGraphics_CGPoint_System_nfloat_MoveNext
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectListIterator_2_CoreGraphics_CGPoint_System_nfloat_Where_System_Func_2_System_nfloat_bool
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat_Clone
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat_Dispose
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat_MoveNext
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat_Where_System_Func_2_System_nfloat_bool
+bl _SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_bool
+bl _SignaturePad_iOS_System_Linq_Enumerable__CombinePredicatesc__AnonStorey1A_1_CoreGraphics_CGPoint__ctor
+bl _SignaturePad_iOS_System_Linq_Enumerable__CombinePredicatesc__AnonStorey1A_1_CoreGraphics_CGPoint__m__0_CoreGraphics_CGPoint
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_GetEnumerator
+bl _SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_set_Capacity_int
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_System_nfloat_System_Func_2_System_nfloat_bool
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl method_addresses
+bl _SignaturePad_iOS_wrapper_delegate_invoke_System_Func_2_System_nfloat_bool_invoke_TResult_T_System_nfloat
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat_Clone
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat_Dispose
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat_MoveNext
+bl _SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat_Where_System_Func_2_System_nfloat_bool
+bl _SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_System_nfloat_System_Func_2_System_nfloat_bool_System_Func_2_System_nfloat_bool
+bl _SignaturePad_iOS_System_Linq_Enumerable__CombinePredicatesc__AnonStorey1A_1_System_nfloat__ctor
+bl _SignaturePad_iOS_System_Linq_Enumerable__CombinePredicatesc__AnonStorey1A_1_System_nfloat__m__0_System_nfloat
+method_addresses_end:
+
+.section __TEXT, __const
+	.align 3
+unbox_trampolines:
+_mono_aot_SignaturePad_iOSunbox_trampolines:
+	.globl _mono_aot_SignaturePad_iOSunbox_trampolines
+
+	.long 72,73,74,75,76,77,127,128
+	.long 144,163,164,165,166,167,168,199
+	.long 200,201,202,203,204,205
+unbox_trampolines_end:
+_mono_aot_SignaturePad_iOSunbox_trampolines_end:
+	.globl _mono_aot_SignaturePad_iOSunbox_trampolines_end
+
+	.long 0
+.text
+	.align 3
+unbox_trampoline_addresses:
+_mono_aot_SignaturePad_iOSunbox_trampoline_addresses:
+	.globl _mono_aot_SignaturePad_iOSunbox_trampoline_addresses
+bl ut_72
+bl ut_73
+bl ut_74
+bl ut_75
+bl ut_76
+bl ut_77
+bl ut_127
+bl ut_128
+bl ut_144
+bl ut_163
+bl ut_164
+bl ut_165
+bl ut_166
+bl ut_167
+bl ut_168
+bl ut_199
+bl ut_200
+bl ut_201
+bl ut_202
+bl ut_203
+bl ut_204
+bl ut_205
+
+	.long 0
+.section __TEXT, __const
+	.align 3
+unwind_info:
+_mono_aot_SignaturePad_iOSunwind_info:
+	.globl _mono_aot_SignaturePad_iOSunwind_info
+
+	.byte 0,27,12,31,0,84,14,192,4,157,72,158,71,68,13,29,68,150,70,151,69,68,152,68,153,67,68,154,66,13,12,31
+	.byte 0,68,14,80,157,10,158,9,68,13,29
+
+.text
+	.align 4
+plt:
+_mono_aot_SignaturePad_iOSplt:
+	.globl _mono_aot_SignaturePad_iOSplt
+mono_aot_SignaturePad_iOS_plt:
+_p_1_plt_SignaturePad_iOS_UIKit_UIView__ctor_llvm:
+	.globl _p_1_plt_SignaturePad_iOS_UIKit_UIView__ctor_llvm
+.private_extern _p_1_plt_SignaturePad_iOS_UIKit_UIView__ctor_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIView__ctor
+plt_SignaturePad_iOS_UIKit_UIView__ctor:
+_p_1:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #160]
+br x16
+.word 4460
+_p_2_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_Initialize_llvm:
+	.globl _p_2_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_Initialize_llvm
+.private_extern _p_2_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_Initialize_llvm
+	.no_dead_strip plt_SignaturePad_iOS_SignaturePad_SignaturePadView_Initialize
+plt_SignaturePad_iOS_SignaturePad_SignaturePadView_Initialize:
+_p_2:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #168]
+br x16
+.word 4465
+_p_3_plt_SignaturePad_iOS_UIKit_UIView__ctor_Foundation_NSCoder_llvm:
+	.globl _p_3_plt_SignaturePad_iOS_UIKit_UIView__ctor_Foundation_NSCoder_llvm
+.private_extern _p_3_plt_SignaturePad_iOS_UIKit_UIView__ctor_Foundation_NSCoder_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIView__ctor_Foundation_NSCoder
+plt_SignaturePad_iOS_UIKit_UIView__ctor_Foundation_NSCoder:
+_p_3:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #176]
+br x16
+.word 4470
+_p_4_plt_SignaturePad_iOS_UIKit_UIView__ctor_intptr_llvm:
+	.globl _p_4_plt_SignaturePad_iOS_UIKit_UIView__ctor_intptr_llvm
+.private_extern _p_4_plt_SignaturePad_iOS_UIKit_UIView__ctor_intptr_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIView__ctor_intptr
+plt_SignaturePad_iOS_UIKit_UIView__ctor_intptr:
+_p_4:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #184]
+br x16
+.word 4475
+_p_5_plt_SignaturePad_iOS__jit_icall_mono_array_new_specific_llvm:
+	.globl _p_5_plt_SignaturePad_iOS__jit_icall_mono_array_new_specific_llvm
+.private_extern _p_5_plt_SignaturePad_iOS__jit_icall_mono_array_new_specific_llvm
+	.no_dead_strip plt_SignaturePad_iOS__jit_icall_mono_array_new_specific
+plt_SignaturePad_iOS__jit_icall_mono_array_new_specific:
+_p_5:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #192]
+br x16
+.word 4480
+_p_6_plt_SignaturePad_iOS_System_Linq_Enumerable_Count_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint___llvm:
+	.globl _p_6_plt_SignaturePad_iOS_System_Linq_Enumerable_Count_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint___llvm
+.private_extern _p_6_plt_SignaturePad_iOS_System_Linq_Enumerable_Count_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint___llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Count_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint__
+plt_SignaturePad_iOS_System_Linq_Enumerable_Count_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint__:
+_p_6:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #200]
+br x16
+.word 4506
+_p_7_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint___get_Item_int_llvm:
+	.globl _p_7_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint___get_Item_int_llvm
+.private_extern _p_7_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint___get_Item_int_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint___get_Item_int
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint___get_Item_int:
+_p_7:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #208]
+br x16
+.word 4518
+_p_8_plt_SignaturePad_iOS_System_Linq_Enumerable_Concat_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm:
+	.globl _p_8_plt_SignaturePad_iOS_System_Linq_Enumerable_Concat_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+.private_extern _p_8_plt_SignaturePad_iOS_System_Linq_Enumerable_Concat_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Concat_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_System_Linq_Enumerable_Concat_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint:
+_p_8:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #216]
+br x16
+.word 4529
+_p_9_plt_SignaturePad_iOS_System_Linq_Enumerable_ToArray_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm:
+	.globl _p_9_plt_SignaturePad_iOS_System_Linq_Enumerable_ToArray_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+.private_extern _p_9_plt_SignaturePad_iOS_System_Linq_Enumerable_ToArray_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_ToArray_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_System_Linq_Enumerable_ToArray_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint:
+_p_9:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #224]
+br x16
+.word 4541
+_p_10_plt_SignaturePad_iOS_System_Linq_Enumerable_Where_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint___bool_llvm:
+	.globl _p_10_plt_SignaturePad_iOS_System_Linq_Enumerable_Where_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint___bool_llvm
+.private_extern _p_10_plt_SignaturePad_iOS_System_Linq_Enumerable_Where_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint___bool_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Where_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint___bool
+plt_SignaturePad_iOS_System_Linq_Enumerable_Where_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint___bool:
+_p_10:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #232]
+br x16
+.word 4553
+_p_11_plt_SignaturePad_iOS_System_Linq_Enumerable_Any_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint___llvm:
+	.globl _p_11_plt_SignaturePad_iOS_System_Linq_Enumerable_Any_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint___llvm
+.private_extern _p_11_plt_SignaturePad_iOS_System_Linq_Enumerable_Any_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint___llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Any_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint__
+plt_SignaturePad_iOS_System_Linq_Enumerable_Any_CoreGraphics_CGPoint___System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint__:
+_p_11:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #240]
+br x16
+.word 4565
+_p_12_plt_SignaturePad_iOS__jit_icall_mono_object_new_fast_llvm:
+	.globl _p_12_plt_SignaturePad_iOS__jit_icall_mono_object_new_fast_llvm
+.private_extern _p_12_plt_SignaturePad_iOS__jit_icall_mono_object_new_fast_llvm
+	.no_dead_strip plt_SignaturePad_iOS__jit_icall_mono_object_new_fast
+plt_SignaturePad_iOS__jit_icall_mono_object_new_fast:
+_p_12:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #248]
+br x16
+.word 4577
+_p_13_plt_SignaturePad_iOS_wrapper_write_barrier_object_wbarrier_noconc_intptr_llvm:
+	.globl _p_13_plt_SignaturePad_iOS_wrapper_write_barrier_object_wbarrier_noconc_intptr_llvm
+.private_extern _p_13_plt_SignaturePad_iOS_wrapper_write_barrier_object_wbarrier_noconc_intptr_llvm
+	.no_dead_strip plt_SignaturePad_iOS_wrapper_write_barrier_object_wbarrier_noconc_intptr
+plt_SignaturePad_iOS_wrapper_write_barrier_object_wbarrier_noconc_intptr:
+_p_13:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #256]
+br x16
+.word 4600
+_p_14_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_get_IsBlank_llvm:
+	.globl _p_14_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_get_IsBlank_llvm
+.private_extern _p_14_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_get_IsBlank_llvm
+	.no_dead_strip plt_SignaturePad_iOS_SignaturePad_SignaturePadView_get_IsBlank
+plt_SignaturePad_iOS_SignaturePad_SignaturePadView_get_IsBlank:
+_p_14:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #264]
+br x16
+.word 4607
+_p_15_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_bool_bool_llvm:
+	.globl _p_15_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_bool_bool_llvm
+.private_extern _p_15_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_bool_bool_llvm
+	.no_dead_strip plt_SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_bool_bool
+plt_SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_bool_bool:
+_p_15:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #272]
+br x16
+.word 4612
+_p_16_plt_SignaturePad_iOS_UIKit_UIColor_FromRGB_int_int_int_llvm:
+	.globl _p_16_plt_SignaturePad_iOS_UIKit_UIColor_FromRGB_int_int_int_llvm
+.private_extern _p_16_plt_SignaturePad_iOS_UIKit_UIColor_FromRGB_int_int_int_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIColor_FromRGB_int_int_int
+plt_SignaturePad_iOS_UIKit_UIColor_FromRGB_int_int_int:
+_p_16:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #280]
+br x16
+.word 4617
+_p_17_plt_SignaturePad_iOS_UIKit_UIColor_get_Black_llvm:
+	.globl _p_17_plt_SignaturePad_iOS_UIKit_UIColor_get_Black_llvm
+.private_extern _p_17_plt_SignaturePad_iOS_UIKit_UIColor_get_Black_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIColor_get_Black
+plt_SignaturePad_iOS_UIKit_UIColor_get_Black:
+_p_17:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #288]
+br x16
+.word 4622
+_p_18_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_set_StrokeWidth_single_llvm:
+	.globl _p_18_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_set_StrokeWidth_single_llvm
+.private_extern _p_18_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_set_StrokeWidth_single_llvm
+	.no_dead_strip plt_SignaturePad_iOS_SignaturePad_SignaturePadView_set_StrokeWidth_single
+plt_SignaturePad_iOS_SignaturePad_SignaturePadView_set_StrokeWidth_single:
+_p_18:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #296]
+br x16
+.word 4627
+_p_19_plt_SignaturePad_iOS__jit_icall_mono_object_new_specific_llvm:
+	.globl _p_19_plt_SignaturePad_iOS__jit_icall_mono_object_new_specific_llvm
+.private_extern _p_19_plt_SignaturePad_iOS__jit_icall_mono_object_new_specific_llvm
+	.no_dead_strip plt_SignaturePad_iOS__jit_icall_mono_object_new_specific
+plt_SignaturePad_iOS__jit_icall_mono_object_new_specific:
+_p_19:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #304]
+br x16
+.word 4632
+_p_20_plt_SignaturePad_iOS_UIKit_UIImageView__ctor_llvm:
+	.globl _p_20_plt_SignaturePad_iOS_UIKit_UIImageView__ctor_llvm
+.private_extern _p_20_plt_SignaturePad_iOS_UIKit_UIImageView__ctor_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIImageView__ctor
+plt_SignaturePad_iOS_UIKit_UIImageView__ctor:
+_p_20:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #312]
+br x16
+.word 4659
+_p_21_plt_SignaturePad_iOS_UIKit_UILabel__ctor_llvm:
+	.globl _p_21_plt_SignaturePad_iOS_UIKit_UILabel__ctor_llvm
+.private_extern _p_21_plt_SignaturePad_iOS_UIKit_UILabel__ctor_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UILabel__ctor
+plt_SignaturePad_iOS_UIKit_UILabel__ctor:
+_p_21:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #320]
+br x16
+.word 4664
+_p_22_plt_SignaturePad_iOS_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat_llvm:
+	.globl _p_22_plt_SignaturePad_iOS_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat_llvm
+.private_extern _p_22_plt_SignaturePad_iOS_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat
+plt_SignaturePad_iOS_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat:
+_p_22:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #328]
+br x16
+.word 4669
+_p_23_plt_SignaturePad_iOS_UIKit_UIColor_get_Clear_llvm:
+	.globl _p_23_plt_SignaturePad_iOS_UIKit_UIColor_get_Clear_llvm
+.private_extern _p_23_plt_SignaturePad_iOS_UIKit_UIColor_get_Clear_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIColor_get_Clear
+plt_SignaturePad_iOS_UIKit_UIColor_get_Clear:
+_p_23:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #336]
+br x16
+.word 4674
+_p_24_plt_SignaturePad_iOS_UIKit_UIColor_get_Gray_llvm:
+	.globl _p_24_plt_SignaturePad_iOS_UIKit_UIColor_get_Gray_llvm
+.private_extern _p_24_plt_SignaturePad_iOS_UIKit_UIColor_get_Gray_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIColor_get_Gray
+plt_SignaturePad_iOS_UIKit_UIColor_get_Gray:
+_p_24:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #344]
+br x16
+.word 4679
+_p_25_plt_SignaturePad_iOS_UIKit_UIButton_FromType_UIKit_UIButtonType_llvm:
+	.globl _p_25_plt_SignaturePad_iOS_UIKit_UIButton_FromType_UIKit_UIButtonType_llvm
+.private_extern _p_25_plt_SignaturePad_iOS_UIKit_UIButton_FromType_UIKit_UIButtonType_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIButton_FromType_UIKit_UIButtonType
+plt_SignaturePad_iOS_UIKit_UIButton_FromType_UIKit_UIButtonType:
+_p_25:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #352]
+br x16
+.word 4684
+_p_26_plt_SignaturePad_iOS__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm:
+	.globl _p_26_plt_SignaturePad_iOS__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+.private_extern _p_26_plt_SignaturePad_iOS__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+	.no_dead_strip plt_SignaturePad_iOS__jit_icall_llvm_throw_corlib_exception_abs_trampoline
+plt_SignaturePad_iOS__jit_icall_llvm_throw_corlib_exception_abs_trampoline:
+_p_26:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #360]
+br x16
+.word 4689
+_p_27_plt_SignaturePad_iOS_UIKit_UIControl_add_TouchUpInside_System_EventHandler_llvm:
+	.globl _p_27_plt_SignaturePad_iOS_UIKit_UIControl_add_TouchUpInside_System_EventHandler_llvm
+.private_extern _p_27_plt_SignaturePad_iOS_UIKit_UIControl_add_TouchUpInside_System_EventHandler_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIControl_add_TouchUpInside_System_EventHandler
+plt_SignaturePad_iOS_UIKit_UIControl_add_TouchUpInside_System_EventHandler:
+_p_27:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #368]
+br x16
+.word 4734
+_p_28_plt_SignaturePad_iOS_UIKit_UIBezierPath_Create_llvm:
+	.globl _p_28_plt_SignaturePad_iOS_UIKit_UIBezierPath_Create_llvm
+.private_extern _p_28_plt_SignaturePad_iOS_UIKit_UIBezierPath_Create_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIBezierPath_Create
+plt_SignaturePad_iOS_UIKit_UIBezierPath_Create:
+_p_28:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #376]
+br x16
+.word 4739
+_p_29_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Clear_llvm:
+	.globl _p_29_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Clear_llvm
+.private_extern _p_29_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Clear_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Clear
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Clear:
+_p_29:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #384]
+br x16
+.word 4744
+_p_30_plt_SignaturePad_iOS_UIKit_UIScreen_get_MainScreen_llvm:
+	.globl _p_30_plt_SignaturePad_iOS_UIKit_UIScreen_get_MainScreen_llvm
+.private_extern _p_30_plt_SignaturePad_iOS_UIKit_UIScreen_get_MainScreen_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIScreen_get_MainScreen
+plt_SignaturePad_iOS_UIKit_UIScreen_get_MainScreen:
+_p_30:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #392]
+br x16
+.word 4755
+_p_31_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getSizeFromScale_System_nfloat_CoreGraphics_CGRect_llvm:
+	.globl _p_31_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getSizeFromScale_System_nfloat_CoreGraphics_CGRect_llvm
+.private_extern _p_31_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getSizeFromScale_System_nfloat_CoreGraphics_CGRect_llvm
+	.no_dead_strip plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getSizeFromScale_System_nfloat_CoreGraphics_CGRect
+plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getSizeFromScale_System_nfloat_CoreGraphics_CGRect:
+_p_31:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #400]
+br x16
+.word 4760
+_p_32_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_System_nfloat_bool_bool_llvm:
+	.globl _p_32_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_System_nfloat_bool_bool_llvm
+.private_extern _p_32_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_System_nfloat_bool_bool_llvm
+	.no_dead_strip plt_SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_System_nfloat_bool_bool
+plt_SignaturePad_iOS_SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_System_nfloat_bool_bool:
+_p_32:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #408]
+br x16
+.word 4765
+_p_33_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getScaleFromSize_CoreGraphics_CGSize_CoreGraphics_CGRect_llvm:
+	.globl _p_33_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getScaleFromSize_CoreGraphics_CGSize_CoreGraphics_CGRect_llvm
+.private_extern _p_33_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getScaleFromSize_CoreGraphics_CGSize_CoreGraphics_CGRect_llvm
+	.no_dead_strip plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getScaleFromSize_CoreGraphics_CGSize_CoreGraphics_CGRect
+plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getScaleFromSize_CoreGraphics_CGSize_CoreGraphics_CGRect:
+_p_33:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #416]
+br x16
+.word 4770
+_p_34_plt_SignaturePad_iOS_System_Linq_Enumerable_Where_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_llvm:
+	.globl _p_34_plt_SignaturePad_iOS_System_Linq_Enumerable_Where_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_llvm
+.private_extern _p_34_plt_SignaturePad_iOS_System_Linq_Enumerable_Where_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Where_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool
+plt_SignaturePad_iOS_System_Linq_Enumerable_Where_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool:
+_p_34:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #424]
+br x16
+.word 4775
+_p_35_plt_SignaturePad_iOS_System_Linq_Enumerable_Min_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm:
+	.globl _p_35_plt_SignaturePad_iOS_System_Linq_Enumerable_Min_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm
+.private_extern _p_35_plt_SignaturePad_iOS_System_Linq_Enumerable_Min_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Min_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+plt_SignaturePad_iOS_System_Linq_Enumerable_Min_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat:
+_p_35:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #432]
+br x16
+.word 4787
+_p_36_plt_SignaturePad_iOS_System_Linq_Enumerable_Max_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm:
+	.globl _p_36_plt_SignaturePad_iOS_System_Linq_Enumerable_Max_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm
+.private_extern _p_36_plt_SignaturePad_iOS_System_Linq_Enumerable_Max_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Max_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+plt_SignaturePad_iOS_System_Linq_Enumerable_Max_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat:
+_p_36:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #440]
+br x16
+.word 4799
+_p_37_plt_SignaturePad_iOS_System_Math_Max_double_double_llvm:
+	.globl _p_37_plt_SignaturePad_iOS_System_Math_Max_double_double_llvm
+.private_extern _p_37_plt_SignaturePad_iOS_System_Math_Max_double_double_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Math_Max_double_double
+plt_SignaturePad_iOS_System_Math_Max_double_double:
+_p_37:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #448]
+br x16
+.word 4811
+_p_38_plt_SignaturePad_iOS_System_Math_Min_double_double_llvm:
+	.globl _p_38_plt_SignaturePad_iOS_System_Math_Min_double_double_llvm
+.private_extern _p_38_plt_SignaturePad_iOS_System_Math_Min_double_double_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Math_Min_double_double
+plt_SignaturePad_iOS_System_Math_Min_double_double:
+_p_38:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #456]
+br x16
+.word 4814
+_p_39_plt_SignaturePad_iOS_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat_llvm:
+	.globl _p_39_plt_SignaturePad_iOS_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat_llvm
+.private_extern _p_39_plt_SignaturePad_iOS_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
+plt_SignaturePad_iOS_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
+_p_39:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #464]
+br x16
+.word 4817
+_p_40_plt_SignaturePad_iOS_System_Linq_Enumerable_Count_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm:
+	.globl _p_40_plt_SignaturePad_iOS_System_Linq_Enumerable_Count_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+.private_extern _p_40_plt_SignaturePad_iOS_System_Linq_Enumerable_Count_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Count_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_System_Linq_Enumerable_Count_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint:
+_p_40:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #472]
+br x16
+.word 4822
+_p_41_plt_SignaturePad_iOS_System_Linq_Enumerable_ToList_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm:
+	.globl _p_41_plt_SignaturePad_iOS_System_Linq_Enumerable_ToList_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+.private_extern _p_41_plt_SignaturePad_iOS_System_Linq_Enumerable_ToList_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_ToList_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_System_Linq_Enumerable_ToList_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint:
+_p_41:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #480]
+br x16
+.word 4834
+_p_42_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint_llvm:
+	.globl _p_42_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint_llvm
+.private_extern _p_42_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint:
+_p_42:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #488]
+br x16
+.word 4846
+_p_43_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Add_CoreGraphics_CGPoint_llvm:
+	.globl _p_43_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Add_CoreGraphics_CGPoint_llvm
+.private_extern _p_43_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Add_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Add_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Add_CoreGraphics_CGPoint:
+_p_43:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #496]
+br x16
+.word 4857
+_p_44_plt_SignaturePad_iOS_System_Collections_Generic_List_1_UIKit_UIBezierPath_Add_UIKit_UIBezierPath_llvm:
+	.globl _p_44_plt_SignaturePad_iOS_System_Collections_Generic_List_1_UIKit_UIBezierPath_Add_UIKit_UIBezierPath_llvm
+.private_extern _p_44_plt_SignaturePad_iOS_System_Collections_Generic_List_1_UIKit_UIBezierPath_Add_UIKit_UIBezierPath_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_UIKit_UIBezierPath_Add_UIKit_UIBezierPath
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_UIKit_UIBezierPath_Add_UIKit_UIBezierPath:
+_p_44:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #504]
+br x16
+.word 4868
+_p_45_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_ToArray_llvm:
+	.globl _p_45_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_ToArray_llvm
+.private_extern _p_45_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_ToArray_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_ToArray
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_ToArray:
+_p_45:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #512]
+br x16
+.word 4879
+_p_46_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint___Add_CoreGraphics_CGPoint___llvm:
+	.globl _p_46_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint___Add_CoreGraphics_CGPoint___llvm
+.private_extern _p_46_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint___Add_CoreGraphics_CGPoint___llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint___Add_CoreGraphics_CGPoint__
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint___Add_CoreGraphics_CGPoint__:
+_p_46:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #520]
+br x16
+.word 4890
+_p_47_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint_int_llvm:
+	.globl _p_47_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint_int_llvm
+.private_extern _p_47_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint_int_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint_int
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_IndexOf_CoreGraphics_CGPoint_int:
+_p_47:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #528]
+br x16
+.word 4901
+_p_48_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_get_Item_int_llvm:
+	.globl _p_48_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_get_Item_int_llvm
+.private_extern _p_48_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_get_Item_int_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_get_Item_int
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_get_Item_int:
+_p_48:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #536]
+br x16
+.word 4912
+_p_49_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Insert_int_CoreGraphics_CGPoint_llvm:
+	.globl _p_49_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Insert_int_CoreGraphics_CGPoint_llvm
+.private_extern _p_49_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Insert_int_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Insert_int_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_Insert_int_CoreGraphics_CGPoint:
+_p_49:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #544]
+br x16
+.word 4923
+_p_50_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_resetBounds_CoreGraphics_CGPoint_llvm:
+	.globl _p_50_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_resetBounds_CoreGraphics_CGPoint_llvm
+.private_extern _p_50_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_resetBounds_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_SignaturePad_SignaturePadView_resetBounds_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_SignaturePad_SignaturePadView_resetBounds_CoreGraphics_CGPoint:
+_p_50:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #552]
+br x16
+.word 4934
+_p_51_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_updateBounds_CoreGraphics_CGPoint_llvm:
+	.globl _p_51_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_updateBounds_CoreGraphics_CGPoint_llvm
+.private_extern _p_51_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_updateBounds_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_SignaturePad_SignaturePadView_updateBounds_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_SignaturePad_SignaturePadView_updateBounds_CoreGraphics_CGPoint:
+_p_51:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #560]
+br x16
+.word 4939
+_p_52_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_smoothedPathWithGranularity_int_System_Collections_Generic_List_1_CoreGraphics_CGPoint__llvm:
+	.globl _p_52_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_smoothedPathWithGranularity_int_System_Collections_Generic_List_1_CoreGraphics_CGPoint__llvm
+.private_extern _p_52_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_smoothedPathWithGranularity_int_System_Collections_Generic_List_1_CoreGraphics_CGPoint__llvm
+	.no_dead_strip plt_SignaturePad_iOS_SignaturePad_SignaturePadView_smoothedPathWithGranularity_int_System_Collections_Generic_List_1_CoreGraphics_CGPoint_
+plt_SignaturePad_iOS_SignaturePad_SignaturePadView_smoothedPathWithGranularity_int_System_Collections_Generic_List_1_CoreGraphics_CGPoint_:
+_p_52:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #568]
+br x16
+.word 4944
+_p_53_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_Clear_llvm:
+	.globl _p_53_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_Clear_llvm
+.private_extern _p_53_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_Clear_llvm
+	.no_dead_strip plt_SignaturePad_iOS_SignaturePad_SignaturePadView_Clear
+plt_SignaturePad_iOS_SignaturePad_SignaturePadView_Clear:
+_p_53:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #576]
+br x16
+.word 4949
+_p_54_plt_SignaturePad_iOS_CoreGraphics_CGPoint_get_IsEmpty_llvm:
+	.globl _p_54_plt_SignaturePad_iOS_CoreGraphics_CGPoint_get_IsEmpty_llvm
+.private_extern _p_54_plt_SignaturePad_iOS_CoreGraphics_CGPoint_get_IsEmpty_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGPoint_get_IsEmpty
+plt_SignaturePad_iOS_CoreGraphics_CGPoint_get_IsEmpty:
+_p_54:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #584]
+br x16
+.word 4954
+_p_55_plt_SignaturePad_iOS__rgctx_fetch_0_llvm:
+	.globl _p_55_plt_SignaturePad_iOS__rgctx_fetch_0_llvm
+.private_extern _p_55_plt_SignaturePad_iOS__rgctx_fetch_0_llvm
+	.no_dead_strip plt_SignaturePad_iOS__rgctx_fetch_0
+plt_SignaturePad_iOS__rgctx_fetch_0:
+_p_55:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #592]
+br x16
+.word 4985
+_p_56_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array_llvm:
+	.globl _p_56_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array_llvm
+.private_extern _p_56_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+_p_56:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #600]
+br x16
+.word 4993
+_p_57_plt_SignaturePad_iOS__jit_icall_mono_helper_ldstr_mscorlib_llvm:
+	.globl _p_57_plt_SignaturePad_iOS__jit_icall_mono_helper_ldstr_mscorlib_llvm
+.private_extern _p_57_plt_SignaturePad_iOS__jit_icall_mono_helper_ldstr_mscorlib_llvm
+	.no_dead_strip plt_SignaturePad_iOS__jit_icall_mono_helper_ldstr_mscorlib
+plt_SignaturePad_iOS__jit_icall_mono_helper_ldstr_mscorlib:
+_p_57:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #608]
+br x16
+.word 5012
+_p_58_plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_1_llvm:
+	.globl _p_58_plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_1_llvm
+.private_extern _p_58_plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_1_llvm
+	.no_dead_strip plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_1
+plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_1:
+_p_58:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #616]
+br x16
+.word 5041
+_p_59_plt_SignaturePad_iOS__jit_icall_mono_arch_throw_exception_llvm:
+	.globl _p_59_plt_SignaturePad_iOS__jit_icall_mono_arch_throw_exception_llvm
+.private_extern _p_59_plt_SignaturePad_iOS__jit_icall_mono_arch_throw_exception_llvm
+	.no_dead_strip plt_SignaturePad_iOS__jit_icall_mono_arch_throw_exception
+plt_SignaturePad_iOS__jit_icall_mono_arch_throw_exception:
+_p_59:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #624]
+br x16
+.word 5074
+_p_60_plt_SignaturePad_iOS__rgctx_fetch_1_llvm:
+	.globl _p_60_plt_SignaturePad_iOS__rgctx_fetch_1_llvm
+.private_extern _p_60_plt_SignaturePad_iOS__rgctx_fetch_1_llvm
+	.no_dead_strip plt_SignaturePad_iOS__rgctx_fetch_1
+plt_SignaturePad_iOS__rgctx_fetch_1:
+_p_60:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #632]
+br x16
+.word 5120
+_p_61_plt_SignaturePad_iOS_Locale_GetText_string_llvm:
+	.globl _p_61_plt_SignaturePad_iOS_Locale_GetText_string_llvm
+.private_extern _p_61_plt_SignaturePad_iOS_Locale_GetText_string_llvm
+	.no_dead_strip plt_SignaturePad_iOS_Locale_GetText_string
+plt_SignaturePad_iOS_Locale_GetText_string:
+_p_61:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #640]
+br x16
+.word 5143
+_p_62_plt_SignaturePad_iOS_System_Array_Copy_System_Array_int_System_Array_int_int_llvm:
+	.globl _p_62_plt_SignaturePad_iOS_System_Array_Copy_System_Array_int_System_Array_int_int_llvm
+.private_extern _p_62_plt_SignaturePad_iOS_System_Array_Copy_System_Array_int_System_Array_int_int_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_SignaturePad_iOS_System_Array_Copy_System_Array_int_System_Array_int_int:
+_p_62:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #648]
+br x16
+.word 5146
+_p_63_plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_2_llvm:
+	.globl _p_63_plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_2_llvm
+.private_extern _p_63_plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_2_llvm
+	.no_dead_strip plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_2
+plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_2:
+_p_63:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #656]
+br x16
+.word 5149
+_p_64_plt_SignaturePad_iOS__jit_icall_mono_thread_interruption_checkpoint_llvm:
+	.globl _p_64_plt_SignaturePad_iOS__jit_icall_mono_thread_interruption_checkpoint_llvm
+.private_extern _p_64_plt_SignaturePad_iOS__jit_icall_mono_thread_interruption_checkpoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS__jit_icall_mono_thread_interruption_checkpoint
+plt_SignaturePad_iOS__jit_icall_mono_thread_interruption_checkpoint:
+_p_64:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #664]
+br x16
+.word 5182
+_p_65_plt_SignaturePad_iOS_System_Array_InternalArray__get_Item_CoreGraphics_CGPoint_int_llvm:
+	.globl _p_65_plt_SignaturePad_iOS_System_Array_InternalArray__get_Item_CoreGraphics_CGPoint_int_llvm
+.private_extern _p_65_plt_SignaturePad_iOS_System_Array_InternalArray__get_Item_CoreGraphics_CGPoint_int_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Array_InternalArray__get_Item_CoreGraphics_CGPoint_int
+plt_SignaturePad_iOS_System_Array_InternalArray__get_Item_CoreGraphics_CGPoint_int:
+_p_65:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #672]
+br x16
+.word 5220
+_p_66_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_get_Current_llvm:
+	.globl _p_66_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_get_Current_llvm
+.private_extern _p_66_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_get_Current_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_get_Current
+plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint_get_Current:
+_p_66:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #680]
+br x16
+.word 5240
+_p_67_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint__ctor_System_Array_llvm:
+	.globl _p_67_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint__ctor_System_Array_llvm
+.private_extern _p_67_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint__ctor_System_Array_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint__ctor_System_Array
+plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_CoreGraphics_CGPoint__ctor_System_Array:
+_p_67:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #688]
+br x16
+.word 5260
+_p_68_plt_SignaturePad_iOS_CoreGraphics_CGPoint_Equals_object_llvm:
+	.globl _p_68_plt_SignaturePad_iOS_CoreGraphics_CGPoint_Equals_object_llvm
+.private_extern _p_68_plt_SignaturePad_iOS_CoreGraphics_CGPoint_Equals_object_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGPoint_Equals_object
+plt_SignaturePad_iOS_CoreGraphics_CGPoint_Equals_object:
+_p_68:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #696]
+br x16
+.word 5280
+_p_69_plt_SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_CreateComparer_llvm:
+	.globl _p_69_plt_SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_CreateComparer_llvm
+.private_extern _p_69_plt_SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_CreateComparer_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_CreateComparer
+plt_SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_CreateComparer:
+_p_69:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #704]
+br x16
+.word 5285
+_p_70_plt_SignaturePad_iOS_System_Enum_GetUnderlyingType_System_Type_llvm:
+	.globl _p_70_plt_SignaturePad_iOS_System_Enum_GetUnderlyingType_System_Type_llvm
+.private_extern _p_70_plt_SignaturePad_iOS_System_Enum_GetUnderlyingType_System_Type_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Enum_GetUnderlyingType_System_Type
+plt_SignaturePad_iOS_System_Enum_GetUnderlyingType_System_Type:
+_p_70:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #712]
+br x16
+.word 5305
+_p_71_plt_SignaturePad_iOS_System_Type_GetTypeCode_System_Type_llvm:
+	.globl _p_71_plt_SignaturePad_iOS_System_Type_GetTypeCode_System_Type_llvm
+.private_extern _p_71_plt_SignaturePad_iOS_System_Type_GetTypeCode_System_Type_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Type_GetTypeCode_System_Type
+plt_SignaturePad_iOS_System_Type_GetTypeCode_System_Type:
+_p_71:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #720]
+br x16
+.word 5308
+_p_72_plt_SignaturePad_iOS_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType_llvm:
+	.globl _p_72_plt_SignaturePad_iOS_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType_llvm
+.private_extern _p_72_plt_SignaturePad_iOS_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
+plt_SignaturePad_iOS_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
+_p_72:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #728]
+br x16
+.word 5311
+_p_73_plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource_llvm:
+	.globl _p_73_plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource_llvm
+.private_extern _p_73_plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource
+plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentException_System_ExceptionResource:
+_p_73:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #736]
+br x16
+.word 5314
+_p_74_plt_SignaturePad_iOS_CoreGraphics_CGPoint_Equals_CoreGraphics_CGPoint_llvm:
+	.globl _p_74_plt_SignaturePad_iOS_CoreGraphics_CGPoint_Equals_CoreGraphics_CGPoint_llvm
+.private_extern _p_74_plt_SignaturePad_iOS_CoreGraphics_CGPoint_Equals_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGPoint_Equals_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_CoreGraphics_CGPoint_Equals_CoreGraphics_CGPoint:
+_p_74:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #744]
+br x16
+.word 5317
+_p_75_plt_SignaturePad_iOS_CoreGraphics_CGPoint_GetHashCode_llvm:
+	.globl _p_75_plt_SignaturePad_iOS_CoreGraphics_CGPoint_GetHashCode_llvm
+.private_extern _p_75_plt_SignaturePad_iOS_CoreGraphics_CGPoint_GetHashCode_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGPoint_GetHashCode
+plt_SignaturePad_iOS_CoreGraphics_CGPoint_GetHashCode:
+_p_75:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #752]
+br x16
+.word 5322
+_p_76_plt_SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm:
+	.globl _p_76_plt_SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+.private_extern _p_76_plt_SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint:
+_p_76:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #760]
+br x16
+.word 5327
+_p_77_plt_SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint_ToArray_llvm:
+	.globl _p_77_plt_SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint_ToArray_llvm
+.private_extern _p_77_plt_SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint_ToArray_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint_ToArray
+plt_SignaturePad_iOS_System_Linq_Buffer_1_CoreGraphics_CGPoint_ToArray:
+_p_77:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #768]
+br x16
+.word 5347
+_p_78_plt_SignaturePad_iOS__jit_icall_mono_helper_ldstr_llvm:
+	.globl _p_78_plt_SignaturePad_iOS__jit_icall_mono_helper_ldstr_llvm
+.private_extern _p_78_plt_SignaturePad_iOS__jit_icall_mono_helper_ldstr_llvm
+	.no_dead_strip plt_SignaturePad_iOS__jit_icall_mono_helper_ldstr
+plt_SignaturePad_iOS__jit_icall_mono_helper_ldstr:
+_p_78:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #776]
+br x16
+.word 5367
+_p_79_plt_SignaturePad_iOS_System_Linq_Error_ArgumentNull_string_llvm:
+	.globl _p_79_plt_SignaturePad_iOS_System_Linq_Error_ArgumentNull_string_llvm
+.private_extern _p_79_plt_SignaturePad_iOS_System_Linq_Error_ArgumentNull_string_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Error_ArgumentNull_string
+plt_SignaturePad_iOS_System_Linq_Error_ArgumentNull_string:
+_p_79:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #784]
+br x16
+.word 5387
+_p_80_plt_SignaturePad_iOS__jit_icall_llvm_resume_unwind_trampoline_llvm:
+	.globl _p_80_plt_SignaturePad_iOS__jit_icall_llvm_resume_unwind_trampoline_llvm
+.private_extern _p_80_plt_SignaturePad_iOS__jit_icall_llvm_resume_unwind_trampoline_llvm
+	.no_dead_strip plt_SignaturePad_iOS__jit_icall_llvm_resume_unwind_trampoline
+plt_SignaturePad_iOS__jit_icall_llvm_resume_unwind_trampoline:
+_p_80:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #792]
+br x16
+.word 5392
+_p_81_plt_SignaturePad_iOS_System_Linq_Enumerable_ConcatIterator_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm:
+	.globl _p_81_plt_SignaturePad_iOS_System_Linq_Enumerable_ConcatIterator_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+.private_extern _p_81_plt_SignaturePad_iOS_System_Linq_Enumerable_ConcatIterator_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_ConcatIterator_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_System_Linq_Enumerable_ConcatIterator_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint:
+_p_81:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #800]
+br x16
+.word 5424
+_p_82_plt_SignaturePad_iOS_System_Array_Clear_System_Array_int_int_llvm:
+	.globl _p_82_plt_SignaturePad_iOS_System_Array_Clear_System_Array_int_int_llvm
+.private_extern _p_82_plt_SignaturePad_iOS_System_Array_Clear_System_Array_int_int_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Array_Clear_System_Array_int_int
+plt_SignaturePad_iOS_System_Array_Clear_System_Array_int_int:
+_p_82:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #808]
+br x16
+.word 5444
+_p_83_plt_SignaturePad_iOS_System_Linq_Enumerable_Select_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm:
+	.globl _p_83_plt_SignaturePad_iOS_System_Linq_Enumerable_Select_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm
+.private_extern _p_83_plt_SignaturePad_iOS_System_Linq_Enumerable_Select_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Select_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+plt_SignaturePad_iOS_System_Linq_Enumerable_Select_CoreGraphics_CGPoint_System_nfloat_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_System_nfloat:
+_p_83:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #816]
+br x16
+.word 5447
+_p_84_plt_SignaturePad_iOS_System_Linq_Enumerable_Max_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat_llvm:
+	.globl _p_84_plt_SignaturePad_iOS_System_Linq_Enumerable_Max_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat_llvm
+.private_extern _p_84_plt_SignaturePad_iOS_System_Linq_Enumerable_Max_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Max_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat
+plt_SignaturePad_iOS_System_Linq_Enumerable_Max_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat:
+_p_84:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #824]
+br x16
+.word 5471
+_p_85_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_llvm:
+	.globl _p_85_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_llvm
+.private_extern _p_85_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool
+plt_SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool:
+_p_85:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #832]
+br x16
+.word 5491
+_p_86_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereListIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_llvm:
+	.globl _p_86_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereListIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_llvm
+.private_extern _p_86_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereListIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_WhereListIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool
+plt_SignaturePad_iOS_System_Linq_Enumerable_WhereListIterator_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool:
+_p_86:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #840]
+br x16
+.word 5511
+_p_87_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereArrayIterator_1_CoreGraphics_CGPoint__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool_llvm:
+	.globl _p_87_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereArrayIterator_1_CoreGraphics_CGPoint__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool_llvm
+.private_extern _p_87_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereArrayIterator_1_CoreGraphics_CGPoint__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_WhereArrayIterator_1_CoreGraphics_CGPoint__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool
+plt_SignaturePad_iOS_System_Linq_Enumerable_WhereArrayIterator_1_CoreGraphics_CGPoint__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool:
+_p_87:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #848]
+br x16
+.word 5531
+_p_88_plt_SignaturePad_iOS_System_Linq_Enumerable_Min_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat_llvm:
+	.globl _p_88_plt_SignaturePad_iOS_System_Linq_Enumerable_Min_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat_llvm
+.private_extern _p_88_plt_SignaturePad_iOS_System_Linq_Enumerable_Min_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Min_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat
+plt_SignaturePad_iOS_System_Linq_Enumerable_Min_System_nfloat_System_Collections_Generic_IEnumerable_1_System_nfloat:
+_p_88:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #856]
+br x16
+.word 5551
+_p_89_plt_SignaturePad_iOS_System_Array_IndexOf_CoreGraphics_CGPoint_CoreGraphics_CGPoint___CoreGraphics_CGPoint_int_int_llvm:
+	.globl _p_89_plt_SignaturePad_iOS_System_Array_IndexOf_CoreGraphics_CGPoint_CoreGraphics_CGPoint___CoreGraphics_CGPoint_int_int_llvm
+.private_extern _p_89_plt_SignaturePad_iOS_System_Array_IndexOf_CoreGraphics_CGPoint_CoreGraphics_CGPoint___CoreGraphics_CGPoint_int_int_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Array_IndexOf_CoreGraphics_CGPoint_CoreGraphics_CGPoint___CoreGraphics_CGPoint_int_int
+plt_SignaturePad_iOS_System_Array_IndexOf_CoreGraphics_CGPoint_CoreGraphics_CGPoint___CoreGraphics_CGPoint_int_int:
+_p_89:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #864]
+br x16
+.word 5571
+_p_90_plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource_llvm:
+	.globl _p_90_plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource_llvm
+.private_extern _p_90_plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource
+plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource:
+_p_90:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #872]
+br x16
+.word 5591
+_p_91_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm:
+	.globl _p_91_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+.private_extern _p_91_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint:
+_p_91:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #880]
+br x16
+.word 5594
+_p_92_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_EnsureCapacity_int_llvm:
+	.globl _p_92_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_EnsureCapacity_int_llvm
+.private_extern _p_92_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_EnsureCapacity_int_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_EnsureCapacity_int
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_EnsureCapacity_int:
+_p_92:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #888]
+br x16
+.word 5616
+_p_93_plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentOutOfRangeException_llvm:
+	.globl _p_93_plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentOutOfRangeException_llvm
+.private_extern _p_93_plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentOutOfRangeException_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentOutOfRangeException
+plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentOutOfRangeException:
+_p_93:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #896]
+br x16
+.word 5638
+_p_94_plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_0_llvm:
+	.globl _p_94_plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_0_llvm
+.private_extern _p_94_plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_0_llvm
+	.no_dead_strip plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_0
+plt_SignaturePad_iOS__jit_icall_mono_create_corlib_exception_0:
+_p_94:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #904]
+br x16
+.word 5641
+_p_95_plt_SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_TSource_GetEnumerator_llvm:
+	.globl _p_95_plt_SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_TSource_GetEnumerator_llvm
+.private_extern _p_95_plt_SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_TSource_GetEnumerator_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_TSource_GetEnumerator
+plt_SignaturePad_iOS_System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_TSource_GetEnumerator:
+_p_95:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #912]
+br x16
+.word 5674
+_p_96_plt_SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_get_Default_llvm:
+	.globl _p_96_plt_SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_get_Default_llvm
+.private_extern _p_96_plt_SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_get_Default_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_get_Default
+plt_SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_get_Default:
+_p_96:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #920]
+br x16
+.word 5694
+_p_97_plt_SignaturePad_iOS_System_Linq_Error_NoElements_llvm:
+	.globl _p_97_plt_SignaturePad_iOS_System_Linq_Error_NoElements_llvm
+.private_extern _p_97_plt_SignaturePad_iOS_System_Linq_Error_NoElements_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Error_NoElements
+plt_SignaturePad_iOS_System_Linq_Error_NoElements:
+_p_97:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #928]
+br x16
+.word 5714
+_p_98_plt_SignaturePad_iOS_System_Array_InternalArray__get_Item_System_nfloat_int_llvm:
+	.globl _p_98_plt_SignaturePad_iOS_System_Array_InternalArray__get_Item_System_nfloat_int_llvm
+.private_extern _p_98_plt_SignaturePad_iOS_System_Array_InternalArray__get_Item_System_nfloat_int_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Array_InternalArray__get_Item_System_nfloat_int
+plt_SignaturePad_iOS_System_Array_InternalArray__get_Item_System_nfloat_int:
+_p_98:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #936]
+br x16
+.word 5719
+_p_99_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_get_Current_llvm:
+	.globl _p_99_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_get_Current_llvm
+.private_extern _p_99_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_get_Current_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_get_Current
+plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat_get_Current:
+_p_99:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #944]
+br x16
+.word 5739
+_p_100_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat__ctor_System_Array_llvm:
+	.globl _p_100_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat__ctor_System_Array_llvm
+.private_extern _p_100_plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat__ctor_System_Array_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat__ctor_System_Array
+plt_SignaturePad_iOS_System_Array_InternalEnumerator_1_System_nfloat__ctor_System_Array:
+_p_100:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #952]
+br x16
+.word 5759
+_p_101_plt_SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer_llvm:
+	.globl _p_101_plt_SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer_llvm
+.private_extern _p_101_plt_SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer
+plt_SignaturePad_iOS_System_Collections_Generic_Comparer_1_System_nfloat_CreateComparer:
+_p_101:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #960]
+br x16
+.word 5779
+_p_102_plt_SignaturePad_iOS_System_nfloat_CompareTo_System_nfloat_llvm:
+	.globl _p_102_plt_SignaturePad_iOS_System_nfloat_CompareTo_System_nfloat_llvm
+.private_extern _p_102_plt_SignaturePad_iOS_System_nfloat_CompareTo_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_nfloat_CompareTo_System_nfloat
+plt_SignaturePad_iOS_System_nfloat_CompareTo_System_nfloat:
+_p_102:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #968]
+br x16
+.word 5799
+_p_103_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm:
+	.globl _p_103_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm
+.private_extern _p_103_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectEnumerableIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat:
+_p_103:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #976]
+br x16
+.word 5804
+_p_104_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectListIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm:
+	.globl _p_104_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectListIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm
+.private_extern _p_104_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectListIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectListIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectListIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat:
+_p_104:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #984]
+br x16
+.word 5828
+_p_105_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectArrayIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm:
+	.globl _p_105_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectArrayIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm
+.private_extern _p_105_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectArrayIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectArrayIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat
+plt_SignaturePad_iOS_System_Linq_Enumerable_WhereSelectArrayIterator_2_CoreGraphics_CGPoint_System_nfloat__ctor_CoreGraphics_CGPoint___System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_System_nfloat:
+_p_105:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #992]
+br x16
+.word 5852
+_p_106_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint__ctor_llvm:
+	.globl _p_106_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint__ctor_llvm
+.private_extern _p_106_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint__ctor_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint__ctor
+plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint__ctor:
+_p_106:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1000]
+br x16
+.word 5876
+_p_107_plt_SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_bool_llvm:
+	.globl _p_107_plt_SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_bool_llvm
+.private_extern _p_107_plt_SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_bool_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_bool
+plt_SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_CoreGraphics_CGPoint_System_Func_2_CoreGraphics_CGPoint_bool_System_Func_2_CoreGraphics_CGPoint_bool:
+_p_107:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1008]
+br x16
+.word 5896
+_p_108_plt_SignaturePad_iOS_System_Threading_Thread_get_CurrentThread_llvm:
+	.globl _p_108_plt_SignaturePad_iOS_System_Threading_Thread_get_CurrentThread_llvm
+.private_extern _p_108_plt_SignaturePad_iOS_System_Threading_Thread_get_CurrentThread_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Threading_Thread_get_CurrentThread
+plt_SignaturePad_iOS_System_Threading_Thread_get_CurrentThread:
+_p_108:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1016]
+br x16
+.word 5916
+_p_109_plt_SignaturePad_iOS_System_Threading_Thread_get_ManagedThreadId_llvm:
+	.globl _p_109_plt_SignaturePad_iOS_System_Threading_Thread_get_ManagedThreadId_llvm
+.private_extern _p_109_plt_SignaturePad_iOS_System_Threading_Thread_get_ManagedThreadId_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Threading_Thread_get_ManagedThreadId
+plt_SignaturePad_iOS_System_Threading_Thread_get_ManagedThreadId:
+_p_109:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1024]
+br x16
+.word 5919
+_p_110_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_GetEnumerator_llvm:
+	.globl _p_110_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_GetEnumerator_llvm
+.private_extern _p_110_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_GetEnumerator_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_GetEnumerator
+plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_GetEnumerator:
+_p_110:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1032]
+br x16
+.word 5922
+_p_111_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_GetEnumerator_llvm:
+	.globl _p_111_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_GetEnumerator_llvm
+.private_extern _p_111_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_GetEnumerator_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_GetEnumerator
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_GetEnumerator:
+_p_111:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1040]
+br x16
+.word 5942
+_p_112_plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNext_llvm:
+	.globl _p_112_plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNext_llvm
+.private_extern _p_112_plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNext_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNext
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNext:
+_p_112:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1048]
+br x16
+.word 5964
+_p_113_plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNextRare_llvm:
+	.globl _p_113_plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNextRare_llvm
+.private_extern _p_113_plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNextRare_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNextRare
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint_MoveNextRare:
+_p_113:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1056]
+br x16
+.word 5984
+_p_114_plt_SignaturePad_iOS_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource_llvm:
+	.globl _p_114_plt_SignaturePad_iOS_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource_llvm
+.private_extern _p_114_plt_SignaturePad_iOS_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource
+plt_SignaturePad_iOS_System_ThrowHelper_ThrowInvalidOperationException_System_ExceptionResource:
+_p_114:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1064]
+br x16
+.word 6004
+_p_115_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_Dispose_llvm:
+	.globl _p_115_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_Dispose_llvm
+.private_extern _p_115_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_Dispose_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_Dispose
+plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_CoreGraphics_CGPoint_Dispose:
+_p_115:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1072]
+br x16
+.word 6007
+_p_116_plt_SignaturePad_iOS_System_Array_GetUpperBound_int_llvm:
+	.globl _p_116_plt_SignaturePad_iOS_System_Array_GetUpperBound_int_llvm
+.private_extern _p_116_plt_SignaturePad_iOS_System_Array_GetUpperBound_int_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Array_GetUpperBound_int
+plt_SignaturePad_iOS_System_Array_GetUpperBound_int:
+_p_116:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1080]
+br x16
+.word 6027
+_p_117_plt_SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_get_Default_llvm:
+	.globl _p_117_plt_SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_get_Default_llvm
+.private_extern _p_117_plt_SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_get_Default_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_get_Default
+plt_SignaturePad_iOS_System_Collections_Generic_EqualityComparer_1_CoreGraphics_CGPoint_get_Default:
+_p_117:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1088]
+br x16
+.word 6030
+_p_118_plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument_llvm:
+	.globl _p_118_plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument_llvm
+.private_extern _p_118_plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
+plt_SignaturePad_iOS_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
+_p_118:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1096]
+br x16
+.word 6050
+_p_119_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_set_Capacity_int_llvm:
+	.globl _p_119_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_set_Capacity_int_llvm
+.private_extern _p_119_plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_set_Capacity_int_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_set_Capacity_int
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_CoreGraphics_CGPoint_set_Capacity_int:
+_p_119:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1104]
+br x16
+.word 6053
+_p_120_plt_SignaturePad_iOS_System_Collections_Comparer_Compare_object_object_llvm:
+	.globl _p_120_plt_SignaturePad_iOS_System_Collections_Comparer_Compare_object_object_llvm
+.private_extern _p_120_plt_SignaturePad_iOS_System_Collections_Comparer_Compare_object_object_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Comparer_Compare_object_object
+plt_SignaturePad_iOS_System_Collections_Comparer_Compare_object_object:
+_p_120:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1112]
+br x16
+.word 6075
+_p_121_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat__ctor_llvm:
+	.globl _p_121_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat__ctor_llvm
+.private_extern _p_121_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat__ctor_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat__ctor
+plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat__ctor:
+_p_121:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1120]
+br x16
+.word 6078
+_p_122_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_System_nfloat_System_Func_2_System_nfloat_bool_llvm:
+	.globl _p_122_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_System_nfloat_System_Func_2_System_nfloat_bool_llvm
+.private_extern _p_122_plt_SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_System_nfloat_System_Func_2_System_nfloat_bool_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_System_nfloat_System_Func_2_System_nfloat_bool
+plt_SignaturePad_iOS_System_Linq_Enumerable_WhereEnumerableIterator_1_System_nfloat__ctor_System_Collections_Generic_IEnumerable_1_System_nfloat_System_Func_2_System_nfloat_bool:
+_p_122:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1128]
+br x16
+.word 6098
+_p_123_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_GetEnumerator_llvm:
+	.globl _p_123_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_GetEnumerator_llvm
+.private_extern _p_123_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_GetEnumerator_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_GetEnumerator
+plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_GetEnumerator:
+_p_123:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1136]
+br x16
+.word 6118
+_p_124_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_Dispose_llvm:
+	.globl _p_124_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_Dispose_llvm
+.private_extern _p_124_plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_Dispose_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_Dispose
+plt_SignaturePad_iOS_System_Linq_Enumerable_Iterator_1_System_nfloat_Dispose:
+_p_124:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1144]
+br x16
+.word 6138
+_p_125_plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_llvm:
+	.globl _p_125_plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_llvm
+.private_extern _p_125_plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_CoreGraphics_CGPoint__ctor_System_Collections_Generic_List_1_CoreGraphics_CGPoint:
+_p_125:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1152]
+br x16
+.word 6158
+_p_126_plt_SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_System_nfloat_System_Func_2_System_nfloat_bool_System_Func_2_System_nfloat_bool_llvm:
+	.globl _p_126_plt_SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_System_nfloat_System_Func_2_System_nfloat_bool_System_Func_2_System_nfloat_bool_llvm
+.private_extern _p_126_plt_SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_System_nfloat_System_Func_2_System_nfloat_bool_System_Func_2_System_nfloat_bool_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_System_nfloat_System_Func_2_System_nfloat_bool_System_Func_2_System_nfloat_bool
+plt_SignaturePad_iOS_System_Linq_Enumerable_CombinePredicates_System_nfloat_System_Func_2_System_nfloat_bool_System_Func_2_System_nfloat_bool:
+_p_126:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1160]
+br x16
+.word 6178
+_p_127_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_get_Points_llvm:
+	.globl _p_127_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_get_Points_llvm
+.private_extern _p_127_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_get_Points_llvm
+	.no_dead_strip plt_SignaturePad_iOS_SignaturePad_SignaturePadView_get_Points
+plt_SignaturePad_iOS_SignaturePad_SignaturePadView_get_Points:
+_p_127:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1168]
+br x16
+.word 6198
+_p_128_plt_SignaturePad_iOS_System_Linq_Enumerable_Any_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm:
+	.globl _p_128_plt_SignaturePad_iOS_System_Linq_Enumerable_Any_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+.private_extern _p_128_plt_SignaturePad_iOS_System_Linq_Enumerable_Any_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Linq_Enumerable_Any_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint
+plt_SignaturePad_iOS_System_Linq_Enumerable_Any_CoreGraphics_CGPoint_System_Collections_Generic_IEnumerable_1_CoreGraphics_CGPoint:
+_p_128:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1176]
+br x16
+.word 6203
+_p_129_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getCroppedRectangle_CoreGraphics_CGPoint___llvm:
+	.globl _p_129_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getCroppedRectangle_CoreGraphics_CGPoint___llvm
+.private_extern _p_129_plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getCroppedRectangle_CoreGraphics_CGPoint___llvm
+	.no_dead_strip plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getCroppedRectangle_CoreGraphics_CGPoint__
+plt_SignaturePad_iOS_SignaturePad_SignaturePadView_getCroppedRectangle_CoreGraphics_CGPoint__:
+_p_129:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1184]
+br x16
+.word 6215
+_p_130_plt_SignaturePad_iOS_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize_llvm:
+	.globl _p_130_plt_SignaturePad_iOS_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize_llvm
+.private_extern _p_130_plt_SignaturePad_iOS_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize
+plt_SignaturePad_iOS_UIKit_UIGraphics_BeginImageContext_CoreGraphics_CGSize:
+_p_130:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1192]
+br x16
+.word 6220
+_p_131_plt_SignaturePad_iOS_UIKit_UIGraphics_GetCurrentContext_llvm:
+	.globl _p_131_plt_SignaturePad_iOS_UIKit_UIGraphics_GetCurrentContext_llvm
+.private_extern _p_131_plt_SignaturePad_iOS_UIKit_UIGraphics_GetCurrentContext_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIGraphics_GetCurrentContext
+plt_SignaturePad_iOS_UIKit_UIGraphics_GetCurrentContext:
+_p_131:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1200]
+br x16
+.word 6225
+_p_132_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor_llvm:
+	.globl _p_132_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor_llvm
+.private_extern _p_132_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor
+plt_SignaturePad_iOS_CoreGraphics_CGContext_SetFillColor_CoreGraphics_CGColor:
+_p_132:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1208]
+br x16
+.word 6230
+_p_133_plt_SignaturePad_iOS_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect_llvm:
+	.globl _p_133_plt_SignaturePad_iOS_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect_llvm
+.private_extern _p_133_plt_SignaturePad_iOS_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect
+plt_SignaturePad_iOS_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect:
+_p_133:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1216]
+br x16
+.word 6235
+_p_134_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetStrokeColor_CoreGraphics_CGColor_llvm:
+	.globl _p_134_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetStrokeColor_CoreGraphics_CGColor_llvm
+.private_extern _p_134_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetStrokeColor_CoreGraphics_CGColor_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGContext_SetStrokeColor_CoreGraphics_CGColor
+plt_SignaturePad_iOS_CoreGraphics_CGContext_SetStrokeColor_CoreGraphics_CGColor:
+_p_134:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1224]
+br x16
+.word 6240
+_p_135_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineWidth_System_nfloat_llvm:
+	.globl _p_135_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineWidth_System_nfloat_llvm
+.private_extern _p_135_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineWidth_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineWidth_System_nfloat
+plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineWidth_System_nfloat:
+_p_135:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1232]
+br x16
+.word 6245
+_p_136_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineCap_CoreGraphics_CGLineCap_llvm:
+	.globl _p_136_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineCap_CoreGraphics_CGLineCap_llvm
+.private_extern _p_136_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineCap_CoreGraphics_CGLineCap_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineCap_CoreGraphics_CGLineCap
+plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineCap_CoreGraphics_CGLineCap:
+_p_136:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1240]
+br x16
+.word 6250
+_p_137_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineJoin_CoreGraphics_CGLineJoin_llvm:
+	.globl _p_137_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineJoin_CoreGraphics_CGLineJoin_llvm
+.private_extern _p_137_plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineJoin_CoreGraphics_CGLineJoin_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineJoin_CoreGraphics_CGLineJoin
+plt_SignaturePad_iOS_CoreGraphics_CGContext_SetLineJoin_CoreGraphics_CGLineJoin:
+_p_137:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1248]
+br x16
+.word 6255
+_p_138_plt_SignaturePad_iOS_CoreGraphics_CGContext_ScaleCTM_System_nfloat_System_nfloat_llvm:
+	.globl _p_138_plt_SignaturePad_iOS_CoreGraphics_CGContext_ScaleCTM_System_nfloat_System_nfloat_llvm
+.private_extern _p_138_plt_SignaturePad_iOS_CoreGraphics_CGContext_ScaleCTM_System_nfloat_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGContext_ScaleCTM_System_nfloat_System_nfloat
+plt_SignaturePad_iOS_CoreGraphics_CGContext_ScaleCTM_System_nfloat_System_nfloat:
+_p_138:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1256]
+br x16
+.word 6260
+_p_139_plt_SignaturePad_iOS_System_Collections_Generic_List_1_UIKit_UIBezierPath_GetEnumerator_llvm:
+	.globl _p_139_plt_SignaturePad_iOS_System_Collections_Generic_List_1_UIKit_UIBezierPath_GetEnumerator_llvm
+.private_extern _p_139_plt_SignaturePad_iOS_System_Collections_Generic_List_1_UIKit_UIBezierPath_GetEnumerator_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_UIKit_UIBezierPath_GetEnumerator
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_UIKit_UIBezierPath_GetEnumerator:
+_p_139:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1264]
+br x16
+.word 6265
+_p_140_plt_SignaturePad_iOS_CoreGraphics_CGAffineTransform_MakeTranslation_System_nfloat_System_nfloat_llvm:
+	.globl _p_140_plt_SignaturePad_iOS_CoreGraphics_CGAffineTransform_MakeTranslation_System_nfloat_System_nfloat_llvm
+.private_extern _p_140_plt_SignaturePad_iOS_CoreGraphics_CGAffineTransform_MakeTranslation_System_nfloat_System_nfloat_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGAffineTransform_MakeTranslation_System_nfloat_System_nfloat
+plt_SignaturePad_iOS_CoreGraphics_CGAffineTransform_MakeTranslation_System_nfloat_System_nfloat:
+_p_140:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1272]
+br x16
+.word 6276
+_p_141_plt_SignaturePad_iOS_CoreGraphics_CGContext_AddPath_CoreGraphics_CGPath_llvm:
+	.globl _p_141_plt_SignaturePad_iOS_CoreGraphics_CGContext_AddPath_CoreGraphics_CGPath_llvm
+.private_extern _p_141_plt_SignaturePad_iOS_CoreGraphics_CGContext_AddPath_CoreGraphics_CGPath_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGContext_AddPath_CoreGraphics_CGPath
+plt_SignaturePad_iOS_CoreGraphics_CGContext_AddPath_CoreGraphics_CGPath:
+_p_141:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1280]
+br x16
+.word 6281
+_p_142_plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_UIKit_UIBezierPath_MoveNext_llvm:
+	.globl _p_142_plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_UIKit_UIBezierPath_MoveNext_llvm
+.private_extern _p_142_plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_UIKit_UIBezierPath_MoveNext_llvm
+	.no_dead_strip plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_UIKit_UIBezierPath_MoveNext
+plt_SignaturePad_iOS_System_Collections_Generic_List_1_Enumerator_UIKit_UIBezierPath_MoveNext:
+_p_142:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1288]
+br x16
+.word 6286
+_p_143_plt_SignaturePad_iOS_CoreGraphics_CGContext_StrokePath_llvm:
+	.globl _p_143_plt_SignaturePad_iOS_CoreGraphics_CGContext_StrokePath_llvm
+.private_extern _p_143_plt_SignaturePad_iOS_CoreGraphics_CGContext_StrokePath_llvm
+	.no_dead_strip plt_SignaturePad_iOS_CoreGraphics_CGContext_StrokePath
+plt_SignaturePad_iOS_CoreGraphics_CGContext_StrokePath:
+_p_143:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1296]
+br x16
+.word 6297
+_p_144_plt_SignaturePad_iOS_UIKit_UIGraphics_GetImageFromCurrentImageContext_llvm:
+	.globl _p_144_plt_SignaturePad_iOS_UIKit_UIGraphics_GetImageFromCurrentImageContext_llvm
+.private_extern _p_144_plt_SignaturePad_iOS_UIKit_UIGraphics_GetImageFromCurrentImageContext_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIGraphics_GetImageFromCurrentImageContext
+plt_SignaturePad_iOS_UIKit_UIGraphics_GetImageFromCurrentImageContext:
+_p_144:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1304]
+br x16
+.word 6302
+_p_145_plt_SignaturePad_iOS_UIKit_UIGraphics_EndImageContext_llvm:
+	.globl _p_145_plt_SignaturePad_iOS_UIKit_UIGraphics_EndImageContext_llvm
+.private_extern _p_145_plt_SignaturePad_iOS_UIKit_UIGraphics_EndImageContext_llvm
+	.no_dead_strip plt_SignaturePad_iOS_UIKit_UIGraphics_EndImageContext
+plt_SignaturePad_iOS_UIKit_UIGraphics_EndImageContext:
+_p_145:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1312]
+br x16
+.word 6307
+_p_146_plt_SignaturePad_iOS__jit_icall_mono_arch_throw_corlib_exception_llvm:
+	.globl _p_146_plt_SignaturePad_iOS__jit_icall_mono_arch_throw_corlib_exception_llvm
+.private_extern _p_146_plt_SignaturePad_iOS__jit_icall_mono_arch_throw_corlib_exception_llvm
+	.no_dead_strip plt_SignaturePad_iOS__jit_icall_mono_arch_throw_corlib_exception
+plt_SignaturePad_iOS__jit_icall_mono_arch_throw_corlib_exception:
+_p_146:
+adrp x16, mono_aot_SignaturePad_iOS_got@PAGE+0
+add x16, x16, mono_aot_SignaturePad_iOS_got@PAGEOFF
+ldr x16, [x16, #1320]
+br x16
+.word 6312
+plt_end:
+_mono_aot_SignaturePad_iOSplt_end:
+	.globl _mono_aot_SignaturePad_iOSplt_end
+.section __DATA, __bss
+	.align 3
+jit_got:
+_mono_aot_SignaturePad_iOSjit_got:
+	.globl _mono_aot_SignaturePad_iOSjit_got
+.lcomm mono_aot_SignaturePad_iOS_got, 1328
+got_end:
+.section __TEXT, __const
+	.align 3
+Lglobals_hash:
+
+	.short 11, 0, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 1, 0, 0
+	.short 0, 0, 0, 0, 0, 0, 0
+.section __TEXT, __const
+	.align 2
+name_0:
+	.asciz "_unbox_trampoline_p"
+.data
+	.align 3
+globals:
+_mono_aot_SignaturePad_iOSglobals:
+	.globl _mono_aot_SignaturePad_iOSglobals
+	.align 3
+	.quad Lglobals_hash
+	.align 3
+	.quad name_0
+	.align 3
+	.quad _unbox_trampoline_p
+
+	.long 0,0
+.section __DWARF, __debug_info,regular,debug
+LTDIE_4:
+
+	.byte 17
+	.asciz "System_Object"
+
+	.byte 16,7
+	.asciz "System_Object"
+
+LDIFF_SYM4=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM4
+LTDIE_4_POINTER:
+
+	.byte 13
+LDIFF_SYM5=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM5
+LTDIE_4_REFERENCE:
+
+	.byte 14
+LDIFF_SYM6=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM6
+LTDIE_5:
+
+	.byte 8
+	.asciz "_Flags"
+
+	.byte 1
+LDIFF_SYM7=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM7
+	.byte 9
+	.asciz "Disposed"
+
+	.byte 1,9
+	.asciz "NativeRef"
+
+	.byte 2,9
+	.asciz "IsDirectBinding"
+
+	.byte 4,9
+	.asciz "RegisteredToggleRef"
+
+	.byte 8,9
+	.asciz "InFinalizerQueue"
+
+	.byte 16,9
+	.asciz "HasManagedRef"
+
+	.byte 32,0,7
+	.asciz "_Flags"
+
+LDIFF_SYM8=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM8
+LTDIE_5_POINTER:
+
+	.byte 13
+LDIFF_SYM9=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM9
+LTDIE_5_REFERENCE:
+
+	.byte 14
+LDIFF_SYM10=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM10
+LTDIE_3:
+
+	.byte 5
+	.asciz "Foundation_NSObject"
+
+	.byte 40,16
+LDIFF_SYM11=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM11
+	.byte 2,35,0,6
+	.asciz "handle"
+
+LDIFF_SYM12=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM12
+	.byte 2,35,16,6
+	.asciz "class_handle"
+
+LDIFF_SYM13=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM13
+	.byte 2,35,24,6
+	.asciz "flags"
+
+LDIFF_SYM14=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM14
+	.byte 2,35,32,0,7
+	.asciz "Foundation_NSObject"
+
+LDIFF_SYM15=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM15
+LTDIE_3_POINTER:
+
+	.byte 13
+LDIFF_SYM16=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM16
+LTDIE_3_REFERENCE:
+
+	.byte 14
+LDIFF_SYM17=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM17
+LTDIE_2:
+
+	.byte 5
+	.asciz "UIKit_UIResponder"
+
+	.byte 40,16
+LDIFF_SYM18=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM18
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIResponder"
+
+LDIFF_SYM19=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM19
+LTDIE_2_POINTER:
+
+	.byte 13
+LDIFF_SYM20=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM20
+LTDIE_2_REFERENCE:
+
+	.byte 14
+LDIFF_SYM21=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM21
+LTDIE_1:
+
+	.byte 5
+	.asciz "UIKit_UIView"
+
+	.byte 48,16
+LDIFF_SYM22=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM22
+	.byte 2,35,0,6
+	.asciz "__mt_PreferredFocusedView_var"
+
+LDIFF_SYM23=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM23
+	.byte 2,35,40,0,7
+	.asciz "UIKit_UIView"
+
+LDIFF_SYM24=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM24
+LTDIE_1_POINTER:
+
+	.byte 13
+LDIFF_SYM25=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM25
+LTDIE_1_REFERENCE:
+
+	.byte 14
+LDIFF_SYM26=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM26
+LTDIE_6:
+
+	.byte 5
+	.asciz "UIKit_UILabel"
+
+	.byte 48,16
+LDIFF_SYM27=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM27
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UILabel"
+
+LDIFF_SYM28=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM28
+LTDIE_6_POINTER:
+
+	.byte 13
+LDIFF_SYM29=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM29
+LTDIE_6_REFERENCE:
+
+	.byte 14
+LDIFF_SYM30=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM30
+LTDIE_8:
+
+	.byte 5
+	.asciz "UIKit_UIControl"
+
+	.byte 48,16
+LDIFF_SYM31=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM31
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIControl"
+
+LDIFF_SYM32=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM32
+LTDIE_8_POINTER:
+
+	.byte 13
+LDIFF_SYM33=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM33
+LTDIE_8_REFERENCE:
+
+	.byte 14
+LDIFF_SYM34=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM34
+LTDIE_7:
+
+	.byte 5
+	.asciz "UIKit_UIButton"
+
+	.byte 48,16
+LDIFF_SYM35=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM35
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIButton"
+
+LDIFF_SYM36=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM36
+LTDIE_7_POINTER:
+
+	.byte 13
+LDIFF_SYM37=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM37
+LTDIE_7_REFERENCE:
+
+	.byte 14
+LDIFF_SYM38=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM38
+LTDIE_9:
+
+	.byte 5
+	.asciz "UIKit_UIImageView"
+
+	.byte 48,16
+LDIFF_SYM39=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM39
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIImageView"
+
+LDIFF_SYM40=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM40
+LTDIE_9_POINTER:
+
+	.byte 13
+LDIFF_SYM41=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM41
+LTDIE_9_REFERENCE:
+
+	.byte 14
+LDIFF_SYM42=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM42
+LTDIE_10:
+
+	.byte 5
+	.asciz "UIKit_UIBezierPath"
+
+	.byte 40,16
+LDIFF_SYM43=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM43
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIBezierPath"
+
+LDIFF_SYM44=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM44
+LTDIE_10_POINTER:
+
+	.byte 13
+LDIFF_SYM45=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM45
+LTDIE_10_REFERENCE:
+
+	.byte 14
+LDIFF_SYM46=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM46
+LTDIE_13:
+
+	.byte 5
+	.asciz "System_ValueType"
+
+	.byte 16,16
+LDIFF_SYM47=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM47
+	.byte 2,35,0,0,7
+	.asciz "System_ValueType"
+
+LDIFF_SYM48=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM48
+LTDIE_13_POINTER:
+
+	.byte 13
+LDIFF_SYM49=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM49
+LTDIE_13_REFERENCE:
+
+	.byte 14
+LDIFF_SYM50=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM50
+LTDIE_12:
+
+	.byte 5
+	.asciz "System_Int32"
+
+	.byte 20,16
+LDIFF_SYM51=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM51
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM52=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM52
+	.byte 2,35,16,0,7
+	.asciz "System_Int32"
+
+LDIFF_SYM53=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM53
+LTDIE_12_POINTER:
+
+	.byte 13
+LDIFF_SYM54=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM54
+LTDIE_12_REFERENCE:
+
+	.byte 14
+LDIFF_SYM55=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM55
+LTDIE_11:
+
+	.byte 5
+	.asciz "System_Collections_Generic_List`1"
+
+	.byte 32,16
+LDIFF_SYM56=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM56
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM57=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM57
+	.byte 2,35,16,6
+	.asciz "_size"
+
+LDIFF_SYM58=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM58
+	.byte 2,35,24,6
+	.asciz "_version"
+
+LDIFF_SYM59=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM59
+	.byte 2,35,28,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM60=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM60
+LTDIE_11_POINTER:
+
+	.byte 13
+LDIFF_SYM61=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM61
+LTDIE_11_REFERENCE:
+
+	.byte 14
+LDIFF_SYM62=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM62
+LTDIE_14:
+
+	.byte 5
+	.asciz "System_Collections_Generic_List`1"
+
+	.byte 32,16
+LDIFF_SYM63=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM63
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM64=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM64
+	.byte 2,35,16,6
+	.asciz "_size"
+
+LDIFF_SYM65=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM65
+	.byte 2,35,24,6
+	.asciz "_version"
+
+LDIFF_SYM66=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM66
+	.byte 2,35,28,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM67=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM67
+LTDIE_14_POINTER:
+
+	.byte 13
+LDIFF_SYM68=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM68
+LTDIE_14_REFERENCE:
+
+	.byte 14
+LDIFF_SYM69=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM69
+LTDIE_15:
+
+	.byte 5
+	.asciz "System_Collections_Generic_List`1"
+
+	.byte 32,16
+LDIFF_SYM70=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM70
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM71=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM71
+	.byte 2,35,16,6
+	.asciz "_size"
+
+LDIFF_SYM72=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM72
+	.byte 2,35,24,6
+	.asciz "_version"
+
+LDIFF_SYM73=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM73
+	.byte 2,35,28,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM74=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM74
+LTDIE_15_POINTER:
+
+	.byte 13
+LDIFF_SYM75=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM75
+LTDIE_15_REFERENCE:
+
+	.byte 14
+LDIFF_SYM76=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM76
+LTDIE_16:
+
+	.byte 5
+	.asciz "UIKit_UIColor"
+
+	.byte 40,16
+LDIFF_SYM77=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM77
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIColor"
+
+LDIFF_SYM78=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM78
+LTDIE_16_POINTER:
+
+	.byte 13
+LDIFF_SYM79=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM79
+LTDIE_16_REFERENCE:
+
+	.byte 14
+LDIFF_SYM80=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM80
+LTDIE_17:
+
+	.byte 5
+	.asciz "System_Single"
+
+	.byte 20,16
+LDIFF_SYM81=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM81
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM82=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM82
+	.byte 2,35,16,0,7
+	.asciz "System_Single"
+
+LDIFF_SYM83=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM83
+LTDIE_17_POINTER:
+
+	.byte 13
+LDIFF_SYM84=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM84
+LTDIE_17_REFERENCE:
+
+	.byte 14
+LDIFF_SYM85=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM85
+LTDIE_0:
+
+	.byte 5
+	.asciz "SignaturePad_SignaturePadView"
+
+	.byte 176,1,16
+LDIFF_SYM86=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM86
+	.byte 2,35,0,6
+	.asciz "lblSign"
+
+LDIFF_SYM87=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM87
+	.byte 2,35,48,6
+	.asciz "signatureLine"
+
+LDIFF_SYM88=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM88
+	.byte 2,35,56,6
+	.asciz "xLabel"
+
+LDIFF_SYM89=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM89
+	.byte 2,35,64,6
+	.asciz "btnClear"
+
+LDIFF_SYM90=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM90
+	.byte 2,35,72,6
+	.asciz "imageView"
+
+LDIFF_SYM91=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM91
+	.byte 2,35,80,6
+	.asciz "currentPath"
+
+LDIFF_SYM92=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM92
+	.byte 2,35,88,6
+	.asciz "paths"
+
+LDIFF_SYM93=LTDIE_11_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM93
+	.byte 2,35,96,6
+	.asciz "currentPoints"
+
+LDIFF_SYM94=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM94
+	.byte 2,35,104,6
+	.asciz "points"
+
+LDIFF_SYM95=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM95
+	.byte 2,35,112,6
+	.asciz "minX"
+
+LDIFF_SYM96=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM96
+	.byte 3,35,136,1,6
+	.asciz "minY"
+
+LDIFF_SYM97=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM97
+	.byte 3,35,144,1,6
+	.asciz "maxX"
+
+LDIFF_SYM98=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM98
+	.byte 3,35,152,1,6
+	.asciz "maxY"
+
+LDIFF_SYM99=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM99
+	.byte 3,35,160,1,6
+	.asciz "strokeColor"
+
+LDIFF_SYM100=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM100
+	.byte 2,35,120,6
+	.asciz "strokeWidth"
+
+LDIFF_SYM101=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM101
+	.byte 3,35,168,1,6
+	.asciz "<BackgroundImageView>k__BackingField"
+
+LDIFF_SYM102=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM102
+	.byte 3,35,128,1,0,7
+	.asciz "SignaturePad_SignaturePadView"
+
+LDIFF_SYM103=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM103
+LTDIE_0_POINTER:
+
+	.byte 13
+LDIFF_SYM104=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM104
+LTDIE_0_REFERENCE:
+
+	.byte 14
+LDIFF_SYM105=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM105
+LTDIE_18:
+
+	.byte 5
+	.asciz "System_Boolean"
+
+	.byte 17,16
+LDIFF_SYM106=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM106
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM107=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM107
+	.byte 2,35,16,0,7
+	.asciz "System_Boolean"
+
+LDIFF_SYM108=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM108
+LTDIE_18_POINTER:
+
+	.byte 13
+LDIFF_SYM109=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM109
+LTDIE_18_REFERENCE:
+
+	.byte 14
+LDIFF_SYM110=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM110
+LTDIE_19:
+
+	.byte 5
+	.asciz "CoreGraphics_CGContext"
+
+	.byte 24,16
+LDIFF_SYM111=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM111
+	.byte 2,35,0,6
+	.asciz "handle"
+
+LDIFF_SYM112=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM112
+	.byte 2,35,16,0,7
+	.asciz "CoreGraphics_CGContext"
+
+LDIFF_SYM113=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM113
+LTDIE_19_POINTER:
+
+	.byte 13
+LDIFF_SYM114=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM114
+LTDIE_19_REFERENCE:
+
+	.byte 14
+LDIFF_SYM115=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM115
+LTDIE_20:
+
+	.byte 5
+	.asciz "CoreGraphics_CGPath"
+
+	.byte 24,16
+LDIFF_SYM116=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM116
+	.byte 2,35,0,6
+	.asciz "handle"
+
+LDIFF_SYM117=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM117
+	.byte 2,35,16,0,7
+	.asciz "CoreGraphics_CGPath"
+
+LDIFF_SYM118=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM118
+LTDIE_20_POINTER:
+
+	.byte 13
+LDIFF_SYM119=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM119
+LTDIE_20_REFERENCE:
+
+	.byte 14
+LDIFF_SYM120=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM120
+LTDIE_21:
+
+	.byte 5
+	.asciz "UIKit_UIImage"
+
+	.byte 40,16
+LDIFF_SYM121=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM121
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIImage"
+
+LDIFF_SYM122=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM122
+LTDIE_21_POINTER:
+
+	.byte 13
+LDIFF_SYM123=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM123
+LTDIE_21_REFERENCE:
+
+	.byte 14
+LDIFF_SYM124=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM124
+	.byte 2
+	.asciz "SignaturePad.SignaturePadView:GetImage"
+	.asciz "SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_System_nfloat_bool_bool"
+
+	.byte 0,0
+	.quad SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_System_nfloat_bool_bool
+	.quad Lme_1f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM125=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM125
+	.byte 1,102,3
+	.asciz "strokeColor"
+
+LDIFF_SYM126=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM126
+	.byte 1,103,3
+	.asciz "fillColor"
+
+LDIFF_SYM127=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM127
+	.byte 1,104,3
+	.asciz "size"
+
+LDIFF_SYM128=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM128
+	.byte 2,141,56,3
+	.asciz "scale"
+
+LDIFF_SYM129=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM129
+	.byte 3,141,248,0,3
+	.asciz "shouldCrop"
+
+LDIFF_SYM130=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM130
+	.byte 1,105,3
+	.asciz "keepAspectRatio"
+
+LDIFF_SYM131=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM131
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM132=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM132
+	.byte 3,141,200,3,11
+	.asciz "V_1"
+
+LDIFF_SYM133=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM133
+	.byte 3,141,168,3,11
+	.asciz "V_2"
+
+LDIFF_SYM134=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM134
+	.byte 3,141,224,3,11
+	.asciz "V_3"
+
+LDIFF_SYM135=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM135
+	.byte 3,141,240,3,11
+	.asciz "V_4"
+
+LDIFF_SYM136=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM136
+	.byte 3,141,136,3,11
+	.asciz "V_5"
+
+LDIFF_SYM137=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM137
+	.byte 3,141,248,3,11
+	.asciz "V_6"
+
+LDIFF_SYM138=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM138
+	.byte 3,141,232,2,11
+	.asciz "V_7"
+
+LDIFF_SYM139=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM139
+	.byte 1,106,11
+	.asciz "V_8"
+
+LDIFF_SYM140=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM140
+	.byte 1,104,11
+	.asciz "V_9"
+
+LDIFF_SYM141=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM141
+	.byte 3,141,208,2,11
+	.asciz "V_10"
+
+LDIFF_SYM142=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM142
+	.byte 1,103,11
+	.asciz "V_11"
+
+LDIFF_SYM143=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM143
+	.byte 1,104,11
+	.asciz "V_12"
+
+LDIFF_SYM144=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM144
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM145=Lfde0_end - Lfde0_start
+	.long LDIFF_SYM145
+Lfde0_start:
+
+	.long 0
+	.align 3
+	.quad SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_System_nfloat_bool_bool
+
+LDIFF_SYM146=Lme_1f - SignaturePad_SignaturePadView_GetImage_UIKit_UIColor_UIKit_UIColor_CoreGraphics_CGSize_System_nfloat_bool_bool
+	.long LDIFF_SYM146
+	.long 0
+	.byte 12,31,0,84,14,192,4,157,72,158,71,68,13,29,68,150,70,151,69,68,152,68,153,67,68,154,66
+	.align 3
+Lfde0_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_23:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IEnumerable`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IEnumerable`1"
+
+LDIFF_SYM147=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM147
+LTDIE_23_POINTER:
+
+	.byte 13
+LDIFF_SYM148=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM148
+LTDIE_23_REFERENCE:
+
+	.byte 14
+LDIFF_SYM149=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM149
+LTDIE_24:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IEnumerator`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IEnumerator`1"
+
+LDIFF_SYM150=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM150
+LTDIE_24_POINTER:
+
+	.byte 13
+LDIFF_SYM151=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM151
+LTDIE_24_REFERENCE:
+
+	.byte 14
+LDIFF_SYM152=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM152
+LTDIE_22:
+
+	.byte 5
+	.asciz "_<ConcatIterator>c__IteratorE`1"
+
+	.byte 104,16
+LDIFF_SYM153=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM153
+	.byte 2,35,0,6
+	.asciz "first"
+
+LDIFF_SYM154=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM154
+	.byte 2,35,16,6
+	.asciz "$locvar0"
+
+LDIFF_SYM155=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM155
+	.byte 2,35,24,6
+	.asciz "<element>__0"
+
+LDIFF_SYM156=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM156
+	.byte 2,35,48,6
+	.asciz "second"
+
+LDIFF_SYM157=LTDIE_23_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM157
+	.byte 2,35,32,6
+	.asciz "$locvar1"
+
+LDIFF_SYM158=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM158
+	.byte 2,35,40,6
+	.asciz "<element>__1"
+
+LDIFF_SYM159=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM159
+	.byte 2,35,64,6
+	.asciz "$current"
+
+LDIFF_SYM160=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM160
+	.byte 2,35,80,6
+	.asciz "$disposing"
+
+LDIFF_SYM161=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM161
+	.byte 2,35,96,6
+	.asciz "$PC"
+
+LDIFF_SYM162=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM162
+	.byte 2,35,100,0,7
+	.asciz "_<ConcatIterator>c__IteratorE`1"
+
+LDIFF_SYM163=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM163
+LTDIE_22_POINTER:
+
+	.byte 13
+LDIFF_SYM164=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM164
+LTDIE_22_REFERENCE:
+
+	.byte 14
+LDIFF_SYM165=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM165
+LTDIE_25:
+
+	.byte 5
+	.asciz "System_UInt32"
+
+	.byte 20,16
+LDIFF_SYM166=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM166
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM167=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM167
+	.byte 2,35,16,0,7
+	.asciz "System_UInt32"
+
+LDIFF_SYM168=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM168
+LTDIE_25_POINTER:
+
+	.byte 13
+LDIFF_SYM169=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM169
+LTDIE_25_REFERENCE:
+
+	.byte 14
+LDIFF_SYM170=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM170
+	.byte 2
+	.asciz "System.Linq.Enumerable/<ConcatIterator>c__IteratorE`1<CoreGraphics.CGPoint>:Dispose"
+	.asciz "System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_Dispose"
+
+	.byte 0,0
+	.quad System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_Dispose
+	.quad Lme_9d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM171=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM171
+	.byte 2,141,16,11
+	.asciz "V_0"
+
+LDIFF_SYM172=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM172
+	.byte 0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM173=Lfde1_end - Lfde1_start
+	.long LDIFF_SYM173
+Lfde1_start:
+
+	.long 0
+	.align 3
+	.quad System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_Dispose
+
+LDIFF_SYM174=Lme_9d - System_Linq_Enumerable__ConcatIteratorc__IteratorE_1_CoreGraphics_CGPoint_Dispose
+	.long LDIFF_SYM174
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde1_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 0
+Ldebug_info_end:
+.section __DWARF, __debug_line,regular,debug
+Ldebug_line_section_start:
+Ldebug_line_start:
+
+	.long Ldebug_line_end - . -4
+	.short 2
+	.long Ldebug_line_header_end - . -4
+	.byte 1,1,251,14,13,0,1,1,1,1,0,0,0,1,0,0,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0
+	.asciz "<unknown>"
+
+	.byte 0,0,0,0
+Ldebug_line_header_end:
+
+	.byte 0,1,1
+Ldebug_line_end:
+.text
+	.align 3
+mem_end:

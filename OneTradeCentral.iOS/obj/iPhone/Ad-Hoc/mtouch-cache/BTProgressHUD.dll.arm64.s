@@ -1,0 +1,3869 @@
+.subsections_via_symbols
+.section __DWARF, __debug_abbrev,regular,debug
+
+	.byte 1,17,1,37,8,3,8,27,8,19,11,17,1,18,1,16,6,0,0,2,46,1,3,8,135,64,8,58,15,59,15,17
+	.byte 1,18,1,64,10,0,0,3,5,0,3,8,73,19,2,10,0,0,15,5,0,3,8,73,19,2,6,0,0,4,36,0
+	.byte 11,11,62,11,3,8,0,0,5,2,1,3,8,11,15,0,0,17,2,0,3,8,11,15,0,0,6,13,0,3,8,73
+	.byte 19,56,10,0,0,7,22,0,3,8,73,19,0,0,8,4,1,3,8,11,15,73,19,0,0,9,40,0,3,8,28,13
+	.byte 0,0,10,57,1,3,8,0,0,11,52,0,3,8,73,19,2,10,0,0,12,52,0,3,8,73,19,2,6,0,0,13
+	.byte 15,0,73,19,0,0,14,16,0,73,19,0,0,16,28,0,73,19,56,10,0,0,18,46,0,3,8,17,1,18,1,0
+	.byte 0,0
+.section __DWARF, __debug_info,regular,debug
+Ldebug_info_start:
+
+LDIFF_SYM0=Ldebug_info_end - Ldebug_info_begin
+	.long LDIFF_SYM0
+Ldebug_info_begin:
+
+	.short 2
+	.long 0
+	.byte 8,1
+	.asciz "Mono AOT Compiler 4.4.2 (mono-4.4.0-branch-c7sr1/f72fe45 Thu Jul 28 12:04:28 EDT 2016)"
+	.asciz "BTProgressHUD.dll"
+	.asciz ""
+
+	.byte 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+LDIFF_SYM1=Ldebug_line_start - Ldebug_line_section_start
+	.long LDIFF_SYM1
+LDIE_I1:
+
+	.byte 4,1,5
+	.asciz "sbyte"
+LDIE_U1:
+
+	.byte 4,1,7
+	.asciz "byte"
+LDIE_I2:
+
+	.byte 4,2,5
+	.asciz "short"
+LDIE_U2:
+
+	.byte 4,2,7
+	.asciz "ushort"
+LDIE_I4:
+
+	.byte 4,4,5
+	.asciz "int"
+LDIE_U4:
+
+	.byte 4,4,7
+	.asciz "uint"
+LDIE_I8:
+
+	.byte 4,8,5
+	.asciz "long"
+LDIE_U8:
+
+	.byte 4,8,7
+	.asciz "ulong"
+LDIE_I:
+
+	.byte 4,8,5
+	.asciz "intptr"
+LDIE_U:
+
+	.byte 4,8,7
+	.asciz "uintptr"
+LDIE_R4:
+
+	.byte 4,4,4
+	.asciz "float"
+LDIE_R8:
+
+	.byte 4,8,4
+	.asciz "double"
+LDIE_BOOLEAN:
+
+	.byte 4,1,2
+	.asciz "boolean"
+LDIE_CHAR:
+
+	.byte 4,2,8
+	.asciz "char"
+LDIE_STRING:
+
+	.byte 4,8,1
+	.asciz "string"
+LDIE_OBJECT:
+
+	.byte 4,8,1
+	.asciz "object"
+LDIE_SZARRAY:
+
+	.byte 4,8,1
+	.asciz "object"
+.section __DWARF, __debug_loc,regular,debug
+Ldebug_loc_start:
+.section __DWARF, __debug_frame,regular,debug
+	.align 3
+
+LDIFF_SYM2=Lcie0_end - Lcie0_start
+	.long LDIFF_SYM2
+Lcie0_start:
+
+	.long -1
+	.byte 3
+	.asciz ""
+
+	.byte 1,120,30
+	.align 3
+Lcie0_end:
+.text
+	.align 3
+jit_code_start:
+_mono_aot_BTProgressHUDjit_code_start:
+	.globl _mono_aot_BTProgressHUDjit_code_start
+
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+.text
+	.align 4
+	.no_dead_strip BigTed_ProgressHUD_Draw_CoreGraphics_CGRect
+BigTed_ProgressHUD_Draw_CoreGraphics_CGRect:
+.word 0xd2804a10
+.word 0x910003f1
+.word 0xcb100231
+.word 0x9100023f
+.word 0xa9007bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+.word 0xfd0013a0
+.word 0xfd0017a1
+.word 0xfd001ba2
+.word 0xfd001fa3
+.word 0xf900dbbf
+.word 0xf900dfbf
+.word 0xf900e3bf
+.word 0xd2800000
+.word 0xf900d3a0
+.word 0xf900d7a0
+.word 0xd2800000
+.word 0xf900c3a0
+.word 0xf900c7a0
+.word 0xf900cba0
+.word 0xf900cfa0
+.word 0xd2800000
+.word 0xf900bba0
+.word 0xf900bfa0
+.word 0xd2800000
+.word 0xf900aba0
+.word 0xf900afa0
+.word 0xf900b3a0
+.word 0xf900b7a0
+.word 0xd2800000
+.word 0xf900a3a0
+.word 0xf900a7a0
+.word 0xd2800000
+.word 0xf90093a0
+.word 0xf90097a0
+.word 0xf9009ba0
+.word 0xf9009fa0
+.word 0xd2800000
+.word 0xf9008ba0
+.word 0xf9008fa0
+.word 0xd2800000
+.word 0xf9007ba0
+.word 0xf9007fa0
+.word 0xf90083a0
+.word 0xf90087a0
+.word 0xd2800000
+.word 0xf90073a0
+.word 0xf90077a0
+bl _p_147
+.word 0xf900dba0
+.word 0xb980cb59
+.word 0xaa1903e0
+.word 0xd280007e
+.word 0x6b1e001f
+.word 0x540000a0
+.word 0xd280009e
+.word 0x6b1e033f
+.word 0x540004a0
+.word 0x1400017f
+.word 0xd280001e
+.word 0x9e6703d0
+.word 0x1e22c200
+.word 0xd280001e
+.word 0xf2a7e01e
+.word 0x9e6703d0
+.word 0x1e22c201
+bl _p_24
+.word 0xaa0003e1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf940e830
+.word 0xd63f0200
+.word 0xf940dba0
+.word 0xf9011ba0
+.word 0x910203a0
+.word 0xf900e7a0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9418430
+.word 0xd63f0200
+.word 0xf940e7be
+.word 0xfd0003c0
+.word 0xfd0007c1
+.word 0xfd000bc2
+.word 0xfd000fc3
+.word 0xf9411ba1
+.word 0xaa0103e0
+.word 0xfd4043a0
+.word 0xfd4047a1
+.word 0xfd404ba2
+.word 0xfd404fa3
+.word 0xf940003e
+bl _p_148
+.word 0x1400015c
+
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x0, [x16, #112]
+.word 0xd2800101
+bl _p_120
+.word 0xaa0003e1
+.word 0xaa0103e0
+.word 0xd2800002
+.word 0x93407c42
+.word 0xb9801823
+.word 0xeb02007f
+.word 0x10000011
+.word 0x54002d09
+.word 0xd37df042
+.word 0x8b020021
+.word 0x91008021
+.word 0xd280001e
+.word 0x9e6703d0
+.word 0x1e22c200
+.word 0xfd000020
+.word 0xd2800021
+.word 0x93407c21
+.word 0xb9801802
+.word 0xeb01005f
+.word 0x10000011
+.word 0x54002b69
+.word 0xd37df021
+.word 0x8b010001
+.word 0x91008021
+.word 0xd280001e
+.word 0x9e6703d0
+.word 0x1e22c200
+.word 0xfd000020
+.word 0xd2800041
+.word 0x93407c21
+.word 0xb9801802
+.word 0xeb01005f
+.word 0x10000011
+.word 0x540029c9
+.word 0xd37df021
+.word 0x8b010001
+.word 0x91008021
+.word 0xd280001e
+.word 0x9e6703d0
+.word 0x1e22c200
+.word 0xfd000020
+.word 0xd2800061
+.word 0x93407c21
+.word 0xb9801802
+.word 0xeb01005f
+.word 0x10000011
+.word 0x54002829
+.word 0xd37df021
+.word 0x8b010001
+.word 0x91008021
+.word 0xd280001e
+.word 0x9e6703d0
+.word 0x1e22c200
+.word 0xfd000020
+.word 0xd2800081
+.word 0x93407c21
+.word 0xb9801802
+.word 0xeb01005f
+.word 0x10000011
+.word 0x54002689
+.word 0xd37df021
+.word 0x8b010001
+.word 0x91008021
+.word 0xd280001e
+.word 0x9e6703d0
+.word 0x1e22c200
+.word 0xfd000020
+.word 0xd28000a1
+.word 0x93407c21
+.word 0xb9801802
+.word 0xeb01005f
+.word 0x10000011
+.word 0x540024e9
+.word 0xd37df021
+.word 0x8b010001
+.word 0x91008021
+.word 0xd280001e
+.word 0x9e6703d0
+.word 0x1e22c200
+.word 0xfd000020
+.word 0xd28000c1
+.word 0x93407c21
+.word 0xb9801802
+.word 0xeb01005f
+.word 0x10000011
+.word 0x54002349
+.word 0xd37df021
+.word 0x8b010001
+.word 0x91008021
+.word 0xd280001e
+.word 0x9e6703d0
+.word 0x1e22c200
+.word 0xfd000020
+.word 0xd28000e1
+.word 0x93407c21
+.word 0xb9801802
+.word 0xeb01005f
+.word 0x10000011
+.word 0x540021a9
+.word 0xd37df021
+.word 0x8b010001
+.word 0x91008021
+.word 0xd280001e
+.word 0xf2a7e81e
+.word 0x9e6703d0
+.word 0x1e22c200
+.word 0xfd000020
+.word 0xaa0003f9
+
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x0, [x16, #112]
+.word 0xd2800041
+bl _p_120
+.word 0xaa0003e1
+.word 0xaa0103e0
+.word 0xd2800002
+.word 0x93407c42
+.word 0xb9801823
+.word 0xeb02007f
+.word 0x10000011
+.word 0x54001ee9
+.word 0xd37df042
+.word 0x8b020021
+.word 0x91008021
+.word 0xd280001e
+.word 0x9e6703d0
+.word 0x1e22c200
+.word 0xfd000020
+.word 0xd2800021
+.word 0x93407c21
+.word 0xb9801802
+.word 0xeb01005f
+.word 0x10000011
+.word 0x54001d49
+.word 0xd37df021
+.word 0x8b010001
+.word 0x91008021
+.word 0xd280001e
+.word 0xf2a7f01e
+.word 0x9e6703d0
+.word 0x1e22c200
+.word 0xfd000020
+.word 0xf900eba0
+bl _p_149
+.word 0xf900dfa0
+.word 0xf940dfa0
+.word 0xf9011fa0
+
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x0, [x16, #120]
+bl _p_17
+.word 0xf9411fa1
+.word 0xf9011ba0
+.word 0xaa1903e2
+.word 0xf940eba3
+bl _p_150
+.word 0xf9411ba0
+.word 0xf900e3a0
+.word 0x910603a0
+.word 0xf900e7a0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9418430
+.word 0xd63f0200
+.word 0xf940e7be
+.word 0xfd0003c0
+.word 0xfd0007c1
+.word 0xfd000bc2
+.word 0xfd000fc3
+.word 0x910603a0
+.word 0xfd400801
+.word 0xfd40cfa0
+.word 0xd2800000
+.word 0xf9006ba0
+.word 0xf9006fa0
+.word 0xfd006ba1
+.word 0xfd006fa0
+.word 0xf9406ba0
+.word 0xf900bba0
+.word 0xf9406fa0
+.word 0xf900bfa0
+.word 0xfd40bba0
+.word 0xd2800040
+.word 0x1e620001
+.word 0x9e6703e2
+.word 0xfd00efa2
+.word 0xfd00efa1
+.word 0xfd40efa1
+.word 0x1e611800
+.word 0xfd0127a0
+.word 0x910543a0
+.word 0xf900e7a0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9418430
+.word 0xd63f0200
+.word 0xf940e7be
+.word 0xfd0003c0
+.word 0xfd0007c1
+.word 0xfd000bc2
+.word 0xfd000fc3
+.word 0xfd4127a1
+.word 0x910543a0
+.word 0xfd400802
+.word 0xfd40b7a0
+.word 0xd2800000
+.word 0xf90063a0
+.word 0xf90067a0
+.word 0xfd0063a2
+.word 0xfd0067a0
+.word 0xf94063a0
+.word 0xf900a3a0
+.word 0xf94067a0
+.word 0xf900a7a0
+.word 0xfd40a7a0
+.word 0xd2800040
+.word 0x1e620002
+.word 0x9e6703e3
+.word 0xfd00f3a3
+.word 0xfd00f3a2
+.word 0xfd40f3a2
+.word 0x1e621800
+.word 0xfd00d3a1
+.word 0xfd00d7a0
+.word 0x910483a0
+.word 0xf900e7a0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9418430
+.word 0xd63f0200
+.word 0xf940e7be
+.word 0xfd0003c0
+.word 0xfd0007c1
+.word 0xfd000bc2
+.word 0xfd000fc3
+.word 0x910483a0
+.word 0xfd400801
+.word 0xfd409fa0
+.word 0xd2800000
+.word 0xf9005ba0
+.word 0xf9005fa0
+.word 0xfd005ba1
+.word 0xfd005fa0
+.word 0xf9405ba0
+.word 0xf9008ba0
+.word 0xf9405fa0
+.word 0xf9008fa0
+.word 0xfd408ba0
+.word 0xfd0123a0
+.word 0x9103c3a0
+.word 0xf900e7a0
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9418430
+.word 0xd63f0200
+.word 0xf940e7be
+.word 0xfd0003c0
+.word 0xfd0007c1
+.word 0xfd000bc2
+.word 0xfd000fc3
+.word 0xfd4123a0
+.word 0x9103c3a0
+.word 0xfd400802
+.word 0xfd4087a1
+.word 0xd2800000
+.word 0xf90053a0
+.word 0xf90057a0
+.word 0xfd0053a2
+.word 0xfd0057a1
+.word 0xf94053a0
+.word 0xf90073a0
+.word 0xf94057a0
+.word 0xf90077a0
+.word 0xfd4077a1
+.word 0x1e624000
+.word 0x1e624021
+bl _p_151
+.word 0x1e22c000
+.word 0x1e624010
+.word 0xbd01ebb0
+.word 0xf940dba3
+.word 0xf940e3a1
+.word 0xf940d3a0
+.word 0xf9003ba0
+.word 0xf940d7a0
+.word 0xf9003fa0
+.word 0xd2800000
+.word 0x1e620000
+.word 0x9e6703e1
+.word 0xfd00fba1
+.word 0xfd00fba0
+.word 0xfd40fba0
+.word 0x1e604002
+.word 0xf940d3a0
+.word 0xf90033a0
+.word 0xf940d7a0
+.word 0xf90037a0
+.word 0xbd41ebb0
+.word 0x1e22c205
+.word 0xaa0303e0
+.word 0xfd403ba0
+.word 0xfd403fa1
+.word 0xfd4033a3
+.word 0xfd4037a4
+.word 0xd2800042
+.word 0xf940007e
+bl _p_152
+.word 0x94000002
+.word 0x14000010
+.word 0xf9010fbe
+.word 0xf940e3a0
+.word 0xb4000160
+.word 0xf940e3a1
+.word 0xaa0103e0
+.word 0xf9400021
+
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x15, [x16, #128]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0xf9410fbe
+.word 0xd61f03c0
+.word 0x94000002
+.word 0x14000010
+.word 0xf90113be
+.word 0xf940dfa0
+.word 0xb4000160
+.word 0xf940dfa1
+.word 0xaa0103e0
+.word 0xf9400021
+
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x15, [x16, #128]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0xf94113be
+.word 0xd61f03c0
+.word 0x14000001
+.word 0x94000002
+.word 0x14000010
+.word 0xf90117be
+.word 0xf940dba0
+.word 0xb4000160
+.word 0xf940dba1
+.word 0xaa0103e0
+.word 0xf9400021
+
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x15, [x16, #128]
+.word 0x928004f0
+.word 0xf2bffff0
+.word 0xf8706830
+.word 0xd63f0200
+.word 0xf94117be
+.word 0xd61f03c0
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa9407bfd
+.word 0xd2804a10
+.word 0x910003f1
+.word 0x8b100231
+.word 0x9100023f
+.word 0xd65f03c0
+.word 0xd2802000
+.word 0xaa1103e1
+bl _p_153
+
+Lme_26:
+.text
+	.align 4
+	.no_dead_strip wrapper_managed_to_native_BigTed_NSObjectExtensions_object_getClassName_intptr
+wrapper_managed_to_native_BigTed_NSObjectExtensions_object_getClassName_intptr:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0x1000001e
+.word 0xf90013be
+.word 0xa902d3b3
+.word 0xa903dbb5
+.word 0xa904e3b7
+.word 0xa905ebb9
+.word 0xa906f3bb
+.word 0xf9003fbd
+.word 0x910003f1
+.word 0xf90043b1
+.word 0xaa0003fa
+
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x0, [x16, #32]
+bl _pthread_getspecific
+.word 0x91004019
+.word 0x910043a0
+.word 0xf9400321
+.word 0xf9000ba1
+.word 0xf9000320
+.word 0xaa1a03e0
+bl _p_154
+.word 0xaa0003fa
+
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x0, [x16, #136]
+.word 0xb9400000
+.word 0x35000180
+.word 0x14000001
+.word 0xf9400ba0
+.word 0xf9000320
+.word 0xaa1a03e0
+.word 0xa94567b8
+.word 0xf94033ba
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xaa1803e0
+bl _p_105
+bl _p_104
+.word 0xaa0003f8
+.word 0xb5ffff80
+.word 0x17fffff3
+
+Lme_80:
+.text
+ut_129:
+add x0, x0, 16
+b _BTProgressHUD_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+ut_end:
+.section __TEXT, __const
+_unbox_trampoline_p:
+
+	.long 0
+LDIFF_SYM3=ut_end - ut_129
+	.long LDIFF_SYM3
+.text
+	.align 3
+jit_code_end:
+_mono_aot_BTProgressHUDjit_code_end:
+	.globl _mono_aot_BTProgressHUDjit_code_end
+
+	.byte 0,0,0,0
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_Show_string_System_Action_string_single_BigTed_ProgressHUD_MaskType
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_ShowContinuousProgress_string_BigTed_ProgressHUD_MaskType
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_bool_double
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_ToastPosition_double
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_bool_double
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_SetStatus_string
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_ShowSuccessWithStatus_string_double
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_ShowErrorWithStatus_string_double
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_ShowImage_UIKit_UIImage_string_double
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_Dismiss
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_get_IsVisible
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_get_ForceiOS6LookAndFeel
+.no_dead_strip _BTProgressHUD_BigTed_BTProgressHUD_set_ForceiOS6LookAndFeel_bool
+.no_dead_strip _BTProgressHUD_BigTed_NSObjectExtensions_GetClassName_Foundation_NSObject
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__cctor
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ctor
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ctor_CoreGraphics_CGRect
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_SetOSSpecificLookAndFeel
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType_double
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_Show_string_System_Action_string_single_BigTed_ProgressHUD_MaskType_double
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_ShowContinuousProgress_string_BigTed_ProgressHUD_MaskType_double_UIKit_UIImage
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_ShowContinuousProgressTest_string_BigTed_ProgressHUD_MaskType_double
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_BigTed_ProgressHUD_ToastPosition_double
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_SetStatus_string
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_ShowSuccessWithStatus_string_double
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_ShowErrorWithStatus_string_double
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_ShowImage_UIKit_UIImage_string_double
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_Dismiss
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_ErrorImage
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_SuccessImage
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_IsVisible
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_Shared
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_RingRadius
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_set_RingRadius_single
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_RingThickness
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_set_RingThickness_single
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_ShowProgressWorker_single_string_BigTed_ProgressHUD_MaskType_bool_BigTed_ProgressHUD_ToastPosition_string_System_Action_double_bool_UIKit_UIImage
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_ShowImageWorker_UIKit_UIImage_string_System_TimeSpan
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_StartDismissTimer_System_TimeSpan
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_StartProgressTimer_System_TimeSpan
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_StopProgressTimer
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_UpdateProgress
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_CancelRingLayerAnimation
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_RingLayer
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_set_RingLayer_CoreAnimation_CAShapeLayer
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_BackgroundRingLayer
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_set_BackgroundRingLayer_CoreAnimation_CAShapeLayer
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_PointOnCircle_CoreGraphics_CGPoint_single_single
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_CreateCirclePath_CoreGraphics_CGPoint_single_int
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_CreateRingLayer_CoreGraphics_CGPoint_single_single_UIKit_UIColor
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_isClear
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_OverlayView
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_set_OverlayView_UIKit_UIView
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_HudView
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_set_HudView_UIKit_UIView
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_StringLabel
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_set_StringLabel_UIKit_UILabel
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_CancelHudButton
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_set_CancelHudButton_UIKit_UIButton
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_ImageView
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_set_ImageView_UIKit_UIImageView
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_SpinnerView
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_set_SpinnerView_UIKit_UIActivityIndicatorView
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_VisibleKeyboardHeight
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_DismissWorker
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_SetStatusWorker_string
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_RegisterNotifications
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_UnRegisterNotifications
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_MoveToPoint_CoreGraphics_CGPoint_single
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_PositionHUD_Foundation_NSNotification
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_SetFadeoutTimer_Foundation_NSTimer
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_SetProgressTimer_Foundation_NSTimer
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_UpdatePosition_bool
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_IsLandscape_UIKit_UIInterfaceOrientation
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_IsPortrait_UIKit_UIInterfaceOrientation
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_IsiOS7ForLookAndFeel
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_IsIOS7OrNewer
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_get_ForceiOS6LookAndFeel
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD_set_ForceiOS6LookAndFeel_bool
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__StartDismissTimerm__0_Foundation_NSTimer
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__StartProgressTimerm__1_Foundation_NSTimer
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__UpdateProgressm__2
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__DismissWorkerm__3
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__DismissWorkerm__4
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__DismissWorkerm__5
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__Showc__AnonStorey0__ctor
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__Showc__AnonStorey0__m__0
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__Showc__AnonStorey1__ctor
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__Showc__AnonStorey1__m__0
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ShowContinuousProgressc__AnonStorey2__ctor
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ShowContinuousProgressc__AnonStorey2__m__0
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ShowContinuousProgressTestc__AnonStorey3__ctor
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ShowContinuousProgressTestc__AnonStorey3__m__0
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ShowToastc__AnonStorey4__ctor
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ShowToastc__AnonStorey4__m__0
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__SetStatusc__AnonStorey5__ctor
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__SetStatusc__AnonStorey5__m__0
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ShowImagec__AnonStorey6__ctor
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ShowImagec__AnonStorey6__m__0
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ShowProgressWorkerc__AnonStorey7__ctor
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ShowProgressWorkerc__AnonStorey7__m__0_object_System_EventArgs
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ShowProgressWorkerc__AnonStorey7__m__1
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ShowProgressWorkerc__AnonStorey7__m__2
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__ShowProgressWorkerc__AnonStorey7__m__3
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__PositionHUDc__AnonStorey8__ctor
+.no_dead_strip _BTProgressHUD_BigTed_ProgressHUD__PositionHUDc__AnonStorey8__m__0
+.no_dead_strip _BTProgressHUD_BigTed_Ring__ctor
+.no_dead_strip _BTProgressHUD_BigTed_Ring_ResetStyle_bool_UIKit_UIColor
+.no_dead_strip _BTProgressHUD_XHUD_HUD_Show_string_int_XHUD_MaskType
+.no_dead_strip _BTProgressHUD_XHUD_HUD_Dismiss
+.no_dead_strip _BTProgressHUD_XHUD_HUD_ShowToast_string_bool_double
+.no_dead_strip _BTProgressHUD_XHUD_HUD_ShowToast_string_XHUD_MaskType_bool_double
+.no_dead_strip _BTProgressHUD_wrapper_delegate_invoke_System_Action_1_Foundation_NSTimer_invoke_void_T_Foundation_NSTimer
+.no_dead_strip _BTProgressHUD_System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+.no_dead_strip _BTProgressHUD_System_Array_InternalArray__ICollection_get_Count
+.no_dead_strip _BTProgressHUD_System_Array_InternalArray__ICollection_get_IsReadOnly
+.no_dead_strip _BTProgressHUD_System_Array_InternalArray__ICollection_Clear
+.no_dead_strip _BTProgressHUD_System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+.no_dead_strip _BTProgressHUD_System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+.no_dead_strip _BTProgressHUD_System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+.no_dead_strip _BTProgressHUD_System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+.no_dead_strip _BTProgressHUD_wrapper_delegate_invoke_System_Predicate_1_Foundation_NSObject_invoke_bool_T_Foundation_NSObject
+.no_dead_strip _BTProgressHUD_wrapper_delegate_invoke_System_Comparison_1_Foundation_NSObject_invoke_int_T_T_Foundation_NSObject_Foundation_NSObject
+.no_dead_strip _BTProgressHUD_wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
+.no_dead_strip _BTProgressHUD_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+
+.text
+	.align 3
+method_addresses:
+_mono_aot_BTProgressHUDmethod_addresses:
+	.globl _mono_aot_BTProgressHUDmethod_addresses
+	.no_dead_strip method_addresses
+bl _BTProgressHUD_BigTed_BTProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType
+bl _BTProgressHUD_BigTed_BTProgressHUD_Show_string_System_Action_string_single_BigTed_ProgressHUD_MaskType
+bl _BTProgressHUD_BigTed_BTProgressHUD_ShowContinuousProgress_string_BigTed_ProgressHUD_MaskType
+bl _BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_bool_double
+bl _BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_ToastPosition_double
+bl _BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_bool_double
+bl _BTProgressHUD_BigTed_BTProgressHUD_SetStatus_string
+bl _BTProgressHUD_BigTed_BTProgressHUD_ShowSuccessWithStatus_string_double
+bl _BTProgressHUD_BigTed_BTProgressHUD_ShowErrorWithStatus_string_double
+bl _BTProgressHUD_BigTed_BTProgressHUD_ShowImage_UIKit_UIImage_string_double
+bl _BTProgressHUD_BigTed_BTProgressHUD_Dismiss
+bl _BTProgressHUD_BigTed_BTProgressHUD_get_IsVisible
+bl _BTProgressHUD_BigTed_BTProgressHUD_get_ForceiOS6LookAndFeel
+bl _BTProgressHUD_BigTed_BTProgressHUD_set_ForceiOS6LookAndFeel_bool
+bl method_addresses
+bl _BTProgressHUD_BigTed_NSObjectExtensions_GetClassName_Foundation_NSObject
+bl _BTProgressHUD_BigTed_ProgressHUD__cctor
+bl _BTProgressHUD_BigTed_ProgressHUD__ctor
+bl _BTProgressHUD_BigTed_ProgressHUD__ctor_CoreGraphics_CGRect
+bl _BTProgressHUD_BigTed_ProgressHUD_SetOSSpecificLookAndFeel
+bl _BTProgressHUD_BigTed_ProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType_double
+bl _BTProgressHUD_BigTed_ProgressHUD_Show_string_System_Action_string_single_BigTed_ProgressHUD_MaskType_double
+bl _BTProgressHUD_BigTed_ProgressHUD_ShowContinuousProgress_string_BigTed_ProgressHUD_MaskType_double_UIKit_UIImage
+bl _BTProgressHUD_BigTed_ProgressHUD_ShowContinuousProgressTest_string_BigTed_ProgressHUD_MaskType_double
+bl _BTProgressHUD_BigTed_ProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_BigTed_ProgressHUD_ToastPosition_double
+bl _BTProgressHUD_BigTed_ProgressHUD_SetStatus_string
+bl _BTProgressHUD_BigTed_ProgressHUD_ShowSuccessWithStatus_string_double
+bl _BTProgressHUD_BigTed_ProgressHUD_ShowErrorWithStatus_string_double
+bl _BTProgressHUD_BigTed_ProgressHUD_ShowImage_UIKit_UIImage_string_double
+bl _BTProgressHUD_BigTed_ProgressHUD_Dismiss
+bl _BTProgressHUD_BigTed_ProgressHUD_get_ErrorImage
+bl _BTProgressHUD_BigTed_ProgressHUD_get_SuccessImage
+bl _BTProgressHUD_BigTed_ProgressHUD_get_IsVisible
+bl _BTProgressHUD_BigTed_ProgressHUD_get_Shared
+bl _BTProgressHUD_BigTed_ProgressHUD_get_RingRadius
+bl _BTProgressHUD_BigTed_ProgressHUD_set_RingRadius_single
+bl _BTProgressHUD_BigTed_ProgressHUD_get_RingThickness
+bl _BTProgressHUD_BigTed_ProgressHUD_set_RingThickness_single
+bl BigTed_ProgressHUD_Draw_CoreGraphics_CGRect
+bl _BTProgressHUD_BigTed_ProgressHUD_ShowProgressWorker_single_string_BigTed_ProgressHUD_MaskType_bool_BigTed_ProgressHUD_ToastPosition_string_System_Action_double_bool_UIKit_UIImage
+bl _BTProgressHUD_BigTed_ProgressHUD_ShowImageWorker_UIKit_UIImage_string_System_TimeSpan
+bl _BTProgressHUD_BigTed_ProgressHUD_StartDismissTimer_System_TimeSpan
+bl _BTProgressHUD_BigTed_ProgressHUD_StartProgressTimer_System_TimeSpan
+bl _BTProgressHUD_BigTed_ProgressHUD_StopProgressTimer
+bl _BTProgressHUD_BigTed_ProgressHUD_UpdateProgress
+bl _BTProgressHUD_BigTed_ProgressHUD_CancelRingLayerAnimation
+bl _BTProgressHUD_BigTed_ProgressHUD_get_RingLayer
+bl _BTProgressHUD_BigTed_ProgressHUD_set_RingLayer_CoreAnimation_CAShapeLayer
+bl _BTProgressHUD_BigTed_ProgressHUD_get_BackgroundRingLayer
+bl _BTProgressHUD_BigTed_ProgressHUD_set_BackgroundRingLayer_CoreAnimation_CAShapeLayer
+bl _BTProgressHUD_BigTed_ProgressHUD_PointOnCircle_CoreGraphics_CGPoint_single_single
+bl _BTProgressHUD_BigTed_ProgressHUD_CreateCirclePath_CoreGraphics_CGPoint_single_int
+bl _BTProgressHUD_BigTed_ProgressHUD_CreateRingLayer_CoreGraphics_CGPoint_single_single_UIKit_UIColor
+bl _BTProgressHUD_BigTed_ProgressHUD_get_isClear
+bl _BTProgressHUD_BigTed_ProgressHUD_get_OverlayView
+bl _BTProgressHUD_BigTed_ProgressHUD_set_OverlayView_UIKit_UIView
+bl _BTProgressHUD_BigTed_ProgressHUD_get_HudView
+bl _BTProgressHUD_BigTed_ProgressHUD_set_HudView_UIKit_UIView
+bl _BTProgressHUD_BigTed_ProgressHUD_get_StringLabel
+bl _BTProgressHUD_BigTed_ProgressHUD_set_StringLabel_UIKit_UILabel
+bl _BTProgressHUD_BigTed_ProgressHUD_get_CancelHudButton
+bl _BTProgressHUD_BigTed_ProgressHUD_set_CancelHudButton_UIKit_UIButton
+bl _BTProgressHUD_BigTed_ProgressHUD_get_ImageView
+bl _BTProgressHUD_BigTed_ProgressHUD_set_ImageView_UIKit_UIImageView
+bl _BTProgressHUD_BigTed_ProgressHUD_get_SpinnerView
+bl _BTProgressHUD_BigTed_ProgressHUD_set_SpinnerView_UIKit_UIActivityIndicatorView
+bl _BTProgressHUD_BigTed_ProgressHUD_get_VisibleKeyboardHeight
+bl _BTProgressHUD_BigTed_ProgressHUD_DismissWorker
+bl _BTProgressHUD_BigTed_ProgressHUD_SetStatusWorker_string
+bl _BTProgressHUD_BigTed_ProgressHUD_RegisterNotifications
+bl _BTProgressHUD_BigTed_ProgressHUD_UnRegisterNotifications
+bl _BTProgressHUD_BigTed_ProgressHUD_MoveToPoint_CoreGraphics_CGPoint_single
+bl _BTProgressHUD_BigTed_ProgressHUD_PositionHUD_Foundation_NSNotification
+bl _BTProgressHUD_BigTed_ProgressHUD_SetFadeoutTimer_Foundation_NSTimer
+bl _BTProgressHUD_BigTed_ProgressHUD_SetProgressTimer_Foundation_NSTimer
+bl _BTProgressHUD_BigTed_ProgressHUD_UpdatePosition_bool
+bl _BTProgressHUD_BigTed_ProgressHUD_IsLandscape_UIKit_UIInterfaceOrientation
+bl _BTProgressHUD_BigTed_ProgressHUD_IsPortrait_UIKit_UIInterfaceOrientation
+bl _BTProgressHUD_BigTed_ProgressHUD_get_IsiOS7ForLookAndFeel
+bl _BTProgressHUD_BigTed_ProgressHUD_get_IsIOS7OrNewer
+bl _BTProgressHUD_BigTed_ProgressHUD_get_ForceiOS6LookAndFeel
+bl _BTProgressHUD_BigTed_ProgressHUD_set_ForceiOS6LookAndFeel_bool
+bl _BTProgressHUD_BigTed_ProgressHUD__StartDismissTimerm__0_Foundation_NSTimer
+bl _BTProgressHUD_BigTed_ProgressHUD__StartProgressTimerm__1_Foundation_NSTimer
+bl _BTProgressHUD_BigTed_ProgressHUD__UpdateProgressm__2
+bl _BTProgressHUD_BigTed_ProgressHUD__DismissWorkerm__3
+bl _BTProgressHUD_BigTed_ProgressHUD__DismissWorkerm__4
+bl _BTProgressHUD_BigTed_ProgressHUD__DismissWorkerm__5
+bl _BTProgressHUD_BigTed_ProgressHUD__Showc__AnonStorey0__ctor
+bl _BTProgressHUD_BigTed_ProgressHUD__Showc__AnonStorey0__m__0
+bl _BTProgressHUD_BigTed_ProgressHUD__Showc__AnonStorey1__ctor
+bl _BTProgressHUD_BigTed_ProgressHUD__Showc__AnonStorey1__m__0
+bl _BTProgressHUD_BigTed_ProgressHUD__ShowContinuousProgressc__AnonStorey2__ctor
+bl _BTProgressHUD_BigTed_ProgressHUD__ShowContinuousProgressc__AnonStorey2__m__0
+bl _BTProgressHUD_BigTed_ProgressHUD__ShowContinuousProgressTestc__AnonStorey3__ctor
+bl _BTProgressHUD_BigTed_ProgressHUD__ShowContinuousProgressTestc__AnonStorey3__m__0
+bl _BTProgressHUD_BigTed_ProgressHUD__ShowToastc__AnonStorey4__ctor
+bl _BTProgressHUD_BigTed_ProgressHUD__ShowToastc__AnonStorey4__m__0
+bl _BTProgressHUD_BigTed_ProgressHUD__SetStatusc__AnonStorey5__ctor
+bl _BTProgressHUD_BigTed_ProgressHUD__SetStatusc__AnonStorey5__m__0
+bl _BTProgressHUD_BigTed_ProgressHUD__ShowImagec__AnonStorey6__ctor
+bl _BTProgressHUD_BigTed_ProgressHUD__ShowImagec__AnonStorey6__m__0
+bl _BTProgressHUD_BigTed_ProgressHUD__ShowProgressWorkerc__AnonStorey7__ctor
+bl _BTProgressHUD_BigTed_ProgressHUD__ShowProgressWorkerc__AnonStorey7__m__0_object_System_EventArgs
+bl _BTProgressHUD_BigTed_ProgressHUD__ShowProgressWorkerc__AnonStorey7__m__1
+bl _BTProgressHUD_BigTed_ProgressHUD__ShowProgressWorkerc__AnonStorey7__m__2
+bl _BTProgressHUD_BigTed_ProgressHUD__ShowProgressWorkerc__AnonStorey7__m__3
+bl _BTProgressHUD_BigTed_ProgressHUD__PositionHUDc__AnonStorey8__ctor
+bl _BTProgressHUD_BigTed_ProgressHUD__PositionHUDc__AnonStorey8__m__0
+bl _BTProgressHUD_BigTed_Ring__ctor
+bl _BTProgressHUD_BigTed_Ring_ResetStyle_bool_UIKit_UIColor
+bl _BTProgressHUD_XHUD_HUD_Show_string_int_XHUD_MaskType
+bl _BTProgressHUD_XHUD_HUD_Dismiss
+bl _BTProgressHUD_XHUD_HUD_ShowToast_string_bool_double
+bl _BTProgressHUD_XHUD_HUD_ShowToast_string_XHUD_MaskType_bool_double
+bl method_addresses
+bl _BTProgressHUD_wrapper_delegate_invoke_System_Action_1_Foundation_NSTimer_invoke_void_T_Foundation_NSTimer
+bl _BTProgressHUD_System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+bl _BTProgressHUD_System_Array_InternalArray__ICollection_get_Count
+bl _BTProgressHUD_System_Array_InternalArray__ICollection_get_IsReadOnly
+bl _BTProgressHUD_System_Array_InternalArray__ICollection_Clear
+bl _BTProgressHUD_System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+bl _BTProgressHUD_System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+bl _BTProgressHUD_System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+bl _BTProgressHUD_System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+bl _BTProgressHUD_wrapper_delegate_invoke_System_Predicate_1_Foundation_NSObject_invoke_bool_T_Foundation_NSObject
+bl _BTProgressHUD_wrapper_delegate_invoke_System_Comparison_1_Foundation_NSObject_invoke_int_T_T_Foundation_NSObject_Foundation_NSObject
+bl _BTProgressHUD_wrapper_delegate_invoke_System_Action_1_Foundation_NSNotification_invoke_void_T_Foundation_NSNotification
+bl wrapper_managed_to_native_BigTed_NSObjectExtensions_object_getClassName_intptr
+bl _BTProgressHUD_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+method_addresses_end:
+
+.section __TEXT, __const
+	.align 3
+unbox_trampolines:
+_mono_aot_BTProgressHUDunbox_trampolines:
+	.globl _mono_aot_BTProgressHUDunbox_trampolines
+
+	.long 129
+unbox_trampolines_end:
+_mono_aot_BTProgressHUDunbox_trampolines_end:
+	.globl _mono_aot_BTProgressHUDunbox_trampolines_end
+
+	.long 0
+.text
+	.align 3
+unbox_trampoline_addresses:
+_mono_aot_BTProgressHUDunbox_trampoline_addresses:
+	.globl _mono_aot_BTProgressHUDunbox_trampoline_addresses
+bl ut_129
+
+	.long 0
+.section __TEXT, __const
+	.align 3
+unwind_info:
+_mono_aot_BTProgressHUDunwind_info:
+	.globl _mono_aot_BTProgressHUDunwind_info
+
+	.byte 0,19,12,31,0,84,14,208,4,157,74,158,73,68,13,29,68,153,72,154,71,39,12,31,0,68,14,144,1,157,18,158
+	.byte 17,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7,154,6,68,155,5,156,4
+
+.text
+	.align 4
+plt:
+_mono_aot_BTProgressHUDplt:
+	.globl _mono_aot_BTProgressHUDplt
+mono_aot_BTProgressHUD_plt:
+_p_1_plt_BTProgressHUD_BigTed_ProgressHUD_get_Shared_llvm:
+	.globl _p_1_plt_BTProgressHUD_BigTed_ProgressHUD_get_Shared_llvm
+.private_extern _p_1_plt_BTProgressHUD_BigTed_ProgressHUD_get_Shared_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_Shared
+plt_BTProgressHUD_BigTed_ProgressHUD_get_Shared:
+_p_1:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #152]
+br x16
+.word 1102
+_p_2_plt_BTProgressHUD_BigTed_ProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType_double_llvm:
+	.globl _p_2_plt_BTProgressHUD_BigTed_ProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType_double_llvm
+.private_extern _p_2_plt_BTProgressHUD_BigTed_ProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType_double_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType_double
+plt_BTProgressHUD_BigTed_ProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType_double:
+_p_2:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #160]
+br x16
+.word 1104
+_p_3_plt_BTProgressHUD_BigTed_ProgressHUD_Show_string_System_Action_string_single_BigTed_ProgressHUD_MaskType_double_llvm:
+	.globl _p_3_plt_BTProgressHUD_BigTed_ProgressHUD_Show_string_System_Action_string_single_BigTed_ProgressHUD_MaskType_double_llvm
+.private_extern _p_3_plt_BTProgressHUD_BigTed_ProgressHUD_Show_string_System_Action_string_single_BigTed_ProgressHUD_MaskType_double_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_Show_string_System_Action_string_single_BigTed_ProgressHUD_MaskType_double
+plt_BTProgressHUD_BigTed_ProgressHUD_Show_string_System_Action_string_single_BigTed_ProgressHUD_MaskType_double:
+_p_3:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #168]
+br x16
+.word 1106
+_p_4_plt_BTProgressHUD_BigTed_ProgressHUD_ShowContinuousProgress_string_BigTed_ProgressHUD_MaskType_double_UIKit_UIImage_llvm:
+	.globl _p_4_plt_BTProgressHUD_BigTed_ProgressHUD_ShowContinuousProgress_string_BigTed_ProgressHUD_MaskType_double_UIKit_UIImage_llvm
+.private_extern _p_4_plt_BTProgressHUD_BigTed_ProgressHUD_ShowContinuousProgress_string_BigTed_ProgressHUD_MaskType_double_UIKit_UIImage_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_ShowContinuousProgress_string_BigTed_ProgressHUD_MaskType_double_UIKit_UIImage
+plt_BTProgressHUD_BigTed_ProgressHUD_ShowContinuousProgress_string_BigTed_ProgressHUD_MaskType_double_UIKit_UIImage:
+_p_4:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #176]
+br x16
+.word 1108
+_p_5_plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_ToastPosition_double_llvm:
+	.globl _p_5_plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_ToastPosition_double_llvm
+.private_extern _p_5_plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_ToastPosition_double_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_ToastPosition_double
+plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_ToastPosition_double:
+_p_5:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #184]
+br x16
+.word 1110
+_p_6_plt_BTProgressHUD_BigTed_ProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_BigTed_ProgressHUD_ToastPosition_double_llvm:
+	.globl _p_6_plt_BTProgressHUD_BigTed_ProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_BigTed_ProgressHUD_ToastPosition_double_llvm
+.private_extern _p_6_plt_BTProgressHUD_BigTed_ProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_BigTed_ProgressHUD_ToastPosition_double_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_BigTed_ProgressHUD_ToastPosition_double
+plt_BTProgressHUD_BigTed_ProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_BigTed_ProgressHUD_ToastPosition_double:
+_p_6:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #192]
+br x16
+.word 1112
+_p_7_plt_BTProgressHUD_BigTed_ProgressHUD_SetStatus_string_llvm:
+	.globl _p_7_plt_BTProgressHUD_BigTed_ProgressHUD_SetStatus_string_llvm
+.private_extern _p_7_plt_BTProgressHUD_BigTed_ProgressHUD_SetStatus_string_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_SetStatus_string
+plt_BTProgressHUD_BigTed_ProgressHUD_SetStatus_string:
+_p_7:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #200]
+br x16
+.word 1114
+_p_8_plt_BTProgressHUD_BigTed_ProgressHUD_ShowSuccessWithStatus_string_double_llvm:
+	.globl _p_8_plt_BTProgressHUD_BigTed_ProgressHUD_ShowSuccessWithStatus_string_double_llvm
+.private_extern _p_8_plt_BTProgressHUD_BigTed_ProgressHUD_ShowSuccessWithStatus_string_double_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_ShowSuccessWithStatus_string_double
+plt_BTProgressHUD_BigTed_ProgressHUD_ShowSuccessWithStatus_string_double:
+_p_8:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #208]
+br x16
+.word 1116
+_p_9_plt_BTProgressHUD_BigTed_ProgressHUD_ShowErrorWithStatus_string_double_llvm:
+	.globl _p_9_plt_BTProgressHUD_BigTed_ProgressHUD_ShowErrorWithStatus_string_double_llvm
+.private_extern _p_9_plt_BTProgressHUD_BigTed_ProgressHUD_ShowErrorWithStatus_string_double_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_ShowErrorWithStatus_string_double
+plt_BTProgressHUD_BigTed_ProgressHUD_ShowErrorWithStatus_string_double:
+_p_9:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #216]
+br x16
+.word 1118
+_p_10_plt_BTProgressHUD_BigTed_ProgressHUD_ShowImage_UIKit_UIImage_string_double_llvm:
+	.globl _p_10_plt_BTProgressHUD_BigTed_ProgressHUD_ShowImage_UIKit_UIImage_string_double_llvm
+.private_extern _p_10_plt_BTProgressHUD_BigTed_ProgressHUD_ShowImage_UIKit_UIImage_string_double_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_ShowImage_UIKit_UIImage_string_double
+plt_BTProgressHUD_BigTed_ProgressHUD_ShowImage_UIKit_UIImage_string_double:
+_p_10:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #224]
+br x16
+.word 1120
+_p_11_plt_BTProgressHUD_BigTed_ProgressHUD_Dismiss_llvm:
+	.globl _p_11_plt_BTProgressHUD_BigTed_ProgressHUD_Dismiss_llvm
+.private_extern _p_11_plt_BTProgressHUD_BigTed_ProgressHUD_Dismiss_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_Dismiss
+plt_BTProgressHUD_BigTed_ProgressHUD_Dismiss:
+_p_11:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #232]
+br x16
+.word 1122
+_p_12_plt_BTProgressHUD_BigTed_ProgressHUD_get_IsVisible_llvm:
+	.globl _p_12_plt_BTProgressHUD_BigTed_ProgressHUD_get_IsVisible_llvm
+.private_extern _p_12_plt_BTProgressHUD_BigTed_ProgressHUD_get_IsVisible_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_IsVisible
+plt_BTProgressHUD_BigTed_ProgressHUD_get_IsVisible:
+_p_12:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #240]
+br x16
+.word 1124
+_p_13_plt_BTProgressHUD_BigTed_ProgressHUD_get_ForceiOS6LookAndFeel_llvm:
+	.globl _p_13_plt_BTProgressHUD_BigTed_ProgressHUD_get_ForceiOS6LookAndFeel_llvm
+.private_extern _p_13_plt_BTProgressHUD_BigTed_ProgressHUD_get_ForceiOS6LookAndFeel_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_ForceiOS6LookAndFeel
+plt_BTProgressHUD_BigTed_ProgressHUD_get_ForceiOS6LookAndFeel:
+_p_13:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #248]
+br x16
+.word 1126
+_p_14_plt_BTProgressHUD_BigTed_ProgressHUD_set_ForceiOS6LookAndFeel_bool_llvm:
+	.globl _p_14_plt_BTProgressHUD_BigTed_ProgressHUD_set_ForceiOS6LookAndFeel_bool_llvm
+.private_extern _p_14_plt_BTProgressHUD_BigTed_ProgressHUD_set_ForceiOS6LookAndFeel_bool_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_set_ForceiOS6LookAndFeel_bool
+plt_BTProgressHUD_BigTed_ProgressHUD_set_ForceiOS6LookAndFeel_bool:
+_p_14:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #256]
+br x16
+.word 1128
+_p_15_plt_BTProgressHUD_BigTed_NSObjectExtensions_object_getClassName_intptr_llvm:
+	.globl _p_15_plt_BTProgressHUD_BigTed_NSObjectExtensions_object_getClassName_intptr_llvm
+.private_extern _p_15_plt_BTProgressHUD_BigTed_NSObjectExtensions_object_getClassName_intptr_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_NSObjectExtensions_object_getClassName_intptr
+plt_BTProgressHUD_BigTed_NSObjectExtensions_object_getClassName_intptr:
+_p_15:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #264]
+br x16
+.word 1130
+_p_16_plt_BTProgressHUD_System_Runtime_InteropServices_Marshal_PtrToStringAuto_intptr_llvm:
+	.globl _p_16_plt_BTProgressHUD_System_Runtime_InteropServices_Marshal_PtrToStringAuto_intptr_llvm
+.private_extern _p_16_plt_BTProgressHUD_System_Runtime_InteropServices_Marshal_PtrToStringAuto_intptr_llvm
+	.no_dead_strip plt_BTProgressHUD_System_Runtime_InteropServices_Marshal_PtrToStringAuto_intptr
+plt_BTProgressHUD_System_Runtime_InteropServices_Marshal_PtrToStringAuto_intptr:
+_p_16:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #272]
+br x16
+.word 1132
+_p_17_plt_BTProgressHUD__jit_icall_mono_object_new_specific_llvm:
+	.globl _p_17_plt_BTProgressHUD__jit_icall_mono_object_new_specific_llvm
+.private_extern _p_17_plt_BTProgressHUD__jit_icall_mono_object_new_specific_llvm
+	.no_dead_strip plt_BTProgressHUD__jit_icall_mono_object_new_specific
+plt_BTProgressHUD__jit_icall_mono_object_new_specific:
+_p_17:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #280]
+br x16
+.word 1137
+_p_18_plt_BTProgressHUD_Foundation_NSObject__ctor_llvm:
+	.globl _p_18_plt_BTProgressHUD_Foundation_NSObject__ctor_llvm
+.private_extern _p_18_plt_BTProgressHUD_Foundation_NSObject__ctor_llvm
+	.no_dead_strip plt_BTProgressHUD_Foundation_NSObject__ctor
+plt_BTProgressHUD_Foundation_NSObject__ctor:
+_p_18:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #288]
+br x16
+.word 1164
+_p_19_plt_BTProgressHUD_ObjCRuntime_Class_GetHandle_string_llvm:
+	.globl _p_19_plt_BTProgressHUD_ObjCRuntime_Class_GetHandle_string_llvm
+.private_extern _p_19_plt_BTProgressHUD_ObjCRuntime_Class_GetHandle_string_llvm
+	.no_dead_strip plt_BTProgressHUD_ObjCRuntime_Class_GetHandle_string
+plt_BTProgressHUD_ObjCRuntime_Class_GetHandle_string:
+_p_19:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #296]
+br x16
+.word 1169
+_p_20_plt_BTProgressHUD_intptr_op_Inequality_intptr_intptr_llvm:
+	.globl _p_20_plt_BTProgressHUD_intptr_op_Inequality_intptr_intptr_llvm
+.private_extern _p_20_plt_BTProgressHUD_intptr_op_Inequality_intptr_intptr_llvm
+	.no_dead_strip plt_BTProgressHUD_intptr_op_Inequality_intptr_intptr
+plt_BTProgressHUD_intptr_op_Inequality_intptr_intptr:
+_p_20:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #304]
+br x16
+.word 1174
+_p_21_plt_BTProgressHUD__jit_icall_mono_object_new_fast_llvm:
+	.globl _p_21_plt_BTProgressHUD__jit_icall_mono_object_new_fast_llvm
+.private_extern _p_21_plt_BTProgressHUD__jit_icall_mono_object_new_fast_llvm
+	.no_dead_strip plt_BTProgressHUD__jit_icall_mono_object_new_fast
+plt_BTProgressHUD__jit_icall_mono_object_new_fast:
+_p_21:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #312]
+br x16
+.word 1179
+_p_22_plt_BTProgressHUD_UIKit_UIScreen_get_MainScreen_llvm:
+	.globl _p_22_plt_BTProgressHUD_UIKit_UIScreen_get_MainScreen_llvm
+.private_extern _p_22_plt_BTProgressHUD_UIKit_UIScreen_get_MainScreen_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIScreen_get_MainScreen
+plt_BTProgressHUD_UIKit_UIScreen_get_MainScreen:
+_p_22:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #320]
+br x16
+.word 1202
+_p_23_plt_BTProgressHUD_BigTed_ProgressHUD__ctor_CoreGraphics_CGRect_llvm:
+	.globl _p_23_plt_BTProgressHUD_BigTed_ProgressHUD__ctor_CoreGraphics_CGRect_llvm
+.private_extern _p_23_plt_BTProgressHUD_BigTed_ProgressHUD__ctor_CoreGraphics_CGRect_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD__ctor_CoreGraphics_CGRect
+plt_BTProgressHUD_BigTed_ProgressHUD__ctor_CoreGraphics_CGRect:
+_p_23:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #328]
+br x16
+.word 1207
+_p_24_plt_BTProgressHUD_UIKit_UIColor_FromWhiteAlpha_System_nfloat_System_nfloat_llvm:
+	.globl _p_24_plt_BTProgressHUD_UIKit_UIColor_FromWhiteAlpha_System_nfloat_System_nfloat_llvm
+.private_extern _p_24_plt_BTProgressHUD_UIKit_UIColor_FromWhiteAlpha_System_nfloat_System_nfloat_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIColor_FromWhiteAlpha_System_nfloat_System_nfloat
+plt_BTProgressHUD_UIKit_UIColor_FromWhiteAlpha_System_nfloat_System_nfloat:
+_p_24:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #336]
+br x16
+.word 1209
+_p_25_plt_BTProgressHUD_wrapper_write_barrier_object_wbarrier_noconc_intptr_llvm:
+	.globl _p_25_plt_BTProgressHUD_wrapper_write_barrier_object_wbarrier_noconc_intptr_llvm
+.private_extern _p_25_plt_BTProgressHUD_wrapper_write_barrier_object_wbarrier_noconc_intptr_llvm
+	.no_dead_strip plt_BTProgressHUD_wrapper_write_barrier_object_wbarrier_noconc_intptr
+plt_BTProgressHUD_wrapper_write_barrier_object_wbarrier_noconc_intptr:
+_p_25:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #344]
+br x16
+.word 1214
+_p_26_plt_BTProgressHUD_UIKit_UIColor_get_White_llvm:
+	.globl _p_26_plt_BTProgressHUD_UIKit_UIColor_get_White_llvm
+.private_extern _p_26_plt_BTProgressHUD_UIKit_UIColor_get_White_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIColor_get_White
+plt_BTProgressHUD_UIKit_UIColor_get_White:
+_p_26:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #352]
+br x16
+.word 1221
+_p_27_plt_BTProgressHUD_UIKit_UIColor_get_Black_llvm:
+	.globl _p_27_plt_BTProgressHUD_UIKit_UIColor_get_Black_llvm
+.private_extern _p_27_plt_BTProgressHUD_UIKit_UIColor_get_Black_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIColor_get_Black
+plt_BTProgressHUD_UIKit_UIColor_get_Black:
+_p_27:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #360]
+br x16
+.word 1226
+_p_28_plt_BTProgressHUD_UIKit_UIColor_get_Clear_llvm:
+	.globl _p_28_plt_BTProgressHUD_UIKit_UIColor_get_Clear_llvm
+.private_extern _p_28_plt_BTProgressHUD_UIKit_UIColor_get_Clear_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIColor_get_Clear
+plt_BTProgressHUD_UIKit_UIColor_get_Clear:
+_p_28:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #368]
+br x16
+.word 1231
+_p_29_plt_BTProgressHUD_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat_llvm:
+	.globl _p_29_plt_BTProgressHUD_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat_llvm
+.private_extern _p_29_plt_BTProgressHUD_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat
+plt_BTProgressHUD_UIKit_UIFont_BoldSystemFontOfSize_System_nfloat:
+_p_29:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #376]
+br x16
+.word 1236
+_p_30_plt_BTProgressHUD_BigTed_Ring__ctor_llvm:
+	.globl _p_30_plt_BTProgressHUD_BigTed_Ring__ctor_llvm
+.private_extern _p_30_plt_BTProgressHUD_BigTed_Ring__ctor_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_Ring__ctor
+plt_BTProgressHUD_BigTed_Ring__ctor:
+_p_30:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #384]
+br x16
+.word 1241
+_p_31_plt_BTProgressHUD_UIKit_UIView__ctor_CoreGraphics_CGRect_llvm:
+	.globl _p_31_plt_BTProgressHUD_UIKit_UIView__ctor_CoreGraphics_CGRect_llvm
+.private_extern _p_31_plt_BTProgressHUD_UIKit_UIView__ctor_CoreGraphics_CGRect_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIView__ctor_CoreGraphics_CGRect
+plt_BTProgressHUD_UIKit_UIView__ctor_CoreGraphics_CGRect:
+_p_31:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #392]
+br x16
+.word 1243
+_p_32_plt_BTProgressHUD_BigTed_ProgressHUD_SetOSSpecificLookAndFeel_llvm:
+	.globl _p_32_plt_BTProgressHUD_BigTed_ProgressHUD_SetOSSpecificLookAndFeel_llvm
+.private_extern _p_32_plt_BTProgressHUD_BigTed_ProgressHUD_SetOSSpecificLookAndFeel_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_SetOSSpecificLookAndFeel
+plt_BTProgressHUD_BigTed_ProgressHUD_SetOSSpecificLookAndFeel:
+_p_32:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #400]
+br x16
+.word 1248
+_p_33_plt_BTProgressHUD_BigTed_ProgressHUD_get_IsiOS7ForLookAndFeel_llvm:
+	.globl _p_33_plt_BTProgressHUD_BigTed_ProgressHUD_get_IsiOS7ForLookAndFeel_llvm
+.private_extern _p_33_plt_BTProgressHUD_BigTed_ProgressHUD_get_IsiOS7ForLookAndFeel_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_IsiOS7ForLookAndFeel
+plt_BTProgressHUD_BigTed_ProgressHUD_get_IsiOS7ForLookAndFeel:
+_p_33:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #408]
+br x16
+.word 1250
+_p_34_plt_BTProgressHUD__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm:
+	.globl _p_34_plt_BTProgressHUD__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+.private_extern _p_34_plt_BTProgressHUD__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+	.no_dead_strip plt_BTProgressHUD__jit_icall_llvm_throw_corlib_exception_abs_trampoline
+plt_BTProgressHUD__jit_icall_llvm_throw_corlib_exception_abs_trampoline:
+_p_34:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #416]
+br x16
+.word 1252
+_p_35_plt_BTProgressHUD_Foundation_NSObject_InvokeOnMainThread_System_Action_llvm:
+	.globl _p_35_plt_BTProgressHUD_Foundation_NSObject_InvokeOnMainThread_System_Action_llvm
+.private_extern _p_35_plt_BTProgressHUD_Foundation_NSObject_InvokeOnMainThread_System_Action_llvm
+	.no_dead_strip plt_BTProgressHUD_Foundation_NSObject_InvokeOnMainThread_System_Action
+plt_BTProgressHUD_Foundation_NSObject_InvokeOnMainThread_System_Action:
+_p_35:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #424]
+br x16
+.word 1297
+_p_36_plt_BTProgressHUD_BigTed_ProgressHUD_get_SuccessImage_llvm:
+	.globl _p_36_plt_BTProgressHUD_BigTed_ProgressHUD_get_SuccessImage_llvm
+.private_extern _p_36_plt_BTProgressHUD_BigTed_ProgressHUD_get_SuccessImage_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_SuccessImage
+plt_BTProgressHUD_BigTed_ProgressHUD_get_SuccessImage:
+_p_36:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #432]
+br x16
+.word 1302
+_p_37_plt_BTProgressHUD_BigTed_ProgressHUD_get_ErrorImage_llvm:
+	.globl _p_37_plt_BTProgressHUD_BigTed_ProgressHUD_get_ErrorImage_llvm
+.private_extern _p_37_plt_BTProgressHUD_BigTed_ProgressHUD_get_ErrorImage_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_ErrorImage
+plt_BTProgressHUD_BigTed_ProgressHUD_get_ErrorImage:
+_p_37:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #440]
+br x16
+.word 1304
+_p_38_plt_BTProgressHUD_UIKit_UIImage_FromBundle_string_llvm:
+	.globl _p_38_plt_BTProgressHUD_UIKit_UIImage_FromBundle_string_llvm
+.private_extern _p_38_plt_BTProgressHUD_UIKit_UIImage_FromBundle_string_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIImage_FromBundle_string
+plt_BTProgressHUD_UIKit_UIImage_FromBundle_string:
+_p_38:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #448]
+br x16
+.word 1306
+_p_39_plt_BTProgressHUD__jit_icall_mono_generic_class_init_llvm:
+	.globl _p_39_plt_BTProgressHUD__jit_icall_mono_generic_class_init_llvm
+.private_extern _p_39_plt_BTProgressHUD__jit_icall_mono_generic_class_init_llvm
+	.no_dead_strip plt_BTProgressHUD__jit_icall_mono_generic_class_init
+plt_BTProgressHUD__jit_icall_mono_generic_class_init:
+_p_39:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #456]
+br x16
+.word 1311
+_p_40_plt_BTProgressHUD_UIKit_UIApplication_EnsureUIThread_llvm:
+	.globl _p_40_plt_BTProgressHUD_UIKit_UIApplication_EnsureUIThread_llvm
+.private_extern _p_40_plt_BTProgressHUD_UIKit_UIApplication_EnsureUIThread_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIApplication_EnsureUIThread
+plt_BTProgressHUD_UIKit_UIApplication_EnsureUIThread:
+_p_40:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #464]
+br x16
+.word 1337
+_p_41_plt_BTProgressHUD_BigTed_Ring_ResetStyle_bool_UIKit_UIColor_llvm:
+	.globl _p_41_plt_BTProgressHUD_BigTed_Ring_ResetStyle_bool_UIKit_UIColor_llvm
+.private_extern _p_41_plt_BTProgressHUD_BigTed_Ring_ResetStyle_bool_UIKit_UIColor_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_Ring_ResetStyle_bool_UIKit_UIColor
+plt_BTProgressHUD_BigTed_Ring_ResetStyle_bool_UIKit_UIColor:
+_p_41:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #472]
+br x16
+.word 1342
+_p_42_plt_BTProgressHUD_BigTed_ProgressHUD_get_OverlayView_llvm:
+	.globl _p_42_plt_BTProgressHUD_BigTed_ProgressHUD_get_OverlayView_llvm
+.private_extern _p_42_plt_BTProgressHUD_BigTed_ProgressHUD_get_OverlayView_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_OverlayView
+plt_BTProgressHUD_BigTed_ProgressHUD_get_OverlayView:
+_p_42:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #480]
+br x16
+.word 1344
+_p_43_plt_BTProgressHUD_BigTed_ProgressHUD_get_ImageView_llvm:
+	.globl _p_43_plt_BTProgressHUD_BigTed_ProgressHUD_get_ImageView_llvm
+.private_extern _p_43_plt_BTProgressHUD_BigTed_ProgressHUD_get_ImageView_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_ImageView
+plt_BTProgressHUD_BigTed_ProgressHUD_get_ImageView:
+_p_43:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #488]
+br x16
+.word 1346
+_p_44_plt_BTProgressHUD_BigTed_ProgressHUD_get_StringLabel_llvm:
+	.globl _p_44_plt_BTProgressHUD_BigTed_ProgressHUD_get_StringLabel_llvm
+.private_extern _p_44_plt_BTProgressHUD_BigTed_ProgressHUD_get_StringLabel_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_StringLabel
+plt_BTProgressHUD_BigTed_ProgressHUD_get_StringLabel:
+_p_44:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #496]
+br x16
+.word 1348
+_p_45_plt_BTProgressHUD_BigTed_ProgressHUD_UpdatePosition_bool_llvm:
+	.globl _p_45_plt_BTProgressHUD_BigTed_ProgressHUD_UpdatePosition_bool_llvm
+.private_extern _p_45_plt_BTProgressHUD_BigTed_ProgressHUD_UpdatePosition_bool_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_UpdatePosition_bool
+plt_BTProgressHUD_BigTed_ProgressHUD_UpdatePosition_bool:
+_p_45:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #504]
+br x16
+.word 1350
+_p_46_plt_BTProgressHUD_BigTed_ProgressHUD_CancelRingLayerAnimation_llvm:
+	.globl _p_46_plt_BTProgressHUD_BigTed_ProgressHUD_CancelRingLayerAnimation_llvm
+.private_extern _p_46_plt_BTProgressHUD_BigTed_ProgressHUD_CancelRingLayerAnimation_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_CancelRingLayerAnimation
+plt_BTProgressHUD_BigTed_ProgressHUD_CancelRingLayerAnimation:
+_p_46:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #512]
+br x16
+.word 1352
+_p_47_plt_BTProgressHUD_BigTed_ProgressHUD_get_SpinnerView_llvm:
+	.globl _p_47_plt_BTProgressHUD_BigTed_ProgressHUD_get_SpinnerView_llvm
+.private_extern _p_47_plt_BTProgressHUD_BigTed_ProgressHUD_get_SpinnerView_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_SpinnerView
+plt_BTProgressHUD_BigTed_ProgressHUD_get_SpinnerView:
+_p_47:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #520]
+br x16
+.word 1354
+_p_48_plt_BTProgressHUD_BigTed_ProgressHUD_PositionHUD_Foundation_NSNotification_llvm:
+	.globl _p_48_plt_BTProgressHUD_BigTed_ProgressHUD_PositionHUD_Foundation_NSNotification_llvm
+.private_extern _p_48_plt_BTProgressHUD_BigTed_ProgressHUD_PositionHUD_Foundation_NSNotification_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_PositionHUD_Foundation_NSNotification
+plt_BTProgressHUD_BigTed_ProgressHUD_PositionHUD_Foundation_NSNotification:
+_p_48:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #528]
+br x16
+.word 1356
+_p_49_plt_BTProgressHUD_BigTed_ProgressHUD_RegisterNotifications_llvm:
+	.globl _p_49_plt_BTProgressHUD_BigTed_ProgressHUD_RegisterNotifications_llvm
+.private_extern _p_49_plt_BTProgressHUD_BigTed_ProgressHUD_RegisterNotifications_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_RegisterNotifications
+plt_BTProgressHUD_BigTed_ProgressHUD_RegisterNotifications:
+_p_49:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #536]
+br x16
+.word 1358
+_p_50_plt_BTProgressHUD_BigTed_ProgressHUD_get_HudView_llvm:
+	.globl _p_50_plt_BTProgressHUD_BigTed_ProgressHUD_get_HudView_llvm
+.private_extern _p_50_plt_BTProgressHUD_BigTed_ProgressHUD_get_HudView_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_HudView
+plt_BTProgressHUD_BigTed_ProgressHUD_get_HudView:
+_p_50:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #544]
+br x16
+.word 1360
+_p_51_plt_BTProgressHUD_CoreGraphics_CGAffineTransform_Scale_System_nfloat_System_nfloat_llvm:
+	.globl _p_51_plt_BTProgressHUD_CoreGraphics_CGAffineTransform_Scale_System_nfloat_System_nfloat_llvm
+.private_extern _p_51_plt_BTProgressHUD_CoreGraphics_CGAffineTransform_Scale_System_nfloat_System_nfloat_llvm
+	.no_dead_strip plt_BTProgressHUD_CoreGraphics_CGAffineTransform_Scale_System_nfloat_System_nfloat
+plt_BTProgressHUD_CoreGraphics_CGAffineTransform_Scale_System_nfloat_System_nfloat:
+_p_51:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #552]
+br x16
+.word 1362
+_p_52_plt_BTProgressHUD_BigTed_ProgressHUD_get_isClear_llvm:
+	.globl _p_52_plt_BTProgressHUD_BigTed_ProgressHUD_get_isClear_llvm
+.private_extern _p_52_plt_BTProgressHUD_BigTed_ProgressHUD_get_isClear_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_isClear
+plt_BTProgressHUD_BigTed_ProgressHUD_get_isClear:
+_p_52:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #560]
+br x16
+.word 1367
+_p_53_plt_BTProgressHUD_UIKit_UIView_Animate_double_double_UIKit_UIViewAnimationOptions_System_Action_System_Action_llvm:
+	.globl _p_53_plt_BTProgressHUD_UIKit_UIView_Animate_double_double_UIKit_UIViewAnimationOptions_System_Action_System_Action_llvm
+.private_extern _p_53_plt_BTProgressHUD_UIKit_UIView_Animate_double_double_UIKit_UIViewAnimationOptions_System_Action_System_Action_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIView_Animate_double_double_UIKit_UIViewAnimationOptions_System_Action_System_Action
+plt_BTProgressHUD_UIKit_UIView_Animate_double_double_UIKit_UIViewAnimationOptions_System_Action_System_Action:
+_p_53:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #568]
+br x16
+.word 1369
+_p_54_plt_BTProgressHUD_BigTed_ProgressHUD_get_RingLayer_llvm:
+	.globl _p_54_plt_BTProgressHUD_BigTed_ProgressHUD_get_RingLayer_llvm
+.private_extern _p_54_plt_BTProgressHUD_BigTed_ProgressHUD_get_RingLayer_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_RingLayer
+plt_BTProgressHUD_BigTed_ProgressHUD_get_RingLayer:
+_p_54:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #576]
+br x16
+.word 1374
+_p_55_plt_BTProgressHUD_System_TimeSpan_FromMilliseconds_double_llvm:
+	.globl _p_55_plt_BTProgressHUD_System_TimeSpan_FromMilliseconds_double_llvm
+.private_extern _p_55_plt_BTProgressHUD_System_TimeSpan_FromMilliseconds_double_llvm
+	.no_dead_strip plt_BTProgressHUD_System_TimeSpan_FromMilliseconds_double
+plt_BTProgressHUD_System_TimeSpan_FromMilliseconds_double:
+_p_55:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #584]
+br x16
+.word 1376
+_p_56_plt_BTProgressHUD_BigTed_ProgressHUD_StartProgressTimer_System_TimeSpan_llvm:
+	.globl _p_56_plt_BTProgressHUD_BigTed_ProgressHUD_StartProgressTimer_System_TimeSpan_llvm
+.private_extern _p_56_plt_BTProgressHUD_BigTed_ProgressHUD_StartProgressTimer_System_TimeSpan_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_StartProgressTimer_System_TimeSpan
+plt_BTProgressHUD_BigTed_ProgressHUD_StartProgressTimer_System_TimeSpan:
+_p_56:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #592]
+br x16
+.word 1381
+_p_57_plt_BTProgressHUD_BigTed_ProgressHUD_get_CancelHudButton_llvm:
+	.globl _p_57_plt_BTProgressHUD_BigTed_ProgressHUD_get_CancelHudButton_llvm
+.private_extern _p_57_plt_BTProgressHUD_BigTed_ProgressHUD_get_CancelHudButton_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_CancelHudButton
+plt_BTProgressHUD_BigTed_ProgressHUD_get_CancelHudButton:
+_p_57:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #600]
+br x16
+.word 1383
+_p_58_plt_BTProgressHUD_UIKit_UIControl_add_TouchUpInside_System_EventHandler_llvm:
+	.globl _p_58_plt_BTProgressHUD_UIKit_UIControl_add_TouchUpInside_System_EventHandler_llvm
+.private_extern _p_58_plt_BTProgressHUD_UIKit_UIControl_add_TouchUpInside_System_EventHandler_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIControl_add_TouchUpInside_System_EventHandler
+plt_BTProgressHUD_UIKit_UIControl_add_TouchUpInside_System_EventHandler:
+_p_58:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #608]
+br x16
+.word 1385
+_p_59_plt_BTProgressHUD_UIKit_UIApplication_get_SharedApplication_llvm:
+	.globl _p_59_plt_BTProgressHUD_UIKit_UIApplication_get_SharedApplication_llvm
+.private_extern _p_59_plt_BTProgressHUD_UIKit_UIApplication_get_SharedApplication_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIApplication_get_SharedApplication
+plt_BTProgressHUD_UIKit_UIApplication_get_SharedApplication:
+_p_59:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #616]
+br x16
+.word 1390
+_p_60_plt_BTProgressHUD_System_Array_Reverse_System_Array_llvm:
+	.globl _p_60_plt_BTProgressHUD_System_Array_Reverse_System_Array_llvm
+.private_extern _p_60_plt_BTProgressHUD_System_Array_Reverse_System_Array_llvm
+	.no_dead_strip plt_BTProgressHUD_System_Array_Reverse_System_Array
+plt_BTProgressHUD_System_Array_Reverse_System_Array:
+_p_60:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #624]
+br x16
+.word 1395
+_p_61_plt_BTProgressHUD_UIKit_UIWindowLevel_get_Normal_llvm:
+	.globl _p_61_plt_BTProgressHUD_UIKit_UIWindowLevel_get_Normal_llvm
+.private_extern _p_61_plt_BTProgressHUD_UIKit_UIWindowLevel_get_Normal_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIWindowLevel_get_Normal
+plt_BTProgressHUD_UIKit_UIWindowLevel_get_Normal:
+_p_61:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #632]
+br x16
+.word 1400
+_p_62_plt_BTProgressHUD_BigTed_ProgressHUD_StartDismissTimer_System_TimeSpan_llvm:
+	.globl _p_62_plt_BTProgressHUD_BigTed_ProgressHUD_StartDismissTimer_System_TimeSpan_llvm
+.private_extern _p_62_plt_BTProgressHUD_BigTed_ProgressHUD_StartDismissTimer_System_TimeSpan_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_StartDismissTimer_System_TimeSpan
+plt_BTProgressHUD_BigTed_ProgressHUD_StartDismissTimer_System_TimeSpan:
+_p_62:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #640]
+br x16
+.word 1405
+_p_63_plt_BTProgressHUD_Foundation_NSTimer_CreateTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer_llvm:
+	.globl _p_63_plt_BTProgressHUD_Foundation_NSTimer_CreateTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer_llvm
+.private_extern _p_63_plt_BTProgressHUD_Foundation_NSTimer_CreateTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer_llvm
+	.no_dead_strip plt_BTProgressHUD_Foundation_NSTimer_CreateTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer
+plt_BTProgressHUD_Foundation_NSTimer_CreateTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer:
+_p_63:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #648]
+br x16
+.word 1407
+_p_64_plt_BTProgressHUD_Foundation_NSRunLoop_get_Main_llvm:
+	.globl _p_64_plt_BTProgressHUD_Foundation_NSRunLoop_get_Main_llvm
+.private_extern _p_64_plt_BTProgressHUD_Foundation_NSRunLoop_get_Main_llvm
+	.no_dead_strip plt_BTProgressHUD_Foundation_NSRunLoop_get_Main
+plt_BTProgressHUD_Foundation_NSRunLoop_get_Main:
+_p_64:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #656]
+br x16
+.word 1412
+_p_65_plt_BTProgressHUD_Foundation_NSRunLoop_AddTimer_Foundation_NSTimer_Foundation_NSRunLoopMode_llvm:
+	.globl _p_65_plt_BTProgressHUD_Foundation_NSRunLoop_AddTimer_Foundation_NSTimer_Foundation_NSRunLoopMode_llvm
+.private_extern _p_65_plt_BTProgressHUD_Foundation_NSRunLoop_AddTimer_Foundation_NSTimer_Foundation_NSRunLoopMode_llvm
+	.no_dead_strip plt_BTProgressHUD_Foundation_NSRunLoop_AddTimer_Foundation_NSTimer_Foundation_NSRunLoopMode
+plt_BTProgressHUD_Foundation_NSRunLoop_AddTimer_Foundation_NSTimer_Foundation_NSRunLoopMode:
+_p_65:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #664]
+br x16
+.word 1417
+_p_66_plt_BTProgressHUD_Foundation_NSTimer_CreateRepeatingTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer_llvm:
+	.globl _p_66_plt_BTProgressHUD_Foundation_NSTimer_CreateRepeatingTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer_llvm
+.private_extern _p_66_plt_BTProgressHUD_Foundation_NSTimer_CreateRepeatingTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer_llvm
+	.no_dead_strip plt_BTProgressHUD_Foundation_NSTimer_CreateRepeatingTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer
+plt_BTProgressHUD_Foundation_NSTimer_CreateRepeatingTimer_System_TimeSpan_System_Action_1_Foundation_NSTimer:
+_p_66:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #672]
+br x16
+.word 1422
+_p_67_plt_BTProgressHUD_Foundation_NSRunLoop_get_Current_llvm:
+	.globl _p_67_plt_BTProgressHUD_Foundation_NSRunLoop_get_Current_llvm
+.private_extern _p_67_plt_BTProgressHUD_Foundation_NSRunLoop_get_Current_llvm
+	.no_dead_strip plt_BTProgressHUD_Foundation_NSRunLoop_get_Current
+plt_BTProgressHUD_Foundation_NSRunLoop_get_Current:
+_p_67:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #680]
+br x16
+.word 1427
+_p_68_plt_BTProgressHUD_CoreAnimation_CATransaction_Begin_llvm:
+	.globl _p_68_plt_BTProgressHUD_CoreAnimation_CATransaction_Begin_llvm
+.private_extern _p_68_plt_BTProgressHUD_CoreAnimation_CATransaction_Begin_llvm
+	.no_dead_strip plt_BTProgressHUD_CoreAnimation_CATransaction_Begin
+plt_BTProgressHUD_CoreAnimation_CATransaction_Begin:
+_p_68:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #688]
+br x16
+.word 1432
+_p_69_plt_BTProgressHUD_CoreAnimation_CATransaction_set_DisableActions_bool_llvm:
+	.globl _p_69_plt_BTProgressHUD_CoreAnimation_CATransaction_set_DisableActions_bool_llvm
+.private_extern _p_69_plt_BTProgressHUD_CoreAnimation_CATransaction_set_DisableActions_bool_llvm
+	.no_dead_strip plt_BTProgressHUD_CoreAnimation_CATransaction_set_DisableActions_bool
+plt_BTProgressHUD_CoreAnimation_CATransaction_set_DisableActions_bool:
+_p_69:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #696]
+br x16
+.word 1437
+_p_70_plt_BTProgressHUD_BigTed_ProgressHUD_set_RingLayer_CoreAnimation_CAShapeLayer_llvm:
+	.globl _p_70_plt_BTProgressHUD_BigTed_ProgressHUD_set_RingLayer_CoreAnimation_CAShapeLayer_llvm
+.private_extern _p_70_plt_BTProgressHUD_BigTed_ProgressHUD_set_RingLayer_CoreAnimation_CAShapeLayer_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_set_RingLayer_CoreAnimation_CAShapeLayer
+plt_BTProgressHUD_BigTed_ProgressHUD_set_RingLayer_CoreAnimation_CAShapeLayer:
+_p_70:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #704]
+br x16
+.word 1442
+_p_71_plt_BTProgressHUD_BigTed_ProgressHUD_get_BackgroundRingLayer_llvm:
+	.globl _p_71_plt_BTProgressHUD_BigTed_ProgressHUD_get_BackgroundRingLayer_llvm
+.private_extern _p_71_plt_BTProgressHUD_BigTed_ProgressHUD_get_BackgroundRingLayer_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_BackgroundRingLayer
+plt_BTProgressHUD_BigTed_ProgressHUD_get_BackgroundRingLayer:
+_p_71:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #712]
+br x16
+.word 1444
+_p_72_plt_BTProgressHUD_BigTed_ProgressHUD_set_BackgroundRingLayer_CoreAnimation_CAShapeLayer_llvm:
+	.globl _p_72_plt_BTProgressHUD_BigTed_ProgressHUD_set_BackgroundRingLayer_CoreAnimation_CAShapeLayer_llvm
+.private_extern _p_72_plt_BTProgressHUD_BigTed_ProgressHUD_set_BackgroundRingLayer_CoreAnimation_CAShapeLayer_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_set_BackgroundRingLayer_CoreAnimation_CAShapeLayer
+plt_BTProgressHUD_BigTed_ProgressHUD_set_BackgroundRingLayer_CoreAnimation_CAShapeLayer:
+_p_72:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #720]
+br x16
+.word 1446
+_p_73_plt_BTProgressHUD_CoreAnimation_CATransaction_Commit_llvm:
+	.globl _p_73_plt_BTProgressHUD_CoreAnimation_CATransaction_Commit_llvm
+.private_extern _p_73_plt_BTProgressHUD_CoreAnimation_CATransaction_Commit_llvm
+	.no_dead_strip plt_BTProgressHUD_CoreAnimation_CATransaction_Commit
+plt_BTProgressHUD_CoreAnimation_CATransaction_Commit:
+_p_73:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #728]
+br x16
+.word 1448
+_p_74_plt_BTProgressHUD_BigTed_ProgressHUD_CreateRingLayer_CoreGraphics_CGPoint_single_single_UIKit_UIColor_llvm:
+	.globl _p_74_plt_BTProgressHUD_BigTed_ProgressHUD_CreateRingLayer_CoreGraphics_CGPoint_single_single_UIKit_UIColor_llvm
+.private_extern _p_74_plt_BTProgressHUD_BigTed_ProgressHUD_CreateRingLayer_CoreGraphics_CGPoint_single_single_UIKit_UIColor_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_CreateRingLayer_CoreGraphics_CGPoint_single_single_UIKit_UIColor
+plt_BTProgressHUD_BigTed_ProgressHUD_CreateRingLayer_CoreGraphics_CGPoint_single_single_UIKit_UIColor:
+_p_74:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #736]
+br x16
+.word 1453
+_p_75_plt_BTProgressHUD_UIKit_UIBezierPath__ctor_llvm:
+	.globl _p_75_plt_BTProgressHUD_UIKit_UIBezierPath__ctor_llvm
+.private_extern _p_75_plt_BTProgressHUD_UIKit_UIBezierPath__ctor_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIBezierPath__ctor
+plt_BTProgressHUD_UIKit_UIBezierPath__ctor:
+_p_75:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #744]
+br x16
+.word 1455
+_p_76_plt_BTProgressHUD_BigTed_ProgressHUD_PointOnCircle_CoreGraphics_CGPoint_single_single_llvm:
+	.globl _p_76_plt_BTProgressHUD_BigTed_ProgressHUD_PointOnCircle_CoreGraphics_CGPoint_single_single_llvm
+.private_extern _p_76_plt_BTProgressHUD_BigTed_ProgressHUD_PointOnCircle_CoreGraphics_CGPoint_single_single_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_PointOnCircle_CoreGraphics_CGPoint_single_single
+plt_BTProgressHUD_BigTed_ProgressHUD_PointOnCircle_CoreGraphics_CGPoint_single_single:
+_p_76:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #752]
+br x16
+.word 1460
+_p_77_plt_BTProgressHUD_BigTed_ProgressHUD_CreateCirclePath_CoreGraphics_CGPoint_single_int_llvm:
+	.globl _p_77_plt_BTProgressHUD_BigTed_ProgressHUD_CreateCirclePath_CoreGraphics_CGPoint_single_int_llvm
+.private_extern _p_77_plt_BTProgressHUD_BigTed_ProgressHUD_CreateCirclePath_CoreGraphics_CGPoint_single_int_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_CreateCirclePath_CoreGraphics_CGPoint_single_int
+plt_BTProgressHUD_BigTed_ProgressHUD_CreateCirclePath_CoreGraphics_CGPoint_single_int:
+_p_77:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #760]
+br x16
+.word 1462
+_p_78_plt_BTProgressHUD_CoreAnimation_CAShapeLayer__ctor_llvm:
+	.globl _p_78_plt_BTProgressHUD_CoreAnimation_CAShapeLayer__ctor_llvm
+.private_extern _p_78_plt_BTProgressHUD_CoreAnimation_CAShapeLayer__ctor_llvm
+	.no_dead_strip plt_BTProgressHUD_CoreAnimation_CAShapeLayer__ctor
+plt_BTProgressHUD_CoreAnimation_CAShapeLayer__ctor:
+_p_78:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #768]
+br x16
+.word 1464
+_p_79_plt_BTProgressHUD_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat_llvm:
+	.globl _p_79_plt_BTProgressHUD_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat_llvm
+.private_extern _p_79_plt_BTProgressHUD_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat_llvm
+	.no_dead_strip plt_BTProgressHUD_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
+plt_BTProgressHUD_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
+_p_79:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #776]
+br x16
+.word 1469
+_p_80_plt_BTProgressHUD_CoreAnimation_CAShapeLayer_get_JoinBevel_llvm:
+	.globl _p_80_plt_BTProgressHUD_CoreAnimation_CAShapeLayer_get_JoinBevel_llvm
+.private_extern _p_80_plt_BTProgressHUD_CoreAnimation_CAShapeLayer_get_JoinBevel_llvm
+	.no_dead_strip plt_BTProgressHUD_CoreAnimation_CAShapeLayer_get_JoinBevel
+plt_BTProgressHUD_CoreAnimation_CAShapeLayer_get_JoinBevel:
+_p_80:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #784]
+br x16
+.word 1474
+_p_81_plt_BTProgressHUD_UIKit_UIView__ctor_llvm:
+	.globl _p_81_plt_BTProgressHUD_UIKit_UIView__ctor_llvm
+.private_extern _p_81_plt_BTProgressHUD_UIKit_UIView__ctor_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIView__ctor
+plt_BTProgressHUD_UIKit_UIView__ctor:
+_p_81:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #792]
+br x16
+.word 1479
+_p_82_plt_BTProgressHUD_UIKit_UIToolbar__ctor_llvm:
+	.globl _p_82_plt_BTProgressHUD_UIKit_UIToolbar__ctor_llvm
+.private_extern _p_82_plt_BTProgressHUD_UIKit_UIToolbar__ctor_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIToolbar__ctor
+plt_BTProgressHUD_UIKit_UIToolbar__ctor:
+_p_82:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #800]
+br x16
+.word 1484
+_p_83_plt_BTProgressHUD_UIKit_UILabel__ctor_llvm:
+	.globl _p_83_plt_BTProgressHUD_UIKit_UILabel__ctor_llvm
+.private_extern _p_83_plt_BTProgressHUD_UIKit_UILabel__ctor_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UILabel__ctor
+plt_BTProgressHUD_UIKit_UILabel__ctor:
+_p_83:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #808]
+br x16
+.word 1489
+_p_84_plt_BTProgressHUD_UIKit_UIButton__ctor_llvm:
+	.globl _p_84_plt_BTProgressHUD_UIKit_UIButton__ctor_llvm
+.private_extern _p_84_plt_BTProgressHUD_UIKit_UIButton__ctor_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIButton__ctor
+plt_BTProgressHUD_UIKit_UIButton__ctor:
+_p_84:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #816]
+br x16
+.word 1494
+_p_85_plt_BTProgressHUD_UIKit_UIImageView__ctor_CoreGraphics_CGRect_llvm:
+	.globl _p_85_plt_BTProgressHUD_UIKit_UIImageView__ctor_CoreGraphics_CGRect_llvm
+.private_extern _p_85_plt_BTProgressHUD_UIKit_UIImageView__ctor_CoreGraphics_CGRect_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIImageView__ctor_CoreGraphics_CGRect
+plt_BTProgressHUD_UIKit_UIImageView__ctor_CoreGraphics_CGRect:
+_p_85:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #824]
+br x16
+.word 1499
+_p_86_plt_BTProgressHUD_UIKit_UIActivityIndicatorView__ctor_UIKit_UIActivityIndicatorViewStyle_llvm:
+	.globl _p_86_plt_BTProgressHUD_UIKit_UIActivityIndicatorView__ctor_UIKit_UIActivityIndicatorViewStyle_llvm
+.private_extern _p_86_plt_BTProgressHUD_UIKit_UIActivityIndicatorView__ctor_UIKit_UIActivityIndicatorViewStyle_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIActivityIndicatorView__ctor_UIKit_UIActivityIndicatorViewStyle
+plt_BTProgressHUD_UIKit_UIActivityIndicatorView__ctor_UIKit_UIActivityIndicatorViewStyle:
+_p_86:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #832]
+br x16
+.word 1504
+_p_87_plt_BTProgressHUD_BigTed_ProgressHUD_SetFadeoutTimer_Foundation_NSTimer_llvm:
+	.globl _p_87_plt_BTProgressHUD_BigTed_ProgressHUD_SetFadeoutTimer_Foundation_NSTimer_llvm
+.private_extern _p_87_plt_BTProgressHUD_BigTed_ProgressHUD_SetFadeoutTimer_Foundation_NSTimer_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_SetFadeoutTimer_Foundation_NSTimer
+plt_BTProgressHUD_BigTed_ProgressHUD_SetFadeoutTimer_Foundation_NSTimer:
+_p_87:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #840]
+br x16
+.word 1509
+_p_88_plt_BTProgressHUD_BigTed_ProgressHUD_SetProgressTimer_Foundation_NSTimer_llvm:
+	.globl _p_88_plt_BTProgressHUD_BigTed_ProgressHUD_SetProgressTimer_Foundation_NSTimer_llvm
+.private_extern _p_88_plt_BTProgressHUD_BigTed_ProgressHUD_SetProgressTimer_Foundation_NSTimer_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_SetProgressTimer_Foundation_NSTimer
+plt_BTProgressHUD_BigTed_ProgressHUD_SetProgressTimer_Foundation_NSTimer:
+_p_88:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #848]
+br x16
+.word 1511
+_p_89_plt_BTProgressHUD_Foundation_NSNotificationCenter_get_DefaultCenter_llvm:
+	.globl _p_89_plt_BTProgressHUD_Foundation_NSNotificationCenter_get_DefaultCenter_llvm
+.private_extern _p_89_plt_BTProgressHUD_Foundation_NSNotificationCenter_get_DefaultCenter_llvm
+	.no_dead_strip plt_BTProgressHUD_Foundation_NSNotificationCenter_get_DefaultCenter
+plt_BTProgressHUD_Foundation_NSNotificationCenter_get_DefaultCenter:
+_p_89:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #856]
+br x16
+.word 1513
+_p_90_plt_BTProgressHUD_UIKit_UIApplication_get_DidChangeStatusBarOrientationNotification_llvm:
+	.globl _p_90_plt_BTProgressHUD_UIKit_UIApplication_get_DidChangeStatusBarOrientationNotification_llvm
+.private_extern _p_90_plt_BTProgressHUD_UIKit_UIApplication_get_DidChangeStatusBarOrientationNotification_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIApplication_get_DidChangeStatusBarOrientationNotification
+plt_BTProgressHUD_UIKit_UIApplication_get_DidChangeStatusBarOrientationNotification:
+_p_90:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #864]
+br x16
+.word 1518
+_p_91_plt_BTProgressHUD_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification_llvm:
+	.globl _p_91_plt_BTProgressHUD_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification_llvm
+.private_extern _p_91_plt_BTProgressHUD_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification_llvm
+	.no_dead_strip plt_BTProgressHUD_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification
+plt_BTProgressHUD_Foundation_NSNotificationCenter_AddObserver_Foundation_NSString_System_Action_1_Foundation_NSNotification:
+_p_91:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #872]
+br x16
+.word 1523
+_p_92_plt_BTProgressHUD_System_Collections_Generic_List_1_Foundation_NSObject_Add_Foundation_NSObject_llvm:
+	.globl _p_92_plt_BTProgressHUD_System_Collections_Generic_List_1_Foundation_NSObject_Add_Foundation_NSObject_llvm
+.private_extern _p_92_plt_BTProgressHUD_System_Collections_Generic_List_1_Foundation_NSObject_Add_Foundation_NSObject_llvm
+	.no_dead_strip plt_BTProgressHUD_System_Collections_Generic_List_1_Foundation_NSObject_Add_Foundation_NSObject
+plt_BTProgressHUD_System_Collections_Generic_List_1_Foundation_NSObject_Add_Foundation_NSObject:
+_p_92:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #880]
+br x16
+.word 1528
+_p_93_plt_BTProgressHUD_UIKit_UIKeyboard_get_WillHideNotification_llvm:
+	.globl _p_93_plt_BTProgressHUD_UIKit_UIKeyboard_get_WillHideNotification_llvm
+.private_extern _p_93_plt_BTProgressHUD_UIKit_UIKeyboard_get_WillHideNotification_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIKeyboard_get_WillHideNotification
+plt_BTProgressHUD_UIKit_UIKeyboard_get_WillHideNotification:
+_p_93:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #888]
+br x16
+.word 1539
+_p_94_plt_BTProgressHUD_UIKit_UIKeyboard_get_DidHideNotification_llvm:
+	.globl _p_94_plt_BTProgressHUD_UIKit_UIKeyboard_get_DidHideNotification_llvm
+.private_extern _p_94_plt_BTProgressHUD_UIKit_UIKeyboard_get_DidHideNotification_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIKeyboard_get_DidHideNotification
+plt_BTProgressHUD_UIKit_UIKeyboard_get_DidHideNotification:
+_p_94:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #896]
+br x16
+.word 1544
+_p_95_plt_BTProgressHUD_UIKit_UIKeyboard_get_WillShowNotification_llvm:
+	.globl _p_95_plt_BTProgressHUD_UIKit_UIKeyboard_get_WillShowNotification_llvm
+.private_extern _p_95_plt_BTProgressHUD_UIKit_UIKeyboard_get_WillShowNotification_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIKeyboard_get_WillShowNotification
+plt_BTProgressHUD_UIKit_UIKeyboard_get_WillShowNotification:
+_p_95:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #904]
+br x16
+.word 1549
+_p_96_plt_BTProgressHUD_UIKit_UIKeyboard_get_DidShowNotification_llvm:
+	.globl _p_96_plt_BTProgressHUD_UIKit_UIKeyboard_get_DidShowNotification_llvm
+.private_extern _p_96_plt_BTProgressHUD_UIKit_UIKeyboard_get_DidShowNotification_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIKeyboard_get_DidShowNotification
+plt_BTProgressHUD_UIKit_UIKeyboard_get_DidShowNotification:
+_p_96:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #912]
+br x16
+.word 1554
+_p_97_plt_BTProgressHUD_Foundation_NSNotificationCenter_RemoveObservers_System_Collections_Generic_IEnumerable_1_Foundation_NSObject_llvm:
+	.globl _p_97_plt_BTProgressHUD_Foundation_NSNotificationCenter_RemoveObservers_System_Collections_Generic_IEnumerable_1_Foundation_NSObject_llvm
+.private_extern _p_97_plt_BTProgressHUD_Foundation_NSNotificationCenter_RemoveObservers_System_Collections_Generic_IEnumerable_1_Foundation_NSObject_llvm
+	.no_dead_strip plt_BTProgressHUD_Foundation_NSNotificationCenter_RemoveObservers_System_Collections_Generic_IEnumerable_1_Foundation_NSObject
+plt_BTProgressHUD_Foundation_NSNotificationCenter_RemoveObservers_System_Collections_Generic_IEnumerable_1_Foundation_NSObject:
+_p_97:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #920]
+br x16
+.word 1559
+_p_98_plt_BTProgressHUD_System_Collections_Generic_List_1_Foundation_NSObject_Clear_llvm:
+	.globl _p_98_plt_BTProgressHUD_System_Collections_Generic_List_1_Foundation_NSObject_Clear_llvm
+.private_extern _p_98_plt_BTProgressHUD_System_Collections_Generic_List_1_Foundation_NSObject_Clear_llvm
+	.no_dead_strip plt_BTProgressHUD_System_Collections_Generic_List_1_Foundation_NSObject_Clear
+plt_BTProgressHUD_System_Collections_Generic_List_1_Foundation_NSObject_Clear:
+_p_98:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #928]
+br x16
+.word 1564
+_p_99_plt_BTProgressHUD_CoreGraphics_CGAffineTransform_MakeRotation_System_nfloat_llvm:
+	.globl _p_99_plt_BTProgressHUD_CoreGraphics_CGAffineTransform_MakeRotation_System_nfloat_llvm
+.private_extern _p_99_plt_BTProgressHUD_CoreGraphics_CGAffineTransform_MakeRotation_System_nfloat_llvm
+	.no_dead_strip plt_BTProgressHUD_CoreGraphics_CGAffineTransform_MakeRotation_System_nfloat
+plt_BTProgressHUD_CoreGraphics_CGAffineTransform_MakeRotation_System_nfloat:
+_p_99:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #936]
+br x16
+.word 1575
+_p_100_plt_BTProgressHUD_UIKit_UIDevice_get_CurrentDevice_llvm:
+	.globl _p_100_plt_BTProgressHUD_UIKit_UIDevice_get_CurrentDevice_llvm
+.private_extern _p_100_plt_BTProgressHUD_UIKit_UIDevice_get_CurrentDevice_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIDevice_get_CurrentDevice
+plt_BTProgressHUD_UIKit_UIDevice_get_CurrentDevice:
+_p_100:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #944]
+br x16
+.word 1580
+_p_101_plt_BTProgressHUD_UIKit_UIDevice_CheckSystemVersion_int_int_llvm:
+	.globl _p_101_plt_BTProgressHUD_UIKit_UIDevice_CheckSystemVersion_int_int_llvm
+.private_extern _p_101_plt_BTProgressHUD_UIKit_UIDevice_CheckSystemVersion_int_int_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIDevice_CheckSystemVersion_int_int
+plt_BTProgressHUD_UIKit_UIDevice_CheckSystemVersion_int_int:
+_p_101:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #952]
+br x16
+.word 1585
+_p_102_plt_BTProgressHUD_BigTed_ProgressHUD_get_VisibleKeyboardHeight_llvm:
+	.globl _p_102_plt_BTProgressHUD_BigTed_ProgressHUD_get_VisibleKeyboardHeight_llvm
+.private_extern _p_102_plt_BTProgressHUD_BigTed_ProgressHUD_get_VisibleKeyboardHeight_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_VisibleKeyboardHeight
+plt_BTProgressHUD_BigTed_ProgressHUD_get_VisibleKeyboardHeight:
+_p_102:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #960]
+br x16
+.word 1590
+_p_103_plt_BTProgressHUD_BigTed_ProgressHUD_MoveToPoint_CoreGraphics_CGPoint_single_llvm:
+	.globl _p_103_plt_BTProgressHUD_BigTed_ProgressHUD_MoveToPoint_CoreGraphics_CGPoint_single_llvm
+.private_extern _p_103_plt_BTProgressHUD_BigTed_ProgressHUD_MoveToPoint_CoreGraphics_CGPoint_single_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_MoveToPoint_CoreGraphics_CGPoint_single
+plt_BTProgressHUD_BigTed_ProgressHUD_MoveToPoint_CoreGraphics_CGPoint_single:
+_p_103:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #968]
+br x16
+.word 1592
+_p_104_plt_BTProgressHUD__jit_icall_mono_thread_interruption_checkpoint_llvm:
+	.globl _p_104_plt_BTProgressHUD__jit_icall_mono_thread_interruption_checkpoint_llvm
+.private_extern _p_104_plt_BTProgressHUD__jit_icall_mono_thread_interruption_checkpoint_llvm
+	.no_dead_strip plt_BTProgressHUD__jit_icall_mono_thread_interruption_checkpoint
+plt_BTProgressHUD__jit_icall_mono_thread_interruption_checkpoint:
+_p_104:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #976]
+br x16
+.word 1594
+_p_105_plt_BTProgressHUD__jit_icall_mono_arch_throw_exception_llvm:
+	.globl _p_105_plt_BTProgressHUD__jit_icall_mono_arch_throw_exception_llvm
+.private_extern _p_105_plt_BTProgressHUD__jit_icall_mono_arch_throw_exception_llvm
+	.no_dead_strip plt_BTProgressHUD__jit_icall_mono_arch_throw_exception
+plt_BTProgressHUD__jit_icall_mono_arch_throw_exception:
+_p_105:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #984]
+br x16
+.word 1632
+_p_106_plt_BTProgressHUD_BigTed_ProgressHUD_IsLandscape_UIKit_UIInterfaceOrientation_llvm:
+	.globl _p_106_plt_BTProgressHUD_BigTed_ProgressHUD_IsLandscape_UIKit_UIInterfaceOrientation_llvm
+.private_extern _p_106_plt_BTProgressHUD_BigTed_ProgressHUD_IsLandscape_UIKit_UIInterfaceOrientation_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_IsLandscape_UIKit_UIInterfaceOrientation
+plt_BTProgressHUD_BigTed_ProgressHUD_IsLandscape_UIKit_UIInterfaceOrientation:
+_p_106:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #992]
+br x16
+.word 1660
+_p_107_plt_BTProgressHUD_CoreGraphics_CGRect_set_Size_CoreGraphics_CGSize_llvm:
+	.globl _p_107_plt_BTProgressHUD_CoreGraphics_CGRect_set_Size_CoreGraphics_CGSize_llvm
+.private_extern _p_107_plt_BTProgressHUD_CoreGraphics_CGRect_set_Size_CoreGraphics_CGSize_llvm
+	.no_dead_strip plt_BTProgressHUD_CoreGraphics_CGRect_set_Size_CoreGraphics_CGSize
+plt_BTProgressHUD_CoreGraphics_CGRect_set_Size_CoreGraphics_CGSize:
+_p_107:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1000]
+br x16
+.word 1662
+_p_108_plt_BTProgressHUD_UIKit_UIKeyboard_FrameEndFromNotification_Foundation_NSNotification_llvm:
+	.globl _p_108_plt_BTProgressHUD_UIKit_UIKeyboard_FrameEndFromNotification_Foundation_NSNotification_llvm
+.private_extern _p_108_plt_BTProgressHUD_UIKit_UIKeyboard_FrameEndFromNotification_Foundation_NSNotification_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIKeyboard_FrameEndFromNotification_Foundation_NSNotification
+plt_BTProgressHUD_UIKit_UIKeyboard_FrameEndFromNotification_Foundation_NSNotification:
+_p_108:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1008]
+br x16
+.word 1667
+_p_109_plt_BTProgressHUD_UIKit_UIKeyboard_AnimationDurationFromNotification_Foundation_NSNotification_llvm:
+	.globl _p_109_plt_BTProgressHUD_UIKit_UIKeyboard_AnimationDurationFromNotification_Foundation_NSNotification_llvm
+.private_extern _p_109_plt_BTProgressHUD_UIKit_UIKeyboard_AnimationDurationFromNotification_Foundation_NSNotification_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIKeyboard_AnimationDurationFromNotification_Foundation_NSNotification
+plt_BTProgressHUD_UIKit_UIKeyboard_AnimationDurationFromNotification_Foundation_NSNotification:
+_p_109:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1016]
+br x16
+.word 1672
+_p_110_plt_BTProgressHUD_Foundation_NSString_op_Implicit_Foundation_NSString_llvm:
+	.globl _p_110_plt_BTProgressHUD_Foundation_NSString_op_Implicit_Foundation_NSString_llvm
+.private_extern _p_110_plt_BTProgressHUD_Foundation_NSString_op_Implicit_Foundation_NSString_llvm
+	.no_dead_strip plt_BTProgressHUD_Foundation_NSString_op_Implicit_Foundation_NSString
+plt_BTProgressHUD_Foundation_NSString_op_Implicit_Foundation_NSString:
+_p_110:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1024]
+br x16
+.word 1677
+_p_111_plt_BTProgressHUD_string_op_Equality_string_string_llvm:
+	.globl _p_111_plt_BTProgressHUD_string_op_Equality_string_string_llvm
+.private_extern _p_111_plt_BTProgressHUD_string_op_Equality_string_string_llvm
+	.no_dead_strip plt_BTProgressHUD_string_op_Equality_string_string
+plt_BTProgressHUD_string_op_Equality_string_string:
+_p_111:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1032]
+br x16
+.word 1682
+_p_112_plt_BTProgressHUD_BigTed_ProgressHUD_IsPortrait_UIKit_UIInterfaceOrientation_llvm:
+	.globl _p_112_plt_BTProgressHUD_BigTed_ProgressHUD_IsPortrait_UIKit_UIInterfaceOrientation_llvm
+.private_extern _p_112_plt_BTProgressHUD_BigTed_ProgressHUD_IsPortrait_UIKit_UIInterfaceOrientation_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_IsPortrait_UIKit_UIInterfaceOrientation
+plt_BTProgressHUD_BigTed_ProgressHUD_IsPortrait_UIKit_UIInterfaceOrientation:
+_p_112:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1040]
+br x16
+.word 1687
+_p_113_plt_BTProgressHUD_BigTed_ProgressHUD_StopProgressTimer_llvm:
+	.globl _p_113_plt_BTProgressHUD_BigTed_ProgressHUD_StopProgressTimer_llvm
+.private_extern _p_113_plt_BTProgressHUD_BigTed_ProgressHUD_StopProgressTimer_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_StopProgressTimer
+plt_BTProgressHUD_BigTed_ProgressHUD_StopProgressTimer:
+_p_113:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1048]
+br x16
+.word 1689
+_p_114_plt_BTProgressHUD_BigTed_ProgressHUD_get_IsIOS7OrNewer_llvm:
+	.globl _p_114_plt_BTProgressHUD_BigTed_ProgressHUD_get_IsIOS7OrNewer_llvm
+.private_extern _p_114_plt_BTProgressHUD_BigTed_ProgressHUD_get_IsIOS7OrNewer_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_get_IsIOS7OrNewer
+plt_BTProgressHUD_BigTed_ProgressHUD_get_IsIOS7OrNewer:
+_p_114:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1056]
+br x16
+.word 1691
+_p_115_plt_BTProgressHUD_Foundation_NSString__ctor_string_llvm:
+	.globl _p_115_plt_BTProgressHUD_Foundation_NSString__ctor_string_llvm
+.private_extern _p_115_plt_BTProgressHUD_Foundation_NSString__ctor_string_llvm
+	.no_dead_strip plt_BTProgressHUD_Foundation_NSString__ctor_string
+plt_BTProgressHUD_Foundation_NSString__ctor_string:
+_p_115:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1064]
+br x16
+.word 1693
+_p_116_plt_BTProgressHUD_UIKit_UIStringDrawing_StringSize_Foundation_NSString_UIKit_UIFont_CoreGraphics_CGSize_llvm:
+	.globl _p_116_plt_BTProgressHUD_UIKit_UIStringDrawing_StringSize_Foundation_NSString_UIKit_UIFont_CoreGraphics_CGSize_llvm
+.private_extern _p_116_plt_BTProgressHUD_UIKit_UIStringDrawing_StringSize_Foundation_NSString_UIKit_UIFont_CoreGraphics_CGSize_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIStringDrawing_StringSize_Foundation_NSString_UIKit_UIFont_CoreGraphics_CGSize
+plt_BTProgressHUD_UIKit_UIStringDrawing_StringSize_Foundation_NSString_UIKit_UIFont_CoreGraphics_CGSize:
+_p_116:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1072]
+br x16
+.word 1698
+_p_117_plt_BTProgressHUD_UIKit_UIStringAttributes__ctor_llvm:
+	.globl _p_117_plt_BTProgressHUD_UIKit_UIStringAttributes__ctor_llvm
+.private_extern _p_117_plt_BTProgressHUD_UIKit_UIStringAttributes__ctor_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIStringAttributes__ctor
+plt_BTProgressHUD_UIKit_UIStringAttributes__ctor:
+_p_117:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1080]
+br x16
+.word 1703
+_p_118_plt_BTProgressHUD_UIKit_UIStringAttributes_set_Font_UIKit_UIFont_llvm:
+	.globl _p_118_plt_BTProgressHUD_UIKit_UIStringAttributes_set_Font_UIKit_UIFont_llvm
+.private_extern _p_118_plt_BTProgressHUD_UIKit_UIStringAttributes_set_Font_UIKit_UIFont_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIStringAttributes_set_Font_UIKit_UIFont
+plt_BTProgressHUD_UIKit_UIStringAttributes_set_Font_UIKit_UIFont:
+_p_118:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1088]
+br x16
+.word 1708
+_p_119_plt_BTProgressHUD_UIKit_NSExtendedStringDrawing_GetBoundingRect_Foundation_NSString_CoreGraphics_CGSize_Foundation_NSStringDrawingOptions_UIKit_UIStringAttributes_Foundation_NSStringDrawingContext_llvm:
+	.globl _p_119_plt_BTProgressHUD_UIKit_NSExtendedStringDrawing_GetBoundingRect_Foundation_NSString_CoreGraphics_CGSize_Foundation_NSStringDrawingOptions_UIKit_UIStringAttributes_Foundation_NSStringDrawingContext_llvm
+.private_extern _p_119_plt_BTProgressHUD_UIKit_NSExtendedStringDrawing_GetBoundingRect_Foundation_NSString_CoreGraphics_CGSize_Foundation_NSStringDrawingOptions_UIKit_UIStringAttributes_Foundation_NSStringDrawingContext_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_NSExtendedStringDrawing_GetBoundingRect_Foundation_NSString_CoreGraphics_CGSize_Foundation_NSStringDrawingOptions_UIKit_UIStringAttributes_Foundation_NSStringDrawingContext
+plt_BTProgressHUD_UIKit_NSExtendedStringDrawing_GetBoundingRect_Foundation_NSString_CoreGraphics_CGSize_Foundation_NSStringDrawingOptions_UIKit_UIStringAttributes_Foundation_NSStringDrawingContext:
+_p_119:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1096]
+br x16
+.word 1713
+_p_120_plt_BTProgressHUD__jit_icall_mono_array_new_specific_llvm:
+	.globl _p_120_plt_BTProgressHUD__jit_icall_mono_array_new_specific_llvm
+.private_extern _p_120_plt_BTProgressHUD__jit_icall_mono_array_new_specific_llvm
+	.no_dead_strip plt_BTProgressHUD__jit_icall_mono_array_new_specific
+plt_BTProgressHUD__jit_icall_mono_array_new_specific:
+_p_120:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1104]
+br x16
+.word 1718
+_p_121_plt_BTProgressHUD_string_Split_char___llvm:
+	.globl _p_121_plt_BTProgressHUD_string_Split_char___llvm
+.private_extern _p_121_plt_BTProgressHUD_string_Split_char___llvm
+	.no_dead_strip plt_BTProgressHUD_string_Split_char__
+plt_BTProgressHUD_string_Split_char__:
+_p_121:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1112]
+br x16
+.word 1744
+_p_122_plt_BTProgressHUD_BigTed_ProgressHUD_DismissWorker_llvm:
+	.globl _p_122_plt_BTProgressHUD_BigTed_ProgressHUD_DismissWorker_llvm
+.private_extern _p_122_plt_BTProgressHUD_BigTed_ProgressHUD_DismissWorker_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_DismissWorker
+plt_BTProgressHUD_BigTed_ProgressHUD_DismissWorker:
+_p_122:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1120]
+br x16
+.word 1749
+_p_123_plt_BTProgressHUD_BigTed_ProgressHUD_UpdateProgress_llvm:
+	.globl _p_123_plt_BTProgressHUD_BigTed_ProgressHUD_UpdateProgress_llvm
+.private_extern _p_123_plt_BTProgressHUD_BigTed_ProgressHUD_UpdateProgress_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_UpdateProgress
+plt_BTProgressHUD_BigTed_ProgressHUD_UpdateProgress:
+_p_123:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1128]
+br x16
+.word 1751
+_p_124_plt_BTProgressHUD_BigTed_ProgressHUD_UnRegisterNotifications_llvm:
+	.globl _p_124_plt_BTProgressHUD_BigTed_ProgressHUD_UnRegisterNotifications_llvm
+.private_extern _p_124_plt_BTProgressHUD_BigTed_ProgressHUD_UnRegisterNotifications_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_UnRegisterNotifications
+plt_BTProgressHUD_BigTed_ProgressHUD_UnRegisterNotifications:
+_p_124:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1136]
+br x16
+.word 1753
+_p_125_plt_BTProgressHUD_BigTed_ProgressHUD_set_StringLabel_UIKit_UILabel_llvm:
+	.globl _p_125_plt_BTProgressHUD_BigTed_ProgressHUD_set_StringLabel_UIKit_UILabel_llvm
+.private_extern _p_125_plt_BTProgressHUD_BigTed_ProgressHUD_set_StringLabel_UIKit_UILabel_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_set_StringLabel_UIKit_UILabel
+plt_BTProgressHUD_BigTed_ProgressHUD_set_StringLabel_UIKit_UILabel:
+_p_125:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1144]
+br x16
+.word 1755
+_p_126_plt_BTProgressHUD_BigTed_ProgressHUD_set_SpinnerView_UIKit_UIActivityIndicatorView_llvm:
+	.globl _p_126_plt_BTProgressHUD_BigTed_ProgressHUD_set_SpinnerView_UIKit_UIActivityIndicatorView_llvm
+.private_extern _p_126_plt_BTProgressHUD_BigTed_ProgressHUD_set_SpinnerView_UIKit_UIActivityIndicatorView_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_set_SpinnerView_UIKit_UIActivityIndicatorView
+plt_BTProgressHUD_BigTed_ProgressHUD_set_SpinnerView_UIKit_UIActivityIndicatorView:
+_p_126:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1152]
+br x16
+.word 1757
+_p_127_plt_BTProgressHUD_BigTed_ProgressHUD_set_ImageView_UIKit_UIImageView_llvm:
+	.globl _p_127_plt_BTProgressHUD_BigTed_ProgressHUD_set_ImageView_UIKit_UIImageView_llvm
+.private_extern _p_127_plt_BTProgressHUD_BigTed_ProgressHUD_set_ImageView_UIKit_UIImageView_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_set_ImageView_UIKit_UIImageView
+plt_BTProgressHUD_BigTed_ProgressHUD_set_ImageView_UIKit_UIImageView:
+_p_127:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1160]
+br x16
+.word 1759
+_p_128_plt_BTProgressHUD_BigTed_ProgressHUD_set_HudView_UIKit_UIView_llvm:
+	.globl _p_128_plt_BTProgressHUD_BigTed_ProgressHUD_set_HudView_UIKit_UIView_llvm
+.private_extern _p_128_plt_BTProgressHUD_BigTed_ProgressHUD_set_HudView_UIKit_UIView_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_set_HudView_UIKit_UIView
+plt_BTProgressHUD_BigTed_ProgressHUD_set_HudView_UIKit_UIView:
+_p_128:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1168]
+br x16
+.word 1761
+_p_129_plt_BTProgressHUD_BigTed_ProgressHUD_set_OverlayView_UIKit_UIView_llvm:
+	.globl _p_129_plt_BTProgressHUD_BigTed_ProgressHUD_set_OverlayView_UIKit_UIView_llvm
+.private_extern _p_129_plt_BTProgressHUD_BigTed_ProgressHUD_set_OverlayView_UIKit_UIView_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_set_OverlayView_UIKit_UIView
+plt_BTProgressHUD_BigTed_ProgressHUD_set_OverlayView_UIKit_UIView:
+_p_129:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1176]
+br x16
+.word 1763
+_p_130_plt_BTProgressHUD_BigTed_ProgressHUD_ShowProgressWorker_single_string_BigTed_ProgressHUD_MaskType_bool_BigTed_ProgressHUD_ToastPosition_string_System_Action_double_bool_UIKit_UIImage_llvm:
+	.globl _p_130_plt_BTProgressHUD_BigTed_ProgressHUD_ShowProgressWorker_single_string_BigTed_ProgressHUD_MaskType_bool_BigTed_ProgressHUD_ToastPosition_string_System_Action_double_bool_UIKit_UIImage_llvm
+.private_extern _p_130_plt_BTProgressHUD_BigTed_ProgressHUD_ShowProgressWorker_single_string_BigTed_ProgressHUD_MaskType_bool_BigTed_ProgressHUD_ToastPosition_string_System_Action_double_bool_UIKit_UIImage_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_ShowProgressWorker_single_string_BigTed_ProgressHUD_MaskType_bool_BigTed_ProgressHUD_ToastPosition_string_System_Action_double_bool_UIKit_UIImage
+plt_BTProgressHUD_BigTed_ProgressHUD_ShowProgressWorker_single_string_BigTed_ProgressHUD_MaskType_bool_BigTed_ProgressHUD_ToastPosition_string_System_Action_double_bool_UIKit_UIImage:
+_p_130:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1184]
+br x16
+.word 1765
+_p_131_plt_BTProgressHUD_BigTed_ProgressHUD_SetStatusWorker_string_llvm:
+	.globl _p_131_plt_BTProgressHUD_BigTed_ProgressHUD_SetStatusWorker_string_llvm
+.private_extern _p_131_plt_BTProgressHUD_BigTed_ProgressHUD_SetStatusWorker_string_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_SetStatusWorker_string
+plt_BTProgressHUD_BigTed_ProgressHUD_SetStatusWorker_string:
+_p_131:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1192]
+br x16
+.word 1767
+_p_132_plt_BTProgressHUD_BigTed_ProgressHUD_ShowImageWorker_UIKit_UIImage_string_System_TimeSpan_llvm:
+	.globl _p_132_plt_BTProgressHUD_BigTed_ProgressHUD_ShowImageWorker_UIKit_UIImage_string_System_TimeSpan_llvm
+.private_extern _p_132_plt_BTProgressHUD_BigTed_ProgressHUD_ShowImageWorker_UIKit_UIImage_string_System_TimeSpan_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_ProgressHUD_ShowImageWorker_UIKit_UIImage_string_System_TimeSpan
+plt_BTProgressHUD_BigTed_ProgressHUD_ShowImageWorker_UIKit_UIImage_string_System_TimeSpan:
+_p_132:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1200]
+br x16
+.word 1769
+_p_133_plt_BTProgressHUD_System_Delegate_DynamicInvoke_object___llvm:
+	.globl _p_133_plt_BTProgressHUD_System_Delegate_DynamicInvoke_object___llvm
+.private_extern _p_133_plt_BTProgressHUD_System_Delegate_DynamicInvoke_object___llvm
+	.no_dead_strip plt_BTProgressHUD_System_Delegate_DynamicInvoke_object__
+plt_BTProgressHUD_System_Delegate_DynamicInvoke_object__:
+_p_133:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1208]
+br x16
+.word 1771
+_p_134_plt_BTProgressHUD_UIKit_UIColor_get_DarkGray_llvm:
+	.globl _p_134_plt_BTProgressHUD_UIKit_UIColor_get_DarkGray_llvm
+.private_extern _p_134_plt_BTProgressHUD_UIKit_UIColor_get_DarkGray_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIColor_get_DarkGray
+plt_BTProgressHUD_UIKit_UIColor_get_DarkGray:
+_p_134:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1216]
+br x16
+.word 1776
+_p_135_plt_BTProgressHUD_BigTed_BTProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType_llvm:
+	.globl _p_135_plt_BTProgressHUD_BigTed_BTProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType_llvm
+.private_extern _p_135_plt_BTProgressHUD_BigTed_BTProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_BTProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType
+plt_BTProgressHUD_BigTed_BTProgressHUD_Show_string_single_BigTed_ProgressHUD_MaskType:
+_p_135:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1224]
+br x16
+.word 1781
+_p_136_plt_BTProgressHUD_BigTed_BTProgressHUD_Dismiss_llvm:
+	.globl _p_136_plt_BTProgressHUD_BigTed_BTProgressHUD_Dismiss_llvm
+.private_extern _p_136_plt_BTProgressHUD_BigTed_BTProgressHUD_Dismiss_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_BTProgressHUD_Dismiss
+plt_BTProgressHUD_BigTed_BTProgressHUD_Dismiss:
+_p_136:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1232]
+br x16
+.word 1783
+_p_137_plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_bool_double_llvm:
+	.globl _p_137_plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_bool_double_llvm
+.private_extern _p_137_plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_bool_double_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_bool_double
+plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_bool_double:
+_p_137:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1240]
+br x16
+.word 1785
+_p_138_plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_bool_double_llvm:
+	.globl _p_138_plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_bool_double_llvm
+.private_extern _p_138_plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_bool_double_llvm
+	.no_dead_strip plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_bool_double
+plt_BTProgressHUD_BigTed_BTProgressHUD_ShowToast_string_BigTed_ProgressHUD_MaskType_bool_double:
+_p_138:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1248]
+br x16
+.word 1787
+_p_139_plt_BTProgressHUD__rgctx_fetch_0_llvm:
+	.globl _p_139_plt_BTProgressHUD__rgctx_fetch_0_llvm
+.private_extern _p_139_plt_BTProgressHUD__rgctx_fetch_0_llvm
+	.no_dead_strip plt_BTProgressHUD__rgctx_fetch_0
+plt_BTProgressHUD__rgctx_fetch_0:
+_p_139:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1256]
+br x16
+.word 1817
+_p_140_plt_BTProgressHUD_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array_llvm:
+	.globl _p_140_plt_BTProgressHUD_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array_llvm
+.private_extern _p_140_plt_BTProgressHUD_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array_llvm
+	.no_dead_strip plt_BTProgressHUD_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_BTProgressHUD_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+_p_140:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1264]
+br x16
+.word 1825
+_p_141_plt_BTProgressHUD__jit_icall_mono_helper_ldstr_mscorlib_llvm:
+	.globl _p_141_plt_BTProgressHUD__jit_icall_mono_helper_ldstr_mscorlib_llvm
+.private_extern _p_141_plt_BTProgressHUD__jit_icall_mono_helper_ldstr_mscorlib_llvm
+	.no_dead_strip plt_BTProgressHUD__jit_icall_mono_helper_ldstr_mscorlib
+plt_BTProgressHUD__jit_icall_mono_helper_ldstr_mscorlib:
+_p_141:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1272]
+br x16
+.word 1844
+_p_142_plt_BTProgressHUD__jit_icall_mono_create_corlib_exception_1_llvm:
+	.globl _p_142_plt_BTProgressHUD__jit_icall_mono_create_corlib_exception_1_llvm
+.private_extern _p_142_plt_BTProgressHUD__jit_icall_mono_create_corlib_exception_1_llvm
+	.no_dead_strip plt_BTProgressHUD__jit_icall_mono_create_corlib_exception_1
+plt_BTProgressHUD__jit_icall_mono_create_corlib_exception_1:
+_p_142:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1280]
+br x16
+.word 1873
+_p_143_plt_BTProgressHUD__rgctx_fetch_1_llvm:
+	.globl _p_143_plt_BTProgressHUD__rgctx_fetch_1_llvm
+.private_extern _p_143_plt_BTProgressHUD__rgctx_fetch_1_llvm
+	.no_dead_strip plt_BTProgressHUD__rgctx_fetch_1
+plt_BTProgressHUD__rgctx_fetch_1:
+_p_143:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1288]
+br x16
+.word 1925
+_p_144_plt_BTProgressHUD_Locale_GetText_string_llvm:
+	.globl _p_144_plt_BTProgressHUD_Locale_GetText_string_llvm
+.private_extern _p_144_plt_BTProgressHUD_Locale_GetText_string_llvm
+	.no_dead_strip plt_BTProgressHUD_Locale_GetText_string
+plt_BTProgressHUD_Locale_GetText_string:
+_p_144:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1296]
+br x16
+.word 1949
+_p_145_plt_BTProgressHUD_System_Array_Copy_System_Array_int_System_Array_int_int_llvm:
+	.globl _p_145_plt_BTProgressHUD_System_Array_Copy_System_Array_int_System_Array_int_int_llvm
+.private_extern _p_145_plt_BTProgressHUD_System_Array_Copy_System_Array_int_System_Array_int_int_llvm
+	.no_dead_strip plt_BTProgressHUD_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_BTProgressHUD_System_Array_Copy_System_Array_int_System_Array_int_int:
+_p_145:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1304]
+br x16
+.word 1954
+_p_146_plt_BTProgressHUD__jit_icall_mono_create_corlib_exception_2_llvm:
+	.globl _p_146_plt_BTProgressHUD__jit_icall_mono_create_corlib_exception_2_llvm
+.private_extern _p_146_plt_BTProgressHUD__jit_icall_mono_create_corlib_exception_2_llvm
+	.no_dead_strip plt_BTProgressHUD__jit_icall_mono_create_corlib_exception_2
+plt_BTProgressHUD__jit_icall_mono_create_corlib_exception_2:
+_p_146:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1312]
+br x16
+.word 1959
+_p_147_plt_BTProgressHUD_UIKit_UIGraphics_GetCurrentContext_llvm:
+	.globl _p_147_plt_BTProgressHUD_UIKit_UIGraphics_GetCurrentContext_llvm
+.private_extern _p_147_plt_BTProgressHUD_UIKit_UIGraphics_GetCurrentContext_llvm
+	.no_dead_strip plt_BTProgressHUD_UIKit_UIGraphics_GetCurrentContext
+plt_BTProgressHUD_UIKit_UIGraphics_GetCurrentContext:
+_p_147:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1320]
+br x16
+.word 1992
+_p_148_plt_BTProgressHUD_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect_llvm:
+	.globl _p_148_plt_BTProgressHUD_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect_llvm
+.private_extern _p_148_plt_BTProgressHUD_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect_llvm
+	.no_dead_strip plt_BTProgressHUD_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect
+plt_BTProgressHUD_CoreGraphics_CGContext_FillRect_CoreGraphics_CGRect:
+_p_148:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1328]
+br x16
+.word 1997
+_p_149_plt_BTProgressHUD_CoreGraphics_CGColorSpace_CreateDeviceRGB_llvm:
+	.globl _p_149_plt_BTProgressHUD_CoreGraphics_CGColorSpace_CreateDeviceRGB_llvm
+.private_extern _p_149_plt_BTProgressHUD_CoreGraphics_CGColorSpace_CreateDeviceRGB_llvm
+	.no_dead_strip plt_BTProgressHUD_CoreGraphics_CGColorSpace_CreateDeviceRGB
+plt_BTProgressHUD_CoreGraphics_CGColorSpace_CreateDeviceRGB:
+_p_149:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1336]
+br x16
+.word 2002
+_p_150_plt_BTProgressHUD_CoreGraphics_CGGradient__ctor_CoreGraphics_CGColorSpace_System_nfloat___System_nfloat___llvm:
+	.globl _p_150_plt_BTProgressHUD_CoreGraphics_CGGradient__ctor_CoreGraphics_CGColorSpace_System_nfloat___System_nfloat___llvm
+.private_extern _p_150_plt_BTProgressHUD_CoreGraphics_CGGradient__ctor_CoreGraphics_CGColorSpace_System_nfloat___System_nfloat___llvm
+	.no_dead_strip plt_BTProgressHUD_CoreGraphics_CGGradient__ctor_CoreGraphics_CGColorSpace_System_nfloat___System_nfloat__
+plt_BTProgressHUD_CoreGraphics_CGGradient__ctor_CoreGraphics_CGColorSpace_System_nfloat___System_nfloat__:
+_p_150:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1344]
+br x16
+.word 2007
+_p_151_plt_BTProgressHUD_System_Math_Min_single_single_llvm:
+	.globl _p_151_plt_BTProgressHUD_System_Math_Min_single_single_llvm
+.private_extern _p_151_plt_BTProgressHUD_System_Math_Min_single_single_llvm
+	.no_dead_strip plt_BTProgressHUD_System_Math_Min_single_single
+plt_BTProgressHUD_System_Math_Min_single_single:
+_p_151:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1352]
+br x16
+.word 2012
+_p_152_plt_BTProgressHUD_CoreGraphics_CGContext_DrawRadialGradient_CoreGraphics_CGGradient_CoreGraphics_CGPoint_System_nfloat_CoreGraphics_CGPoint_System_nfloat_CoreGraphics_CGGradientDrawingOptions_llvm:
+	.globl _p_152_plt_BTProgressHUD_CoreGraphics_CGContext_DrawRadialGradient_CoreGraphics_CGGradient_CoreGraphics_CGPoint_System_nfloat_CoreGraphics_CGPoint_System_nfloat_CoreGraphics_CGGradientDrawingOptions_llvm
+.private_extern _p_152_plt_BTProgressHUD_CoreGraphics_CGContext_DrawRadialGradient_CoreGraphics_CGGradient_CoreGraphics_CGPoint_System_nfloat_CoreGraphics_CGPoint_System_nfloat_CoreGraphics_CGGradientDrawingOptions_llvm
+	.no_dead_strip plt_BTProgressHUD_CoreGraphics_CGContext_DrawRadialGradient_CoreGraphics_CGGradient_CoreGraphics_CGPoint_System_nfloat_CoreGraphics_CGPoint_System_nfloat_CoreGraphics_CGGradientDrawingOptions
+plt_BTProgressHUD_CoreGraphics_CGContext_DrawRadialGradient_CoreGraphics_CGGradient_CoreGraphics_CGPoint_System_nfloat_CoreGraphics_CGPoint_System_nfloat_CoreGraphics_CGGradientDrawingOptions:
+_p_152:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1360]
+br x16
+.word 2017
+_p_153_plt_BTProgressHUD__jit_icall_mono_arch_throw_corlib_exception_llvm:
+	.globl _p_153_plt_BTProgressHUD__jit_icall_mono_arch_throw_corlib_exception_llvm
+.private_extern _p_153_plt_BTProgressHUD__jit_icall_mono_arch_throw_corlib_exception_llvm
+	.no_dead_strip plt_BTProgressHUD__jit_icall_mono_arch_throw_corlib_exception
+plt_BTProgressHUD__jit_icall_mono_arch_throw_corlib_exception:
+_p_153:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1368]
+br x16
+.word 2022
+_p_154_plt_BTProgressHUD__icall_native_BigTed_NSObjectExtensions_object_getClassName_intptr_llvm:
+	.globl _p_154_plt_BTProgressHUD__icall_native_BigTed_NSObjectExtensions_object_getClassName_intptr_llvm
+.private_extern _p_154_plt_BTProgressHUD__icall_native_BigTed_NSObjectExtensions_object_getClassName_intptr_llvm
+	.no_dead_strip plt_BTProgressHUD__icall_native_BigTed_NSObjectExtensions_object_getClassName_intptr
+plt_BTProgressHUD__icall_native_BigTed_NSObjectExtensions_object_getClassName_intptr:
+_p_154:
+adrp x16, mono_aot_BTProgressHUD_got@PAGE+0
+add x16, x16, mono_aot_BTProgressHUD_got@PAGEOFF
+ldr x16, [x16, #1376]
+br x16
+.word 2057
+plt_end:
+_mono_aot_BTProgressHUDplt_end:
+	.globl _mono_aot_BTProgressHUDplt_end
+.section __DATA, __bss
+	.align 3
+jit_got:
+_mono_aot_BTProgressHUDjit_got:
+	.globl _mono_aot_BTProgressHUDjit_got
+.lcomm mono_aot_BTProgressHUD_got, 1384
+got_end:
+.section __TEXT, __const
+	.align 3
+Lglobals_hash:
+
+	.short 11, 0, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 1, 0, 0
+	.short 0, 0, 0, 0, 0, 0, 0
+.section __TEXT, __const
+	.align 2
+name_0:
+	.asciz "_unbox_trampoline_p"
+.data
+	.align 3
+globals:
+_mono_aot_BTProgressHUDglobals:
+	.globl _mono_aot_BTProgressHUDglobals
+	.align 3
+	.quad Lglobals_hash
+	.align 3
+	.quad name_0
+	.align 3
+	.quad _unbox_trampoline_p
+
+	.long 0,0
+.section __DWARF, __debug_info,regular,debug
+LTDIE_4:
+
+	.byte 17
+	.asciz "System_Object"
+
+	.byte 16,7
+	.asciz "System_Object"
+
+LDIFF_SYM4=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM4
+LTDIE_4_POINTER:
+
+	.byte 13
+LDIFF_SYM5=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM5
+LTDIE_4_REFERENCE:
+
+	.byte 14
+LDIFF_SYM6=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM6
+LTDIE_5:
+
+	.byte 8
+	.asciz "_Flags"
+
+	.byte 1
+LDIFF_SYM7=LDIE_U1 - Ldebug_info_start
+	.long LDIFF_SYM7
+	.byte 9
+	.asciz "Disposed"
+
+	.byte 1,9
+	.asciz "NativeRef"
+
+	.byte 2,9
+	.asciz "IsDirectBinding"
+
+	.byte 4,9
+	.asciz "RegisteredToggleRef"
+
+	.byte 8,9
+	.asciz "InFinalizerQueue"
+
+	.byte 16,9
+	.asciz "HasManagedRef"
+
+	.byte 32,0,7
+	.asciz "_Flags"
+
+LDIFF_SYM8=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM8
+LTDIE_5_POINTER:
+
+	.byte 13
+LDIFF_SYM9=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM9
+LTDIE_5_REFERENCE:
+
+	.byte 14
+LDIFF_SYM10=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM10
+LTDIE_3:
+
+	.byte 5
+	.asciz "Foundation_NSObject"
+
+	.byte 40,16
+LDIFF_SYM11=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM11
+	.byte 2,35,0,6
+	.asciz "handle"
+
+LDIFF_SYM12=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM12
+	.byte 2,35,16,6
+	.asciz "class_handle"
+
+LDIFF_SYM13=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM13
+	.byte 2,35,24,6
+	.asciz "flags"
+
+LDIFF_SYM14=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM14
+	.byte 2,35,32,0,7
+	.asciz "Foundation_NSObject"
+
+LDIFF_SYM15=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM15
+LTDIE_3_POINTER:
+
+	.byte 13
+LDIFF_SYM16=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM16
+LTDIE_3_REFERENCE:
+
+	.byte 14
+LDIFF_SYM17=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM17
+LTDIE_2:
+
+	.byte 5
+	.asciz "UIKit_UIResponder"
+
+	.byte 40,16
+LDIFF_SYM18=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM18
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIResponder"
+
+LDIFF_SYM19=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM19
+LTDIE_2_POINTER:
+
+	.byte 13
+LDIFF_SYM20=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM20
+LTDIE_2_REFERENCE:
+
+	.byte 14
+LDIFF_SYM21=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM21
+LTDIE_1:
+
+	.byte 5
+	.asciz "UIKit_UIView"
+
+	.byte 48,16
+LDIFF_SYM22=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM22
+	.byte 2,35,0,6
+	.asciz "__mt_PreferredFocusedView_var"
+
+LDIFF_SYM23=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM23
+	.byte 2,35,40,0,7
+	.asciz "UIKit_UIView"
+
+LDIFF_SYM24=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM24
+LTDIE_1_POINTER:
+
+	.byte 13
+LDIFF_SYM25=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM25
+LTDIE_1_REFERENCE:
+
+	.byte 14
+LDIFF_SYM26=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM26
+LTDIE_6:
+
+	.byte 5
+	.asciz "UIKit_UIColor"
+
+	.byte 40,16
+LDIFF_SYM27=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM27
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIColor"
+
+LDIFF_SYM28=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM28
+LTDIE_6_POINTER:
+
+	.byte 13
+LDIFF_SYM29=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM29
+LTDIE_6_REFERENCE:
+
+	.byte 14
+LDIFF_SYM30=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM30
+LTDIE_7:
+
+	.byte 5
+	.asciz "UIKit_UIFont"
+
+	.byte 40,16
+LDIFF_SYM31=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM31
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIFont"
+
+LDIFF_SYM32=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM32
+LTDIE_7_POINTER:
+
+	.byte 13
+LDIFF_SYM33=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM33
+LTDIE_7_REFERENCE:
+
+	.byte 14
+LDIFF_SYM34=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM34
+LTDIE_8:
+
+	.byte 8
+	.asciz "UIKit_UITextAlignment"
+
+	.byte 8
+LDIFF_SYM35=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM35
+	.byte 9
+	.asciz "Left"
+
+	.byte 0,9
+	.asciz "Center"
+
+	.byte 1,9
+	.asciz "Right"
+
+	.byte 2,9
+	.asciz "Justified"
+
+	.byte 3,9
+	.asciz "Natural"
+
+	.byte 4,0,7
+	.asciz "UIKit_UITextAlignment"
+
+LDIFF_SYM36=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM36
+LTDIE_8_POINTER:
+
+	.byte 13
+LDIFF_SYM37=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM37
+LTDIE_8_REFERENCE:
+
+	.byte 14
+LDIFF_SYM38=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM38
+LTDIE_11:
+
+	.byte 5
+	.asciz "System_ValueType"
+
+	.byte 16,16
+LDIFF_SYM39=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM39
+	.byte 2,35,0,0,7
+	.asciz "System_ValueType"
+
+LDIFF_SYM40=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM40
+LTDIE_11_POINTER:
+
+	.byte 13
+LDIFF_SYM41=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM41
+LTDIE_11_REFERENCE:
+
+	.byte 14
+LDIFF_SYM42=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM42
+LTDIE_10:
+
+	.byte 5
+	.asciz "System_Double"
+
+	.byte 24,16
+LDIFF_SYM43=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM43
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM44=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM44
+	.byte 2,35,16,0,7
+	.asciz "System_Double"
+
+LDIFF_SYM45=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM45
+LTDIE_10_POINTER:
+
+	.byte 13
+LDIFF_SYM46=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM46
+LTDIE_10_REFERENCE:
+
+	.byte 14
+LDIFF_SYM47=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM47
+LTDIE_9:
+
+	.byte 5
+	.asciz "BigTed_Ring"
+
+	.byte 40,16
+LDIFF_SYM48=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM48
+	.byte 2,35,0,6
+	.asciz "Color"
+
+LDIFF_SYM49=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM49
+	.byte 2,35,16,6
+	.asciz "BackgroundColor"
+
+LDIFF_SYM50=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM50
+	.byte 2,35,24,6
+	.asciz "ProgressUpdateInterval"
+
+LDIFF_SYM51=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM51
+	.byte 2,35,32,0,7
+	.asciz "BigTed_Ring"
+
+LDIFF_SYM52=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM52
+LTDIE_9_POINTER:
+
+	.byte 13
+LDIFF_SYM53=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM53
+LTDIE_9_REFERENCE:
+
+	.byte 14
+LDIFF_SYM54=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM54
+LTDIE_12:
+
+	.byte 5
+	.asciz "System_Single"
+
+	.byte 20,16
+LDIFF_SYM55=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM55
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM56=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM56
+	.byte 2,35,16,0,7
+	.asciz "System_Single"
+
+LDIFF_SYM57=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM57
+LTDIE_12_POINTER:
+
+	.byte 13
+LDIFF_SYM58=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM58
+LTDIE_12_REFERENCE:
+
+	.byte 14
+LDIFF_SYM59=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM59
+LTDIE_13:
+
+	.byte 8
+	.asciz "_MaskType"
+
+	.byte 4
+LDIFF_SYM60=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM60
+	.byte 9
+	.asciz "None"
+
+	.byte 1,9
+	.asciz "Clear"
+
+	.byte 2,9
+	.asciz "Black"
+
+	.byte 3,9
+	.asciz "Gradient"
+
+	.byte 4,0,7
+	.asciz "_MaskType"
+
+LDIFF_SYM61=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM61
+LTDIE_13_POINTER:
+
+	.byte 13
+LDIFF_SYM62=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM62
+LTDIE_13_REFERENCE:
+
+	.byte 14
+LDIFF_SYM63=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM63
+LTDIE_14:
+
+	.byte 5
+	.asciz "Foundation_NSTimer"
+
+	.byte 40,16
+LDIFF_SYM64=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM64
+	.byte 2,35,0,0,7
+	.asciz "Foundation_NSTimer"
+
+LDIFF_SYM65=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM65
+LTDIE_14_POINTER:
+
+	.byte 13
+LDIFF_SYM66=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM66
+LTDIE_14_REFERENCE:
+
+	.byte 14
+LDIFF_SYM67=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM67
+LTDIE_15:
+
+	.byte 5
+	.asciz "UIKit_UILabel"
+
+	.byte 48,16
+LDIFF_SYM68=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM68
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UILabel"
+
+LDIFF_SYM69=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM69
+LTDIE_15_POINTER:
+
+	.byte 13
+LDIFF_SYM70=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM70
+LTDIE_15_REFERENCE:
+
+	.byte 14
+LDIFF_SYM71=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM71
+LTDIE_16:
+
+	.byte 5
+	.asciz "UIKit_UIImageView"
+
+	.byte 48,16
+LDIFF_SYM72=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM72
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIImageView"
+
+LDIFF_SYM73=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM73
+LTDIE_16_POINTER:
+
+	.byte 13
+LDIFF_SYM74=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM74
+LTDIE_16_REFERENCE:
+
+	.byte 14
+LDIFF_SYM75=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM75
+LTDIE_17:
+
+	.byte 5
+	.asciz "UIKit_UIActivityIndicatorView"
+
+	.byte 48,16
+LDIFF_SYM76=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM76
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIActivityIndicatorView"
+
+LDIFF_SYM77=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM77
+LTDIE_17_POINTER:
+
+	.byte 13
+LDIFF_SYM78=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM78
+LTDIE_17_REFERENCE:
+
+	.byte 14
+LDIFF_SYM79=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM79
+LTDIE_19:
+
+	.byte 5
+	.asciz "UIKit_UIControl"
+
+	.byte 48,16
+LDIFF_SYM80=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM80
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIControl"
+
+LDIFF_SYM81=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM81
+LTDIE_19_POINTER:
+
+	.byte 13
+LDIFF_SYM82=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM82
+LTDIE_19_REFERENCE:
+
+	.byte 14
+LDIFF_SYM83=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM83
+LTDIE_18:
+
+	.byte 5
+	.asciz "UIKit_UIButton"
+
+	.byte 48,16
+LDIFF_SYM84=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM84
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIButton"
+
+LDIFF_SYM85=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM85
+LTDIE_18_POINTER:
+
+	.byte 13
+LDIFF_SYM86=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM86
+LTDIE_18_REFERENCE:
+
+	.byte 14
+LDIFF_SYM87=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM87
+LTDIE_23:
+
+	.byte 5
+	.asciz "System_Boolean"
+
+	.byte 17,16
+LDIFF_SYM88=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM88
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM89=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM89
+	.byte 2,35,16,0,7
+	.asciz "System_Boolean"
+
+LDIFF_SYM90=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM90
+LTDIE_23_POINTER:
+
+	.byte 13
+LDIFF_SYM91=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM91
+LTDIE_23_REFERENCE:
+
+	.byte 14
+LDIFF_SYM92=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM92
+LTDIE_22:
+
+	.byte 5
+	.asciz "System_WeakReference"
+
+	.byte 24,16
+LDIFF_SYM93=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM93
+	.byte 2,35,0,6
+	.asciz "isLongReference"
+
+LDIFF_SYM94=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM94
+	.byte 2,35,16,6
+	.asciz "gcHandle"
+
+LDIFF_SYM95=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM95
+	.byte 2,35,20,0,7
+	.asciz "System_WeakReference"
+
+LDIFF_SYM96=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM96
+LTDIE_22_POINTER:
+
+	.byte 13
+LDIFF_SYM97=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM97
+LTDIE_22_REFERENCE:
+
+	.byte 14
+LDIFF_SYM98=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM98
+LTDIE_21:
+
+	.byte 5
+	.asciz "CoreAnimation_CALayer"
+
+	.byte 56,16
+LDIFF_SYM99=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM99
+	.byte 2,35,0,6
+	.asciz "calayerdelegate"
+
+LDIFF_SYM100=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM100
+	.byte 2,35,40,6
+	.asciz "__mt_WeakDelegate_var"
+
+LDIFF_SYM101=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM101
+	.byte 2,35,48,0,7
+	.asciz "CoreAnimation_CALayer"
+
+LDIFF_SYM102=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM102
+LTDIE_21_POINTER:
+
+	.byte 13
+LDIFF_SYM103=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM103
+LTDIE_21_REFERENCE:
+
+	.byte 14
+LDIFF_SYM104=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM104
+LTDIE_20:
+
+	.byte 5
+	.asciz "CoreAnimation_CAShapeLayer"
+
+	.byte 56,16
+LDIFF_SYM105=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM105
+	.byte 2,35,0,0,7
+	.asciz "CoreAnimation_CAShapeLayer"
+
+LDIFF_SYM106=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM106
+LTDIE_20_POINTER:
+
+	.byte 13
+LDIFF_SYM107=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM107
+LTDIE_20_REFERENCE:
+
+	.byte 14
+LDIFF_SYM108=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM108
+LTDIE_25:
+
+	.byte 5
+	.asciz "System_Int32"
+
+	.byte 20,16
+LDIFF_SYM109=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM109
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM110=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM110
+	.byte 2,35,16,0,7
+	.asciz "System_Int32"
+
+LDIFF_SYM111=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM111
+LTDIE_25_POINTER:
+
+	.byte 13
+LDIFF_SYM112=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM112
+LTDIE_25_REFERENCE:
+
+	.byte 14
+LDIFF_SYM113=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM113
+LTDIE_24:
+
+	.byte 5
+	.asciz "System_Collections_Generic_List`1"
+
+	.byte 32,16
+LDIFF_SYM114=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM114
+	.byte 2,35,0,6
+	.asciz "_items"
+
+LDIFF_SYM115=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM115
+	.byte 2,35,16,6
+	.asciz "_size"
+
+LDIFF_SYM116=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM116
+	.byte 2,35,24,6
+	.asciz "_version"
+
+LDIFF_SYM117=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM117
+	.byte 2,35,28,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM118=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM118
+LTDIE_24_POINTER:
+
+	.byte 13
+LDIFF_SYM119=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM119
+LTDIE_24_REFERENCE:
+
+	.byte 14
+LDIFF_SYM120=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM120
+LTDIE_26:
+
+	.byte 8
+	.asciz "_ToastPosition"
+
+	.byte 4
+LDIFF_SYM121=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM121
+	.byte 9
+	.asciz "Bottom"
+
+	.byte 1,9
+	.asciz "Center"
+
+	.byte 2,9
+	.asciz "Top"
+
+	.byte 3,0,7
+	.asciz "_ToastPosition"
+
+LDIFF_SYM122=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM122
+LTDIE_26_POINTER:
+
+	.byte 13
+LDIFF_SYM123=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM123
+LTDIE_26_REFERENCE:
+
+	.byte 14
+LDIFF_SYM124=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM124
+LTDIE_0:
+
+	.byte 5
+	.asciz "BigTed_ProgressHUD"
+
+	.byte 224,1,16
+LDIFF_SYM125=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM125
+	.byte 2,35,0,6
+	.asciz "HudBackgroundColour"
+
+LDIFF_SYM126=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM126
+	.byte 2,35,48,6
+	.asciz "HudForegroundColor"
+
+LDIFF_SYM127=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM127
+	.byte 2,35,56,6
+	.asciz "HudStatusShadowColor"
+
+LDIFF_SYM128=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM128
+	.byte 2,35,64,6
+	.asciz "HudToastBackgroundColor"
+
+LDIFF_SYM129=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM129
+	.byte 2,35,72,6
+	.asciz "HudFont"
+
+LDIFF_SYM130=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM130
+	.byte 2,35,80,6
+	.asciz "HudTextAlignment"
+
+LDIFF_SYM131=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM131
+	.byte 3,35,184,1,6
+	.asciz "Ring"
+
+LDIFF_SYM132=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM132
+	.byte 2,35,88,6
+	.asciz "_ringRadius"
+
+LDIFF_SYM133=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM133
+	.byte 3,35,192,1,6
+	.asciz "_ringThickness"
+
+LDIFF_SYM134=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM134
+	.byte 3,35,196,1,6
+	.asciz "_maskType"
+
+LDIFF_SYM135=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM135
+	.byte 3,35,200,1,6
+	.asciz "_fadeoutTimer"
+
+LDIFF_SYM136=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM136
+	.byte 2,35,96,6
+	.asciz "_overlayView"
+
+LDIFF_SYM137=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM137
+	.byte 2,35,104,6
+	.asciz "_hudView"
+
+LDIFF_SYM138=LTDIE_1_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM138
+	.byte 2,35,112,6
+	.asciz "_stringLabel"
+
+LDIFF_SYM139=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM139
+	.byte 2,35,120,6
+	.asciz "_imageView"
+
+LDIFF_SYM140=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM140
+	.byte 3,35,128,1,6
+	.asciz "_spinnerView"
+
+LDIFF_SYM141=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM141
+	.byte 3,35,136,1,6
+	.asciz "_cancelHud"
+
+LDIFF_SYM142=LTDIE_18_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM142
+	.byte 3,35,144,1,6
+	.asciz "_progressTimer"
+
+LDIFF_SYM143=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM143
+	.byte 3,35,152,1,6
+	.asciz "_progress"
+
+LDIFF_SYM144=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM144
+	.byte 3,35,204,1,6
+	.asciz "_backgroundRingLayer"
+
+LDIFF_SYM145=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM145
+	.byte 3,35,160,1,6
+	.asciz "_ringLayer"
+
+LDIFF_SYM146=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM146
+	.byte 3,35,168,1,6
+	.asciz "_eventListeners"
+
+LDIFF_SYM147=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM147
+	.byte 3,35,176,1,6
+	.asciz "_displayContinuousImage"
+
+LDIFF_SYM148=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM148
+	.byte 3,35,208,1,6
+	.asciz "toastPosition"
+
+LDIFF_SYM149=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM149
+	.byte 3,35,212,1,6
+	.asciz "forceiOS6LookAndFeel"
+
+LDIFF_SYM150=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM150
+	.byte 3,35,216,1,0,7
+	.asciz "BigTed_ProgressHUD"
+
+LDIFF_SYM151=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM151
+LTDIE_0_POINTER:
+
+	.byte 13
+LDIFF_SYM152=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM152
+LTDIE_0_REFERENCE:
+
+	.byte 14
+LDIFF_SYM153=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM153
+LTDIE_27:
+
+	.byte 5
+	.asciz "CoreGraphics_CGContext"
+
+	.byte 24,16
+LDIFF_SYM154=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM154
+	.byte 2,35,0,6
+	.asciz "handle"
+
+LDIFF_SYM155=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM155
+	.byte 2,35,16,0,7
+	.asciz "CoreGraphics_CGContext"
+
+LDIFF_SYM156=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM156
+LTDIE_27_POINTER:
+
+	.byte 13
+LDIFF_SYM157=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM157
+LTDIE_27_REFERENCE:
+
+	.byte 14
+LDIFF_SYM158=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM158
+LTDIE_28:
+
+	.byte 5
+	.asciz "CoreGraphics_CGColorSpace"
+
+	.byte 24,16
+LDIFF_SYM159=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM159
+	.byte 2,35,0,6
+	.asciz "handle"
+
+LDIFF_SYM160=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM160
+	.byte 2,35,16,0,7
+	.asciz "CoreGraphics_CGColorSpace"
+
+LDIFF_SYM161=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM161
+LTDIE_28_POINTER:
+
+	.byte 13
+LDIFF_SYM162=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM162
+LTDIE_28_REFERENCE:
+
+	.byte 14
+LDIFF_SYM163=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM163
+LTDIE_29:
+
+	.byte 5
+	.asciz "CoreGraphics_CGGradient"
+
+	.byte 24,16
+LDIFF_SYM164=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM164
+	.byte 2,35,0,6
+	.asciz "handle"
+
+LDIFF_SYM165=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM165
+	.byte 2,35,16,0,7
+	.asciz "CoreGraphics_CGGradient"
+
+LDIFF_SYM166=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM166
+LTDIE_29_POINTER:
+
+	.byte 13
+LDIFF_SYM167=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM167
+LTDIE_29_REFERENCE:
+
+	.byte 14
+LDIFF_SYM168=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM168
+	.byte 2
+	.asciz "BigTed.ProgressHUD:Draw"
+	.asciz "BigTed_ProgressHUD_Draw_CoreGraphics_CGRect"
+
+	.byte 0,0
+	.quad BigTed_ProgressHUD_Draw_CoreGraphics_CGRect
+	.quad Lme_26
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM169=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM169
+	.byte 1,106,3
+	.asciz "rect"
+
+LDIFF_SYM170=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM170
+	.byte 0,11
+	.asciz "V_0"
+
+LDIFF_SYM171=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM171
+	.byte 3,141,176,3,11
+	.asciz "V_1"
+
+LDIFF_SYM172=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM172
+	.byte 1,105,11
+	.asciz "V_2"
+
+LDIFF_SYM173=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM173
+	.byte 1,105,11
+	.asciz "V_3"
+
+LDIFF_SYM174=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM174
+	.byte 3,141,208,3,11
+	.asciz "V_4"
+
+LDIFF_SYM175=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM175
+	.byte 3,141,184,3,11
+	.asciz "V_5"
+
+LDIFF_SYM176=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM176
+	.byte 3,141,192,3,11
+	.asciz "V_6"
+
+LDIFF_SYM177=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM177
+	.byte 3,141,160,3,11
+	.asciz "V_7"
+
+LDIFF_SYM178=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM178
+	.byte 3,141,128,3,11
+	.asciz "V_8"
+
+LDIFF_SYM179=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM179
+	.byte 3,141,240,2,11
+	.asciz "V_9"
+
+LDIFF_SYM180=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM180
+	.byte 3,141,208,2,11
+	.asciz "V_10"
+
+LDIFF_SYM181=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM181
+	.byte 3,141,192,2,11
+	.asciz "V_11"
+
+LDIFF_SYM182=LDIE_R4 - Ldebug_info_start
+	.long LDIFF_SYM182
+	.byte 3,141,232,3,11
+	.asciz "V_12"
+
+LDIFF_SYM183=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM183
+	.byte 3,141,160,2,11
+	.asciz "V_13"
+
+LDIFF_SYM184=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM184
+	.byte 3,141,144,2,11
+	.asciz "V_14"
+
+LDIFF_SYM185=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM185
+	.byte 3,141,240,1,11
+	.asciz "V_15"
+
+LDIFF_SYM186=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM186
+	.byte 3,141,224,1,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM187=Lfde0_end - Lfde0_start
+	.long LDIFF_SYM187
+Lfde0_start:
+
+	.long 0
+	.align 3
+	.quad BigTed_ProgressHUD_Draw_CoreGraphics_CGRect
+
+LDIFF_SYM188=Lme_26 - BigTed_ProgressHUD_Draw_CoreGraphics_CGRect
+	.long LDIFF_SYM188
+	.long 0
+	.byte 12,31,0,84,14,208,4,157,74,158,73,68,13,29,68,153,72,154,71
+	.align 3
+Lfde0_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "(wrapper_managed-to-native)_BigTed.NSObjectExtensions:object_getClassName"
+	.asciz "wrapper_managed_to_native_BigTed_NSObjectExtensions_object_getClassName_intptr"
+
+	.byte 0,0
+	.quad wrapper_managed_to_native_BigTed_NSObjectExtensions_object_getClassName_intptr
+	.quad Lme_80
+
+	.byte 2,118,16,3
+	.asciz "param0"
+
+LDIFF_SYM189=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM189
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM190=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM190
+	.byte 0,11
+	.asciz "V_1"
+
+LDIFF_SYM191=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM191
+	.byte 0,11
+	.asciz "V_2"
+
+LDIFF_SYM192=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM192
+	.byte 0,11
+	.asciz "V_3"
+
+LDIFF_SYM193=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM193
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM194=Lfde1_end - Lfde1_start
+	.long LDIFF_SYM194
+Lfde1_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_managed_to_native_BigTed_NSObjectExtensions_object_getClassName_intptr
+
+LDIFF_SYM195=Lme_80 - wrapper_managed_to_native_BigTed_NSObjectExtensions_object_getClassName_intptr
+	.long LDIFF_SYM195
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,76,147,13,148,12,68,149,11,150,10,68,151,9,152,8,68,153,7
+	.byte 154,6,68,155,5,156,4
+	.align 3
+Lfde1_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 0
+Ldebug_info_end:
+.section __DWARF, __debug_line,regular,debug
+Ldebug_line_section_start:
+Ldebug_line_start:
+
+	.long Ldebug_line_end - . -4
+	.short 2
+	.long Ldebug_line_header_end - . -4
+	.byte 1,1,251,14,13,0,1,1,1,1,0,0,0,1,0,0,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0
+	.asciz "<unknown>"
+
+	.byte 0,0,0,0
+Ldebug_line_header_end:
+
+	.byte 0,1,1
+Ldebug_line_end:
+.text
+	.align 3
+mem_end:

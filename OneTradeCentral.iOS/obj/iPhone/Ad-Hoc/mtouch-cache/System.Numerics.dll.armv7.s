@@ -1,0 +1,2843 @@
+.subsections_via_symbols
+.text
+	.align 3
+jit_code_start:
+_mono_aot_System_Numericsjit_code_start:
+	.globl _mono_aot_System_Numericsjit_code_start
+
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+.text
+.code 16
+
+.thumb_func
+ut_3:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger__ctor_int
+.arm
+.align 2
+.code 32
+ut_end:
+.section __TEXT, __const
+_unbox_trampoline_p:
+
+	.long 0
+LDIFF_SYM0=ut_end - ut_3
+	.long LDIFF_SYM0
+.text
+.code 16
+
+.thumb_func
+ut_4:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger__ctor_uint
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_5:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger__ctor_long
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_6:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger__ctor_ulong
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_7:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger__ctor_byte__
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_8:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger__ctor_int_uint__
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_9:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_get_Zero
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_10:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_get_IsZero
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_11:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_Equals_object
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_12:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_GetHashCode
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_13:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_Equals_long
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_14:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_Equals_System_Numerics_BigInteger
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_15:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_CompareTo_long
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_16:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_CompareTo_System_Numerics_BigInteger
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_17:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_CompareTo_object
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_18:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_ToByteArray
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_19:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_ToString
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_20:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_ToString_string_System_IFormatProvider
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_21:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_Parse_string_System_IFormatProvider
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_22:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Implicit_byte
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_23:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Implicit_sbyte
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_24:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Implicit_int16
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_25:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Implicit_uint16
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_26:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Implicit_int
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_27:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Implicit_uint
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_28:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Implicit_long
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_29:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Implicit_ulong
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_30:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_31:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_0
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_32:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_1
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_33:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_2
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_34:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_3
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_35:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_4
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_36:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_5
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_37:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_6
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_38:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_7
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_39:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_8
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_40:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_9
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_41:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_UnaryNegation_System_Numerics_BigInteger
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_42:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Addition_System_Numerics_BigInteger_System_Numerics_BigInteger
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_43:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Subtraction_System_Numerics_BigInteger_System_Numerics_BigInteger
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_44:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Multiply_System_Numerics_BigInteger_System_Numerics_BigInteger
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_45:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_LessThanOrEqual_System_Numerics_BigInteger_System_Numerics_BigInteger
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_46:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_LessThan_System_Numerics_BigInteger_long
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_47:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_LessThanOrEqual_System_Numerics_BigInteger_long
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_48:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Equality_System_Numerics_BigInteger_long
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_49:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_Inequality_System_Numerics_BigInteger_long
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_50:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_LessThan_long_System_Numerics_BigInteger
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_51:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_op_LessThanOrEqual_long_System_Numerics_BigInteger
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_52:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_Length_uint__
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_53:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_get__Sign
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_54:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_get__Bits
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_55:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger_GetDiffLength_uint___uint___int
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_56:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigInteger__cctor
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_57:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigIntegerBuilder_
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_58:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigInteger_int_
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_59:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_GetInteger_int
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_60:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_GetIntegerParts_int_int__uint___
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_61:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_Set_uint
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_62:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_Set_ulong
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_63:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_GetApproxParts_int__ulong_
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_64:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_Trim
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_65:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeLazy_int
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_66:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeKeep_int_int
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_67:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int_int
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_68:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_69:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_70:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder_
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_71:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder__int
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_72:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_Add_uint
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_73:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_Add_System_Numerics_BigIntegerBuilder_
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_74:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__uint
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_75:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__System_Numerics_BigIntegerBuilder_
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_76:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_SubRev_System_Numerics_BigIntegerBuilder_
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_77:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_Mul_uint
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_78:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_Mul_System_Numerics_BigIntegerBuilder_
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_79:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_ApplyCarry_int
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_80:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_ApplyBorrow_int
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_81:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_AddCarry_uint__uint_uint
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_82:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_SubBorrow_uint__uint_uint
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_83:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_SubRevBorrow_uint__uint_uint
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_84:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_MulCarry_uint__uint_uint
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_85:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder_AddMulCarry_uint__uint_uint_uint
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_86:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigIntegerBuilder__cctor
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_95:
+add r0, r0, #8
+b _System_Numerics_System_Numerics_BigNumber_BigNumberBuffer_Create
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_113:
+add r0, r0, #8
+b _System_Numerics_wrapper_unknown_System_Numerics_DoubleUlong_StructureToPtr_object_intptr_bool
+.arm
+.align 2
+.code 32
+.text
+.code 16
+
+.thumb_func
+ut_114:
+add r0, r0, #8
+b _System_Numerics_wrapper_unknown_System_Numerics_DoubleUlong_PtrToStructure_intptr_object
+.arm
+.align 2
+.code 32
+.text
+	.align 3
+jit_code_end:
+_mono_aot_System_Numericsjit_code_end:
+	.globl _mono_aot_System_Numericsjit_code_end
+
+	.byte 0,0,0,0
+.no_dead_strip _System_Numerics_SR_GetString_string_object__
+.no_dead_strip _System_Numerics_SR_GetString_System_Globalization_CultureInfo_string_object__
+.no_dead_strip _System_Numerics_SR_GetString_string
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger__ctor_int
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger__ctor_uint
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger__ctor_long
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger__ctor_ulong
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger__ctor_byte__
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger__ctor_int_uint__
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_get_Zero
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_get_IsZero
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_Equals_object
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_GetHashCode
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_Equals_long
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_Equals_System_Numerics_BigInteger
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_CompareTo_long
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_CompareTo_System_Numerics_BigInteger
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_CompareTo_object
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_ToByteArray
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_ToString
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_ToString_string_System_IFormatProvider
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_Parse_string_System_IFormatProvider
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Implicit_byte
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Implicit_sbyte
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Implicit_int16
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Implicit_uint16
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Implicit_int
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Implicit_uint
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Implicit_long
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Implicit_ulong
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_0
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_1
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_2
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_3
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_4
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_5
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_6
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_7
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_8
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_9
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_UnaryNegation_System_Numerics_BigInteger
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Addition_System_Numerics_BigInteger_System_Numerics_BigInteger
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Subtraction_System_Numerics_BigInteger_System_Numerics_BigInteger
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Multiply_System_Numerics_BigInteger_System_Numerics_BigInteger
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_LessThanOrEqual_System_Numerics_BigInteger_System_Numerics_BigInteger
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_LessThan_System_Numerics_BigInteger_long
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_LessThanOrEqual_System_Numerics_BigInteger_long
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Equality_System_Numerics_BigInteger_long
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_Inequality_System_Numerics_BigInteger_long
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_LessThan_long_System_Numerics_BigInteger
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_op_LessThanOrEqual_long_System_Numerics_BigInteger
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_Length_uint__
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_get__Sign
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_get__Bits
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger_GetDiffLength_uint___uint___int
+.no_dead_strip _System_Numerics_System_Numerics_BigInteger__cctor
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigIntegerBuilder_
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigInteger_int_
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_GetInteger_int
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_GetIntegerParts_int_int__uint___
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_Set_uint
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_Set_ulong
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_GetApproxParts_int__ulong_
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_Trim
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeLazy_int
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeKeep_int_int
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int_int
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder_
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder__int
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_Add_uint
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_Add_System_Numerics_BigIntegerBuilder_
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__uint
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__System_Numerics_BigIntegerBuilder_
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_SubRev_System_Numerics_BigIntegerBuilder_
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_Mul_uint
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_Mul_System_Numerics_BigIntegerBuilder_
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_ApplyCarry_int
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_ApplyBorrow_int
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_AddCarry_uint__uint_uint
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_SubBorrow_uint__uint_uint
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_SubRevBorrow_uint__uint_uint
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_MulCarry_uint__uint_uint
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder_AddMulCarry_uint__uint_uint_uint
+.no_dead_strip _System_Numerics_System_Numerics_BigIntegerBuilder__cctor
+.no_dead_strip _System_Numerics_System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException_
+.no_dead_strip _System_Numerics_System_Numerics_BigNumber_TryParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Numerics_BigInteger_
+.no_dead_strip _System_Numerics_System_Numerics_BigNumber_ParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo
+.no_dead_strip _System_Numerics_System_Numerics_BigNumber_HexNumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger_
+.no_dead_strip _System_Numerics_System_Numerics_BigNumber_NumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger_
+.no_dead_strip _System_Numerics_System_Numerics_BigNumber_ParseFormatSpecifier_string_int_
+.no_dead_strip _System_Numerics_System_Numerics_BigNumber_FormatBigIntegerToHexString_System_Numerics_BigInteger_char_int_System_Globalization_NumberFormatInfo
+.no_dead_strip _System_Numerics_System_Numerics_BigNumber_FormatBigInteger_System_Numerics_BigInteger_string_System_Globalization_NumberFormatInfo
+.no_dead_strip _System_Numerics_System_Numerics_BigNumber_BigNumberBuffer_Create
+.no_dead_strip _System_Numerics_System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong
+.no_dead_strip _System_Numerics_System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint__
+.no_dead_strip _System_Numerics_System_Numerics_NumericsHelpers_resize_uint___int
+.no_dead_strip _System_Numerics_System_Numerics_NumericsHelpers_MakeUlong_uint_uint
+.no_dead_strip _System_Numerics_System_Numerics_NumericsHelpers_GetLo_ulong
+.no_dead_strip _System_Numerics_System_Numerics_NumericsHelpers_GetHi_ulong
+.no_dead_strip _System_Numerics_System_Numerics_NumericsHelpers_CombineHash_uint_uint
+.no_dead_strip _System_Numerics_System_Numerics_NumericsHelpers_CombineHash_int_int
+.no_dead_strip _System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_uint
+.no_dead_strip _System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_ulong
+.no_dead_strip _System_Numerics_wrapper_unknown_uint___Get_int
+.no_dead_strip _System_Numerics_wrapper_runtime_invoke__Module_runtime_invoke_uint__this___int_object_intptr_intptr_intptr
+.no_dead_strip _System_Numerics_wrapper_unknown_uint___Set_int_uint
+.no_dead_strip _System_Numerics_wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_uint_object_intptr_intptr_intptr
+.no_dead_strip _System_Numerics_wrapper_unknown_System_Numerics_DoubleUlong_StructureToPtr_object_intptr_bool
+.no_dead_strip _System_Numerics_wrapper_unknown_System_Numerics_DoubleUlong_PtrToStructure_intptr_object
+.no_dead_strip _System_Numerics_System_Array_Resize_T_UINT_T_UINT____int
+
+.text
+	.align 3
+method_addresses:
+_mono_aot_System_Numericsmethod_addresses:
+	.globl _mono_aot_System_Numericsmethod_addresses
+	.no_dead_strip method_addresses
+blx _System_Numerics_SR_GetString_string_object__
+blx _System_Numerics_SR_GetString_System_Globalization_CultureInfo_string_object__
+blx _System_Numerics_SR_GetString_string
+blx _System_Numerics_System_Numerics_BigInteger__ctor_int
+blx _System_Numerics_System_Numerics_BigInteger__ctor_uint
+blx _System_Numerics_System_Numerics_BigInteger__ctor_long
+blx _System_Numerics_System_Numerics_BigInteger__ctor_ulong
+blx _System_Numerics_System_Numerics_BigInteger__ctor_byte__
+blx _System_Numerics_System_Numerics_BigInteger__ctor_int_uint__
+blx _System_Numerics_System_Numerics_BigInteger_get_Zero
+blx _System_Numerics_System_Numerics_BigInteger_get_IsZero
+blx _System_Numerics_System_Numerics_BigInteger_Equals_object
+blx _System_Numerics_System_Numerics_BigInteger_GetHashCode
+blx _System_Numerics_System_Numerics_BigInteger_Equals_long
+blx _System_Numerics_System_Numerics_BigInteger_Equals_System_Numerics_BigInteger
+blx _System_Numerics_System_Numerics_BigInteger_CompareTo_long
+blx _System_Numerics_System_Numerics_BigInteger_CompareTo_System_Numerics_BigInteger
+blx _System_Numerics_System_Numerics_BigInteger_CompareTo_object
+blx _System_Numerics_System_Numerics_BigInteger_ToByteArray
+blx _System_Numerics_System_Numerics_BigInteger_ToString
+blx _System_Numerics_System_Numerics_BigInteger_ToString_string_System_IFormatProvider
+blx _System_Numerics_System_Numerics_BigInteger_Parse_string_System_IFormatProvider
+blx _System_Numerics_System_Numerics_BigInteger_op_Implicit_byte
+blx _System_Numerics_System_Numerics_BigInteger_op_Implicit_sbyte
+blx _System_Numerics_System_Numerics_BigInteger_op_Implicit_int16
+blx _System_Numerics_System_Numerics_BigInteger_op_Implicit_uint16
+blx _System_Numerics_System_Numerics_BigInteger_op_Implicit_int
+blx _System_Numerics_System_Numerics_BigInteger_op_Implicit_uint
+blx _System_Numerics_System_Numerics_BigInteger_op_Implicit_long
+blx _System_Numerics_System_Numerics_BigInteger_op_Implicit_ulong
+blx _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger
+blx _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_0
+blx _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_1
+blx _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_2
+blx _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_3
+blx _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_4
+blx _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_5
+blx _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_6
+blx _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_7
+blx _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_8
+blx _System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_9
+blx _System_Numerics_System_Numerics_BigInteger_op_UnaryNegation_System_Numerics_BigInteger
+blx _System_Numerics_System_Numerics_BigInteger_op_Addition_System_Numerics_BigInteger_System_Numerics_BigInteger
+blx _System_Numerics_System_Numerics_BigInteger_op_Subtraction_System_Numerics_BigInteger_System_Numerics_BigInteger
+blx _System_Numerics_System_Numerics_BigInteger_op_Multiply_System_Numerics_BigInteger_System_Numerics_BigInteger
+blx _System_Numerics_System_Numerics_BigInteger_op_LessThanOrEqual_System_Numerics_BigInteger_System_Numerics_BigInteger
+blx _System_Numerics_System_Numerics_BigInteger_op_LessThan_System_Numerics_BigInteger_long
+blx _System_Numerics_System_Numerics_BigInteger_op_LessThanOrEqual_System_Numerics_BigInteger_long
+blx _System_Numerics_System_Numerics_BigInteger_op_Equality_System_Numerics_BigInteger_long
+blx _System_Numerics_System_Numerics_BigInteger_op_Inequality_System_Numerics_BigInteger_long
+blx _System_Numerics_System_Numerics_BigInteger_op_LessThan_long_System_Numerics_BigInteger
+blx _System_Numerics_System_Numerics_BigInteger_op_LessThanOrEqual_long_System_Numerics_BigInteger
+blx _System_Numerics_System_Numerics_BigInteger_Length_uint__
+blx _System_Numerics_System_Numerics_BigInteger_get__Sign
+blx _System_Numerics_System_Numerics_BigInteger_get__Bits
+blx _System_Numerics_System_Numerics_BigInteger_GetDiffLength_uint___uint___int
+blx _System_Numerics_System_Numerics_BigInteger__cctor
+blx _System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigIntegerBuilder_
+blx _System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigInteger_int_
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_GetInteger_int
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_GetIntegerParts_int_int__uint___
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_Set_uint
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_Set_ulong
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_GetApproxParts_int__ulong_
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_Trim
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeLazy_int
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeKeep_int_int
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int_int
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder_
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder__int
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_Add_uint
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_Add_System_Numerics_BigIntegerBuilder_
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__uint
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__System_Numerics_BigIntegerBuilder_
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_SubRev_System_Numerics_BigIntegerBuilder_
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_Mul_uint
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_Mul_System_Numerics_BigIntegerBuilder_
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_ApplyCarry_int
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_ApplyBorrow_int
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_AddCarry_uint__uint_uint
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_SubBorrow_uint__uint_uint
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_SubRevBorrow_uint__uint_uint
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_MulCarry_uint__uint_uint
+blx _System_Numerics_System_Numerics_BigIntegerBuilder_AddMulCarry_uint__uint_uint_uint
+blx _System_Numerics_System_Numerics_BigIntegerBuilder__cctor
+blx _System_Numerics_System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException_
+blx _System_Numerics_System_Numerics_BigNumber_TryParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Numerics_BigInteger_
+blx _System_Numerics_System_Numerics_BigNumber_ParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo
+blx _System_Numerics_System_Numerics_BigNumber_HexNumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger_
+blx _System_Numerics_System_Numerics_BigNumber_NumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger_
+blx _System_Numerics_System_Numerics_BigNumber_ParseFormatSpecifier_string_int_
+blx _System_Numerics_System_Numerics_BigNumber_FormatBigIntegerToHexString_System_Numerics_BigInteger_char_int_System_Globalization_NumberFormatInfo
+blx _System_Numerics_System_Numerics_BigNumber_FormatBigInteger_System_Numerics_BigInteger_string_System_Globalization_NumberFormatInfo
+blx _System_Numerics_System_Numerics_BigNumber_BigNumberBuffer_Create
+blx _System_Numerics_System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong
+blx _System_Numerics_System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint__
+blx _System_Numerics_System_Numerics_NumericsHelpers_resize_uint___int
+blx _System_Numerics_System_Numerics_NumericsHelpers_MakeUlong_uint_uint
+blx _System_Numerics_System_Numerics_NumericsHelpers_GetLo_ulong
+blx _System_Numerics_System_Numerics_NumericsHelpers_GetHi_ulong
+blx _System_Numerics_System_Numerics_NumericsHelpers_CombineHash_uint_uint
+blx _System_Numerics_System_Numerics_NumericsHelpers_CombineHash_int_int
+blx _System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_uint
+blx _System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_ulong
+bl method_addresses
+bl method_addresses
+bl method_addresses
+blx _System_Numerics_wrapper_unknown_uint___Get_int
+blx _System_Numerics_wrapper_runtime_invoke__Module_runtime_invoke_uint__this___int_object_intptr_intptr_intptr
+blx _System_Numerics_wrapper_unknown_uint___Set_int_uint
+blx _System_Numerics_wrapper_runtime_invoke__Module_runtime_invoke_void__this___int_uint_object_intptr_intptr_intptr
+blx _System_Numerics_wrapper_unknown_System_Numerics_DoubleUlong_StructureToPtr_object_intptr_bool
+blx _System_Numerics_wrapper_unknown_System_Numerics_DoubleUlong_PtrToStructure_intptr_object
+blx _System_Numerics_System_Array_Resize_T_UINT_T_UINT____int
+method_addresses_end:
+
+.section __TEXT, __const
+	.align 3
+unbox_trampolines:
+_mono_aot_System_Numericsunbox_trampolines:
+	.globl _mono_aot_System_Numericsunbox_trampolines
+
+	.long 3,4,5,6,7,8,9,10
+	.long 11,12,13,14,15,16,17,18
+	.long 19,20,21,22,23,24,25,26
+	.long 27,28,29,30,31,32,33,34
+	.long 35,36,37,38,39,40,41,42
+	.long 43,44,45,46,47,48,49,50
+	.long 51,52,53,54,55,56,57,58
+	.long 59,60,61,62,63,64,65,66
+	.long 67,68,69,70,71,72,73,74
+	.long 75,76,77,78,79,80,81,82
+	.long 83,84,85,86,95,113,114
+unbox_trampolines_end:
+_mono_aot_System_Numericsunbox_trampolines_end:
+	.globl _mono_aot_System_Numericsunbox_trampolines_end
+
+	.long 0
+.text
+	.align 3
+unbox_trampoline_addresses:
+_mono_aot_System_Numericsunbox_trampoline_addresses:
+	.globl _mono_aot_System_Numericsunbox_trampoline_addresses
+blx ut_3
+blx ut_4
+blx ut_5
+blx ut_6
+blx ut_7
+blx ut_8
+blx ut_9
+blx ut_10
+blx ut_11
+blx ut_12
+blx ut_13
+blx ut_14
+blx ut_15
+blx ut_16
+blx ut_17
+blx ut_18
+blx ut_19
+blx ut_20
+blx ut_21
+blx ut_22
+blx ut_23
+blx ut_24
+blx ut_25
+blx ut_26
+blx ut_27
+blx ut_28
+blx ut_29
+blx ut_30
+blx ut_31
+blx ut_32
+blx ut_33
+blx ut_34
+blx ut_35
+blx ut_36
+blx ut_37
+blx ut_38
+blx ut_39
+blx ut_40
+blx ut_41
+blx ut_42
+blx ut_43
+blx ut_44
+blx ut_45
+blx ut_46
+blx ut_47
+blx ut_48
+blx ut_49
+blx ut_50
+blx ut_51
+blx ut_52
+blx ut_53
+blx ut_54
+blx ut_55
+blx ut_56
+blx ut_57
+blx ut_58
+blx ut_59
+blx ut_60
+blx ut_61
+blx ut_62
+blx ut_63
+blx ut_64
+blx ut_65
+blx ut_66
+blx ut_67
+blx ut_68
+blx ut_69
+blx ut_70
+blx ut_71
+blx ut_72
+blx ut_73
+blx ut_74
+blx ut_75
+blx ut_76
+blx ut_77
+blx ut_78
+blx ut_79
+blx ut_80
+blx ut_81
+blx ut_82
+blx ut_83
+blx ut_84
+blx ut_85
+blx ut_86
+blx ut_95
+blx ut_113
+blx ut_114
+
+	.long 0
+.section __TEXT, __const
+	.align 3
+unwind_info:
+_mono_aot_System_Numericsunwind_info:
+	.globl _mono_aot_System_Numericsunwind_info
+
+	.byte 3,12,13,0
+
+.text
+	.align 4
+plt:
+_mono_aot_System_Numericsplt:
+	.globl _mono_aot_System_Numericsplt
+mono_aot_System_Numerics_plt:
+	.space 16
+	.thumb_func plt_System_Numerics_SR_GetString_System_Globalization_CultureInfo_string_object___thumb
+	.no_dead_strip plt_System_Numerics_SR_GetString_System_Globalization_CultureInfo_string_object___thumb
+plt_System_Numerics_SR_GetString_System_Globalization_CultureInfo_string_object___thumb:
+
+.thumb_func
+_p_1_plt_System_Numerics_SR_GetString_System_Globalization_CultureInfo_string_object___llvm:
+	.globl _p_1_plt_System_Numerics_SR_GetString_System_Globalization_CultureInfo_string_object___llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 64,792
+.code 32
+	.thumb_func plt_System_Numerics__jit_icall_mono_generic_class_init_thumb
+	.no_dead_strip plt_System_Numerics__jit_icall_mono_generic_class_init_thumb
+plt_System_Numerics__jit_icall_mono_generic_class_init_thumb:
+
+.thumb_func
+_p_2_plt_System_Numerics__jit_icall_mono_generic_class_init_llvm:
+	.globl _p_2_plt_System_Numerics__jit_icall_mono_generic_class_init_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 68,794
+.code 32
+	.thumb_func plt_System_Numerics_string_Format_System_IFormatProvider_string_object___thumb
+	.no_dead_strip plt_System_Numerics_string_Format_System_IFormatProvider_string_object___thumb
+plt_System_Numerics_string_Format_System_IFormatProvider_string_object___thumb:
+
+.thumb_func
+_p_3_plt_System_Numerics_string_Format_System_IFormatProvider_string_object___llvm:
+	.globl _p_3_plt_System_Numerics_string_Format_System_IFormatProvider_string_object___llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 72,820
+.code 32
+	.thumb_func plt_System_Numerics_wrapper_write_barrier_object_wbarrier_noconc_intptr_thumb
+	.no_dead_strip plt_System_Numerics_wrapper_write_barrier_object_wbarrier_noconc_intptr_thumb
+plt_System_Numerics_wrapper_write_barrier_object_wbarrier_noconc_intptr_thumb:
+
+.thumb_func
+_p_4_plt_System_Numerics_wrapper_write_barrier_object_wbarrier_noconc_intptr_llvm:
+	.globl _p_4_plt_System_Numerics_wrapper_write_barrier_object_wbarrier_noconc_intptr_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 76,825
+.code 32
+	.thumb_func plt_System_Numerics__jit_icall_mono_array_new_specific_thumb
+	.no_dead_strip plt_System_Numerics__jit_icall_mono_array_new_specific_thumb
+plt_System_Numerics__jit_icall_mono_array_new_specific_thumb:
+
+.thumb_func
+_p_5_plt_System_Numerics__jit_icall_mono_array_new_specific_llvm:
+	.globl _p_5_plt_System_Numerics__jit_icall_mono_array_new_specific_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 80,832
+.code 32
+	.thumb_func plt_System_Numerics__jit_icall_llvm_throw_corlib_exception_abs_trampoline_thumb
+	.no_dead_strip plt_System_Numerics__jit_icall_llvm_throw_corlib_exception_abs_trampoline_thumb
+plt_System_Numerics__jit_icall_llvm_throw_corlib_exception_abs_trampoline_thumb:
+
+.thumb_func
+_p_6_plt_System_Numerics__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm:
+	.globl _p_6_plt_System_Numerics__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 84,858
+.code 32
+	.thumb_func plt_System_Numerics__jit_icall_mono_thread_interruption_checkpoint_thumb
+	.no_dead_strip plt_System_Numerics__jit_icall_mono_thread_interruption_checkpoint_thumb
+plt_System_Numerics__jit_icall_mono_thread_interruption_checkpoint_thumb:
+
+.thumb_func
+_p_7_plt_System_Numerics__jit_icall_mono_thread_interruption_checkpoint_llvm:
+	.globl _p_7_plt_System_Numerics__jit_icall_mono_thread_interruption_checkpoint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 88,903
+.code 32
+	.thumb_func plt_System_Numerics__jit_icall_mono_arch_throw_exception_thumb
+	.no_dead_strip plt_System_Numerics__jit_icall_mono_arch_throw_exception_thumb
+plt_System_Numerics__jit_icall_mono_arch_throw_exception_thumb:
+
+.thumb_func
+_p_8_plt_System_Numerics__jit_icall_mono_arch_throw_exception_llvm:
+	.globl _p_8_plt_System_Numerics__jit_icall_mono_arch_throw_exception_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 92,941
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint___thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint___thumb
+plt_System_Numerics_System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint___thumb:
+
+.thumb_func
+_p_9_plt_System_Numerics_System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint___llvm:
+	.globl _p_9_plt_System_Numerics_System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint___llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 96,969
+.code 32
+	.thumb_func plt_System_Numerics_System_Array_Copy_System_Array_System_Array_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Array_Copy_System_Array_System_Array_int_thumb
+plt_System_Numerics_System_Array_Copy_System_Array_System_Array_int_thumb:
+
+.thumb_func
+_p_10_plt_System_Numerics_System_Array_Copy_System_Array_System_Array_int_llvm:
+	.globl _p_10_plt_System_Numerics_System_Array_Copy_System_Array_System_Array_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 100,971
+.code 32
+	.thumb_func plt_System_Numerics__jit_icall_mono_helper_ldstr_thumb
+	.no_dead_strip plt_System_Numerics__jit_icall_mono_helper_ldstr_thumb
+plt_System_Numerics__jit_icall_mono_helper_ldstr_thumb:
+
+.thumb_func
+_p_11_plt_System_Numerics__jit_icall_mono_helper_ldstr_llvm:
+	.globl _p_11_plt_System_Numerics__jit_icall_mono_helper_ldstr_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 104,976
+.code 32
+	.thumb_func plt_System_Numerics__jit_icall_mono_create_corlib_exception_1_thumb
+	.no_dead_strip plt_System_Numerics__jit_icall_mono_create_corlib_exception_1_thumb
+plt_System_Numerics__jit_icall_mono_create_corlib_exception_1_thumb:
+
+.thumb_func
+_p_12_plt_System_Numerics__jit_icall_mono_create_corlib_exception_1_llvm:
+	.globl _p_12_plt_System_Numerics__jit_icall_mono_create_corlib_exception_1_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 108,996
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger_Equals_System_Numerics_BigInteger_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger_Equals_System_Numerics_BigInteger_thumb
+plt_System_Numerics_System_Numerics_BigInteger_Equals_System_Numerics_BigInteger_thumb:
+
+.thumb_func
+_p_13_plt_System_Numerics_System_Numerics_BigInteger_Equals_System_Numerics_BigInteger_llvm:
+	.globl _p_13_plt_System_Numerics_System_Numerics_BigInteger_Equals_System_Numerics_BigInteger_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 112,1029
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger_Length_uint___thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger_Length_uint___thumb
+plt_System_Numerics_System_Numerics_BigInteger_Length_uint___thumb:
+
+.thumb_func
+_p_14_plt_System_Numerics_System_Numerics_BigInteger_Length_uint___llvm:
+	.globl _p_14_plt_System_Numerics_System_Numerics_BigInteger_Length_uint___llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 116,1031
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger_GetDiffLength_uint___uint___int_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger_GetDiffLength_uint___uint___int_thumb
+plt_System_Numerics_System_Numerics_BigInteger_GetDiffLength_uint___uint___int_thumb:
+
+.thumb_func
+_p_15_plt_System_Numerics_System_Numerics_BigInteger_GetDiffLength_uint___uint___int_llvm:
+	.globl _p_15_plt_System_Numerics_System_Numerics_BigInteger_GetDiffLength_uint___uint___int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 120,1033
+.code 32
+	.thumb_func plt_System_Numerics_ulong_CompareTo_ulong_thumb
+	.no_dead_strip plt_System_Numerics_ulong_CompareTo_ulong_thumb
+plt_System_Numerics_ulong_CompareTo_ulong_thumb:
+
+.thumb_func
+_p_16_plt_System_Numerics_ulong_CompareTo_ulong_llvm:
+	.globl _p_16_plt_System_Numerics_ulong_CompareTo_ulong_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 124,1035
+.code 32
+	.thumb_func plt_System_Numerics_long_CompareTo_long_thumb
+	.no_dead_strip plt_System_Numerics_long_CompareTo_long_thumb
+plt_System_Numerics_long_CompareTo_long_thumb:
+
+.thumb_func
+_p_17_plt_System_Numerics_long_CompareTo_long_llvm:
+	.globl _p_17_plt_System_Numerics_long_CompareTo_long_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 128,1040
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger_CompareTo_System_Numerics_BigInteger_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger_CompareTo_System_Numerics_BigInteger_thumb
+plt_System_Numerics_System_Numerics_BigInteger_CompareTo_System_Numerics_BigInteger_thumb:
+
+.thumb_func
+_p_18_plt_System_Numerics_System_Numerics_BigInteger_CompareTo_System_Numerics_BigInteger_llvm:
+	.globl _p_18_plt_System_Numerics_System_Numerics_BigInteger_CompareTo_System_Numerics_BigInteger_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 132,1045
+.code 32
+	.thumb_func plt_System_Numerics_System_Array_Clone_thumb
+	.no_dead_strip plt_System_Numerics_System_Array_Clone_thumb
+plt_System_Numerics_System_Array_Clone_thumb:
+
+.thumb_func
+_p_19_plt_System_Numerics_System_Array_Clone_llvm:
+	.globl _p_19_plt_System_Numerics_System_Array_Clone_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 136,1047
+.code 32
+	.thumb_func plt_System_Numerics_System_Globalization_NumberFormatInfo_get_CurrentInfo_thumb
+	.no_dead_strip plt_System_Numerics_System_Globalization_NumberFormatInfo_get_CurrentInfo_thumb
+plt_System_Numerics_System_Globalization_NumberFormatInfo_get_CurrentInfo_thumb:
+
+.thumb_func
+_p_20_plt_System_Numerics_System_Globalization_NumberFormatInfo_get_CurrentInfo_llvm:
+	.globl _p_20_plt_System_Numerics_System_Globalization_NumberFormatInfo_get_CurrentInfo_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 140,1052
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigNumber_FormatBigInteger_System_Numerics_BigInteger_string_System_Globalization_NumberFormatInfo_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigNumber_FormatBigInteger_System_Numerics_BigInteger_string_System_Globalization_NumberFormatInfo_thumb
+plt_System_Numerics_System_Numerics_BigNumber_FormatBigInteger_System_Numerics_BigInteger_string_System_Globalization_NumberFormatInfo_thumb:
+
+.thumb_func
+_p_21_plt_System_Numerics_System_Numerics_BigNumber_FormatBigInteger_System_Numerics_BigInteger_string_System_Globalization_NumberFormatInfo_llvm:
+	.globl _p_21_plt_System_Numerics_System_Numerics_BigNumber_FormatBigInteger_System_Numerics_BigInteger_string_System_Globalization_NumberFormatInfo_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 144,1057
+.code 32
+	.thumb_func plt_System_Numerics_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider_thumb
+	.no_dead_strip plt_System_Numerics_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider_thumb
+plt_System_Numerics_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider_thumb:
+
+.thumb_func
+_p_22_plt_System_Numerics_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider_llvm:
+	.globl _p_22_plt_System_Numerics_System_Globalization_NumberFormatInfo_GetInstance_System_IFormatProvider_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 148,1059
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigNumber_ParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigNumber_ParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_thumb
+plt_System_Numerics_System_Numerics_BigNumber_ParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_thumb:
+
+.thumb_func
+_p_23_plt_System_Numerics_System_Numerics_BigNumber_ParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_llvm:
+	.globl _p_23_plt_System_Numerics_System_Numerics_BigNumber_ParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 152,1064
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger__ctor_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger__ctor_int_thumb
+plt_System_Numerics_System_Numerics_BigInteger__ctor_int_thumb:
+
+.thumb_func
+_p_24_plt_System_Numerics_System_Numerics_BigInteger__ctor_int_llvm:
+	.globl _p_24_plt_System_Numerics_System_Numerics_BigInteger__ctor_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 156,1066
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger__ctor_uint_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger__ctor_uint_thumb
+plt_System_Numerics_System_Numerics_BigInteger__ctor_uint_thumb:
+
+.thumb_func
+_p_25_plt_System_Numerics_System_Numerics_BigInteger__ctor_uint_llvm:
+	.globl _p_25_plt_System_Numerics_System_Numerics_BigInteger__ctor_uint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 160,1068
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger__ctor_long_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger__ctor_long_thumb
+plt_System_Numerics_System_Numerics_BigInteger__ctor_long_thumb:
+
+.thumb_func
+_p_26_plt_System_Numerics_System_Numerics_BigInteger__ctor_long_llvm:
+	.globl _p_26_plt_System_Numerics_System_Numerics_BigInteger__ctor_long_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 164,1070
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger__ctor_ulong_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger__ctor_ulong_thumb
+plt_System_Numerics_System_Numerics_BigInteger__ctor_ulong_thumb:
+
+.thumb_func
+_p_27_plt_System_Numerics_System_Numerics_BigInteger__ctor_ulong_llvm:
+	.globl _p_27_plt_System_Numerics_System_Numerics_BigInteger__ctor_ulong_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 168,1072
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_thumb
+plt_System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_thumb:
+
+.thumb_func
+_p_28_plt_System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_llvm:
+	.globl _p_28_plt_System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 172,1074
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_0_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_0_thumb
+plt_System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_0_thumb:
+
+.thumb_func
+_p_29_plt_System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_0_llvm:
+	.globl _p_29_plt_System_Numerics_System_Numerics_BigInteger_op_Explicit_System_Numerics_BigInteger_0_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 176,1076
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigInteger_int__thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigInteger_int__thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigInteger_int__thumb:
+
+.thumb_func
+_p_30_plt_System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigInteger_int__llvm:
+	.globl _p_30_plt_System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigInteger_int__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 180,1078
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetApproxParts_int__ulong__thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetApproxParts_int__ulong__thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetApproxParts_int__ulong__thumb:
+
+.thumb_func
+_p_31_plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetApproxParts_int__ulong__llvm:
+	.globl _p_31_plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetApproxParts_int__ulong__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 184,1080
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong_thumb
+plt_System_Numerics_System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong_thumb:
+
+.thumb_func
+_p_32_plt_System_Numerics_System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong_llvm:
+	.globl _p_32_plt_System_Numerics_System_Numerics_NumericsHelpers_GetDoubleFromParts_int_int_ulong_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 188,1082
+.code 32
+	.thumb_func plt_System_Numerics_System_Decimal__ctor_int_int_int_bool_byte_thumb
+	.no_dead_strip plt_System_Numerics_System_Decimal__ctor_int_int_int_bool_byte_thumb
+plt_System_Numerics_System_Decimal__ctor_int_int_int_bool_byte_thumb:
+
+.thumb_func
+_p_33_plt_System_Numerics_System_Decimal__ctor_int_int_int_bool_byte_llvm:
+	.globl _p_33_plt_System_Numerics_System_Decimal__ctor_int_int_int_bool_byte_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 192,1084
+.code 32
+	.thumb_func plt_System_Numerics_System_Decimal_op_Implicit_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Decimal_op_Implicit_int_thumb
+plt_System_Numerics_System_Decimal_op_Implicit_int_thumb:
+
+.thumb_func
+_p_34_plt_System_Numerics_System_Decimal_op_Implicit_int_llvm:
+	.globl _p_34_plt_System_Numerics_System_Decimal_op_Implicit_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 196,1089
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__System_Numerics_BigIntegerBuilder__thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__System_Numerics_BigIntegerBuilder__thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__System_Numerics_BigIntegerBuilder__thumb:
+
+.thumb_func
+_p_35_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__System_Numerics_BigIntegerBuilder__llvm:
+	.globl _p_35_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__System_Numerics_BigIntegerBuilder__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 200,1094
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetInteger_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetInteger_int_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetInteger_int_thumb:
+
+.thumb_func
+_p_36_plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetInteger_int_llvm:
+	.globl _p_36_plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetInteger_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 204,1096
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_Add_System_Numerics_BigIntegerBuilder__thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_Add_System_Numerics_BigIntegerBuilder__thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_Add_System_Numerics_BigIntegerBuilder__thumb:
+
+.thumb_func
+_p_37_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Add_System_Numerics_BigIntegerBuilder__llvm:
+	.globl _p_37_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Add_System_Numerics_BigIntegerBuilder__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 208,1098
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_Mul_System_Numerics_BigIntegerBuilder__thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_Mul_System_Numerics_BigIntegerBuilder__thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_Mul_System_Numerics_BigIntegerBuilder__thumb:
+
+.thumb_func
+_p_38_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Mul_System_Numerics_BigIntegerBuilder__llvm:
+	.globl _p_38_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Mul_System_Numerics_BigIntegerBuilder__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 212,1100
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger_CompareTo_long_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger_CompareTo_long_thumb
+plt_System_Numerics_System_Numerics_BigInteger_CompareTo_long_thumb:
+
+.thumb_func
+_p_39_plt_System_Numerics_System_Numerics_BigInteger_CompareTo_long_llvm:
+	.globl _p_39_plt_System_Numerics_System_Numerics_BigInteger_CompareTo_long_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 216,1102
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger_Equals_long_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger_Equals_long_thumb
+plt_System_Numerics_System_Numerics_BigInteger_Equals_long_thumb:
+
+.thumb_func
+_p_40_plt_System_Numerics_System_Numerics_BigInteger_Equals_long_llvm:
+	.globl _p_40_plt_System_Numerics_System_Numerics_BigInteger_Equals_long_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 220,1104
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetIntegerParts_int_int__uint____thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetIntegerParts_int_int__uint____thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetIntegerParts_int_int__uint____thumb:
+
+.thumb_func
+_p_41_plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetIntegerParts_int_int__uint____llvm:
+	.globl _p_41_plt_System_Numerics_System_Numerics_BigIntegerBuilder_GetIntegerParts_int_int__uint____llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 224,1106
+.code 32
+	.thumb_func plt_System_Numerics_System_Array_Resize_uint_uint____int_thumb
+	.no_dead_strip plt_System_Numerics_System_Array_Resize_uint_uint____int_thumb
+plt_System_Numerics_System_Array_Resize_uint_uint____int_thumb:
+
+.thumb_func
+_p_42_plt_System_Numerics_System_Array_Resize_uint_uint____int_llvm:
+	.globl _p_42_plt_System_Numerics_System_Array_Resize_uint_uint____int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 228,1108
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeLazy_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeLazy_int_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeLazy_int_thumb:
+
+.thumb_func
+_p_43_plt_System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeLazy_int_llvm:
+	.globl _p_43_plt_System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeLazy_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 232,1120
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_uint_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_uint_thumb
+plt_System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_uint_thumb:
+
+.thumb_func
+_p_44_plt_System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_uint_llvm:
+	.globl _p_44_plt_System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_uint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 236,1122
+.code 32
+	.thumb_func plt_System_Numerics_System_Array_Clear_System_Array_int_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Array_Clear_System_Array_int_int_thumb
+plt_System_Numerics_System_Array_Clear_System_Array_int_int_thumb:
+
+.thumb_func
+_p_45_plt_System_Numerics_System_Array_Clear_System_Array_int_int_llvm:
+	.globl _p_45_plt_System_Numerics_System_Array_Clear_System_Array_int_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 240,1124
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int_thumb:
+
+.thumb_func
+_p_46_plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int_llvm:
+	.globl _p_46_plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 244,1129
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder__int_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder__int_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder__int_thumb:
+
+.thumb_func
+_p_47_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder__int_llvm:
+	.globl _p_47_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder__int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 248,1131
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_thumb:
+
+.thumb_func
+_p_48_plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_llvm:
+	.globl _p_48_plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 252,1133
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_ApplyCarry_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_ApplyCarry_int_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_ApplyCarry_int_thumb:
+
+.thumb_func
+_p_49_plt_System_Numerics_System_Numerics_BigIntegerBuilder_ApplyCarry_int_llvm:
+	.globl _p_49_plt_System_Numerics_System_Numerics_BigIntegerBuilder_ApplyCarry_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 256,1135
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int_int_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int_int_thumb:
+
+.thumb_func
+_p_50_plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int_int_llvm:
+	.globl _p_50_plt_System_Numerics_System_Numerics_BigIntegerBuilder_EnsureWritable_int_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 260,1137
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_AddCarry_uint__uint_uint_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_AddCarry_uint__uint_uint_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_AddCarry_uint__uint_uint_thumb:
+
+.thumb_func
+_p_51_plt_System_Numerics_System_Numerics_BigIntegerBuilder_AddCarry_uint__uint_uint_llvm:
+	.globl _p_51_plt_System_Numerics_System_Numerics_BigIntegerBuilder_AddCarry_uint__uint_uint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 264,1139
+.code 32
+	.thumb_func plt_System_Numerics_System_Array_Copy_System_Array_int_System_Array_int_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Array_Copy_System_Array_int_System_Array_int_int_thumb
+plt_System_Numerics_System_Array_Copy_System_Array_int_System_Array_int_int_thumb:
+
+.thumb_func
+_p_52_plt_System_Numerics_System_Array_Copy_System_Array_int_System_Array_int_int_llvm:
+	.globl _p_52_plt_System_Numerics_System_Array_Copy_System_Array_int_System_Array_int_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 268,1141
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_Add_uint_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_Add_uint_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_Add_uint_thumb:
+
+.thumb_func
+_p_53_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Add_uint_llvm:
+	.globl _p_53_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Add_uint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 272,1146
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigIntegerBuilder__thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigIntegerBuilder__thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigIntegerBuilder__thumb:
+
+.thumb_func
+_p_54_plt_System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigIntegerBuilder__llvm:
+	.globl _p_54_plt_System_Numerics_System_Numerics_BigIntegerBuilder__ctor_System_Numerics_BigIntegerBuilder__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 276,1148
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_ApplyBorrow_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_ApplyBorrow_int_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_ApplyBorrow_int_thumb:
+
+.thumb_func
+_p_55_plt_System_Numerics_System_Numerics_BigIntegerBuilder_ApplyBorrow_int_llvm:
+	.globl _p_55_plt_System_Numerics_System_Numerics_BigIntegerBuilder_ApplyBorrow_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 280,1150
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_Trim_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_Trim_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_Trim_thumb:
+
+.thumb_func
+_p_56_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Trim_llvm:
+	.globl _p_56_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Trim_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 284,1152
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubBorrow_uint__uint_uint_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubBorrow_uint__uint_uint_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubBorrow_uint__uint_uint_thumb:
+
+.thumb_func
+_p_57_plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubBorrow_uint__uint_uint_llvm:
+	.globl _p_57_plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubBorrow_uint__uint_uint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 288,1154
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubRev_System_Numerics_BigIntegerBuilder__thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubRev_System_Numerics_BigIntegerBuilder__thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubRev_System_Numerics_BigIntegerBuilder__thumb:
+
+.thumb_func
+_p_58_plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubRev_System_Numerics_BigIntegerBuilder__llvm:
+	.globl _p_58_plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubRev_System_Numerics_BigIntegerBuilder__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 292,1156
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder__thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder__thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder__thumb:
+
+.thumb_func
+_p_59_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder__llvm:
+	.globl _p_59_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Load_System_Numerics_BigIntegerBuilder__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 296,1158
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__uint_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__uint_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__uint_thumb:
+
+.thumb_func
+_p_60_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__uint_llvm:
+	.globl _p_60_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Sub_int__uint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 300,1160
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubRevBorrow_uint__uint_uint_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubRevBorrow_uint__uint_uint_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubRevBorrow_uint__uint_uint_thumb:
+
+.thumb_func
+_p_61_plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubRevBorrow_uint__uint_uint_llvm:
+	.globl _p_61_plt_System_Numerics_System_Numerics_BigIntegerBuilder_SubRevBorrow_uint__uint_uint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 304,1162
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_MulCarry_uint__uint_uint_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_MulCarry_uint__uint_uint_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_MulCarry_uint__uint_uint_thumb:
+
+.thumb_func
+_p_62_plt_System_Numerics_System_Numerics_BigIntegerBuilder_MulCarry_uint__uint_uint_llvm:
+	.globl _p_62_plt_System_Numerics_System_Numerics_BigIntegerBuilder_MulCarry_uint__uint_uint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 308,1164
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeKeep_int_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeKeep_int_int_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeKeep_int_int_thumb:
+
+.thumb_func
+_p_63_plt_System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeKeep_int_int_llvm:
+	.globl _p_63_plt_System_Numerics_System_Numerics_BigIntegerBuilder_SetSizeKeep_int_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 312,1166
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_Set_ulong_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_Set_ulong_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_Set_ulong_thumb:
+
+.thumb_func
+_p_64_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Set_ulong_llvm:
+	.globl _p_64_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Set_ulong_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 316,1168
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_AddMulCarry_uint__uint_uint_uint_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_AddMulCarry_uint__uint_uint_uint_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_AddMulCarry_uint__uint_uint_uint_thumb:
+
+.thumb_func
+_p_65_plt_System_Numerics_System_Numerics_BigIntegerBuilder_AddMulCarry_uint__uint_uint_uint_llvm:
+	.globl _p_65_plt_System_Numerics_System_Numerics_BigIntegerBuilder_AddMulCarry_uint__uint_uint_uint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 320,1170
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigIntegerBuilder_Mul_uint_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigIntegerBuilder_Mul_uint_thumb
+plt_System_Numerics_System_Numerics_BigIntegerBuilder_Mul_uint_thumb:
+
+.thumb_func
+_p_66_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Mul_uint_llvm:
+	.globl _p_66_plt_System_Numerics_System_Numerics_BigIntegerBuilder_Mul_uint_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 324,1172
+.code 32
+	.thumb_func plt_System_Numerics_string_memcpy_byte__byte__int_thumb
+	.no_dead_strip plt_System_Numerics_string_memcpy_byte__byte__int_thumb
+plt_System_Numerics_string_memcpy_byte__byte__int_thumb:
+
+.thumb_func
+_p_67_plt_System_Numerics_string_memcpy_byte__byte__int_llvm:
+	.globl _p_67_plt_System_Numerics_string_memcpy_byte__byte__int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 328,1174
+.code 32
+	.thumb_func plt_System_Numerics__jit_icall_mono_object_new_fast_thumb
+	.no_dead_strip plt_System_Numerics__jit_icall_mono_object_new_fast_thumb
+plt_System_Numerics__jit_icall_mono_object_new_fast_thumb:
+
+.thumb_func
+_p_68_plt_System_Numerics__jit_icall_mono_object_new_fast_llvm:
+	.globl _p_68_plt_System_Numerics__jit_icall_mono_object_new_fast_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 332,1179
+.code 32
+	.thumb_func plt_System_Numerics_System_ArgumentException__ctor_string_thumb
+	.no_dead_strip plt_System_Numerics_System_ArgumentException__ctor_string_thumb
+plt_System_Numerics_System_ArgumentException__ctor_string_thumb:
+
+.thumb_func
+_p_69_plt_System_Numerics_System_ArgumentException__ctor_string_llvm:
+	.globl _p_69_plt_System_Numerics_System_ArgumentException__ctor_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 336,1202
+.code 32
+	.thumb_func plt_System_Numerics_SR_GetString_string_object___thumb
+	.no_dead_strip plt_System_Numerics_SR_GetString_string_object___thumb
+plt_System_Numerics_SR_GetString_string_object___thumb:
+
+.thumb_func
+_p_70_plt_System_Numerics_SR_GetString_string_object___llvm:
+	.globl _p_70_plt_System_Numerics_SR_GetString_string_object___llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 340,1207
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException__thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException__thumb
+plt_System_Numerics_System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException__thumb:
+
+.thumb_func
+_p_71_plt_System_Numerics_System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException__llvm:
+	.globl _p_71_plt_System_Numerics_System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 344,1209
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigNumber_BigNumberBuffer_Create_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigNumber_BigNumberBuffer_Create_thumb
+plt_System_Numerics_System_Numerics_BigNumber_BigNumberBuffer_Create_thumb:
+
+.thumb_func
+_p_72_plt_System_Numerics_System_Numerics_BigNumber_BigNumberBuffer_Create_llvm:
+	.globl _p_72_plt_System_Numerics_System_Numerics_BigNumber_BigNumberBuffer_Create_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 348,1211
+.code 32
+	.thumb_func plt_System_Numerics_System_Number_NumberBuffer__ctor_byte__thumb
+	.no_dead_strip plt_System_Numerics_System_Number_NumberBuffer__ctor_byte__thumb
+plt_System_Numerics_System_Number_NumberBuffer__ctor_byte__thumb:
+
+.thumb_func
+_p_73_plt_System_Numerics_System_Number_NumberBuffer__ctor_byte__llvm:
+	.globl _p_73_plt_System_Numerics_System_Number_NumberBuffer__ctor_byte__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 352,1213
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger_op_Implicit_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger_op_Implicit_int_thumb
+plt_System_Numerics_System_Numerics_BigInteger_op_Implicit_int_thumb:
+
+.thumb_func
+_p_74_plt_System_Numerics_System_Numerics_BigInteger_op_Implicit_int_llvm:
+	.globl _p_74_plt_System_Numerics_System_Numerics_BigInteger_op_Implicit_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 356,1218
+.code 32
+	.thumb_func plt_System_Numerics_System_Number_TryStringToNumber_string_System_Globalization_NumberStyles_System_Number_NumberBuffer__System_Text_StringBuilder_System_Globalization_NumberFormatInfo_bool_thumb
+	.no_dead_strip plt_System_Numerics_System_Number_TryStringToNumber_string_System_Globalization_NumberStyles_System_Number_NumberBuffer__System_Text_StringBuilder_System_Globalization_NumberFormatInfo_bool_thumb
+plt_System_Numerics_System_Number_TryStringToNumber_string_System_Globalization_NumberStyles_System_Number_NumberBuffer__System_Text_StringBuilder_System_Globalization_NumberFormatInfo_bool_thumb:
+
+.thumb_func
+_p_75_plt_System_Numerics_System_Number_TryStringToNumber_string_System_Globalization_NumberStyles_System_Number_NumberBuffer__System_Text_StringBuilder_System_Globalization_NumberFormatInfo_bool_llvm:
+	.globl _p_75_plt_System_Numerics_System_Number_TryStringToNumber_string_System_Globalization_NumberStyles_System_Number_NumberBuffer__System_Text_StringBuilder_System_Globalization_NumberFormatInfo_bool_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 360,1220
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigNumber_NumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger__thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigNumber_NumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger__thumb
+plt_System_Numerics_System_Numerics_BigNumber_NumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger__thumb:
+
+.thumb_func
+_p_76_plt_System_Numerics_System_Numerics_BigNumber_NumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger__llvm:
+	.globl _p_76_plt_System_Numerics_System_Numerics_BigNumber_NumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 364,1225
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigNumber_HexNumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger__thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigNumber_HexNumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger__thumb
+plt_System_Numerics_System_Numerics_BigNumber_HexNumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger__thumb:
+
+.thumb_func
+_p_77_plt_System_Numerics_System_Numerics_BigNumber_HexNumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger__llvm:
+	.globl _p_77_plt_System_Numerics_System_Numerics_BigNumber_HexNumberToBigInteger_System_Numerics_BigNumber_BigNumberBuffer__System_Numerics_BigInteger__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 368,1227
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigNumber_TryParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Numerics_BigInteger__thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigNumber_TryParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Numerics_BigInteger__thumb
+plt_System_Numerics_System_Numerics_BigNumber_TryParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Numerics_BigInteger__thumb:
+
+.thumb_func
+_p_78_plt_System_Numerics_System_Numerics_BigNumber_TryParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Numerics_BigInteger__llvm:
+	.globl _p_78_plt_System_Numerics_System_Numerics_BigNumber_TryParseBigInteger_string_System_Globalization_NumberStyles_System_Globalization_NumberFormatInfo_System_Numerics_BigInteger__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 372,1229
+.code 32
+	.thumb_func plt_System_Numerics_System_Text_StringBuilder_get_Chars_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Text_StringBuilder_get_Chars_int_thumb
+plt_System_Numerics_System_Text_StringBuilder_get_Chars_int_thumb:
+
+.thumb_func
+_p_79_plt_System_Numerics_System_Text_StringBuilder_get_Chars_int_llvm:
+	.globl _p_79_plt_System_Numerics_System_Text_StringBuilder_get_Chars_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 376,1231
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger__ctor_byte___thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger__ctor_byte___thumb
+plt_System_Numerics_System_Numerics_BigInteger__ctor_byte___thumb:
+
+.thumb_func
+_p_80_plt_System_Numerics_System_Numerics_BigInteger__ctor_byte___llvm:
+	.globl _p_80_plt_System_Numerics_System_Numerics_BigInteger__ctor_byte___llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 380,1236
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger_op_Multiply_System_Numerics_BigInteger_System_Numerics_BigInteger_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger_op_Multiply_System_Numerics_BigInteger_System_Numerics_BigInteger_thumb
+plt_System_Numerics_System_Numerics_BigInteger_op_Multiply_System_Numerics_BigInteger_System_Numerics_BigInteger_thumb:
+
+.thumb_func
+_p_81_plt_System_Numerics_System_Numerics_BigInteger_op_Multiply_System_Numerics_BigInteger_System_Numerics_BigInteger_llvm:
+	.globl _p_81_plt_System_Numerics_System_Numerics_BigInteger_op_Multiply_System_Numerics_BigInteger_System_Numerics_BigInteger_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 384,1238
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger_op_Addition_System_Numerics_BigInteger_System_Numerics_BigInteger_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger_op_Addition_System_Numerics_BigInteger_System_Numerics_BigInteger_thumb
+plt_System_Numerics_System_Numerics_BigInteger_op_Addition_System_Numerics_BigInteger_System_Numerics_BigInteger_thumb:
+
+.thumb_func
+_p_82_plt_System_Numerics_System_Numerics_BigInteger_op_Addition_System_Numerics_BigInteger_System_Numerics_BigInteger_llvm:
+	.globl _p_82_plt_System_Numerics_System_Numerics_BigInteger_op_Addition_System_Numerics_BigInteger_System_Numerics_BigInteger_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 388,1240
+.code 32
+	.thumb_func plt_System_Numerics_System_Text_StringBuilder__ctor_thumb
+	.no_dead_strip plt_System_Numerics_System_Text_StringBuilder__ctor_thumb
+plt_System_Numerics_System_Text_StringBuilder__ctor_thumb:
+
+.thumb_func
+_p_83_plt_System_Numerics_System_Text_StringBuilder__ctor_llvm:
+	.globl _p_83_plt_System_Numerics_System_Text_StringBuilder__ctor_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 392,1242
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigInteger_ToByteArray_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigInteger_ToByteArray_thumb
+plt_System_Numerics_System_Numerics_BigInteger_ToByteArray_thumb:
+
+.thumb_func
+_p_84_plt_System_Numerics_System_Numerics_BigInteger_ToByteArray_llvm:
+	.globl _p_84_plt_System_Numerics_System_Numerics_BigInteger_ToByteArray_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 396,1247
+.code 32
+	.thumb_func plt_System_Numerics_System_Text_StringBuilder_Insert_int_string_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Text_StringBuilder_Insert_int_string_int_thumb
+plt_System_Numerics_System_Text_StringBuilder_Insert_int_string_int_thumb:
+
+.thumb_func
+_p_85_plt_System_Numerics_System_Text_StringBuilder_Insert_int_string_int_llvm:
+	.globl _p_85_plt_System_Numerics_System_Text_StringBuilder_Insert_int_string_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 400,1249
+.code 32
+	.thumb_func plt_System_Numerics_string_Format_System_IFormatProvider_string_object_thumb
+	.no_dead_strip plt_System_Numerics_string_Format_System_IFormatProvider_string_object_thumb
+plt_System_Numerics_string_Format_System_IFormatProvider_string_object_thumb:
+
+.thumb_func
+_p_86_plt_System_Numerics_string_Format_System_IFormatProvider_string_object_llvm:
+	.globl _p_86_plt_System_Numerics_string_Format_System_IFormatProvider_string_object_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 404,1254
+.code 32
+	.thumb_func plt_System_Numerics_byte_ToString_string_System_IFormatProvider_thumb
+	.no_dead_strip plt_System_Numerics_byte_ToString_string_System_IFormatProvider_thumb
+plt_System_Numerics_byte_ToString_string_System_IFormatProvider_thumb:
+
+.thumb_func
+_p_87_plt_System_Numerics_byte_ToString_string_System_IFormatProvider_llvm:
+	.globl _p_87_plt_System_Numerics_byte_ToString_string_System_IFormatProvider_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 408,1259
+.code 32
+	.thumb_func plt_System_Numerics_System_Text_StringBuilder_Append_string_thumb
+	.no_dead_strip plt_System_Numerics_System_Text_StringBuilder_Append_string_thumb
+plt_System_Numerics_System_Text_StringBuilder_Append_string_thumb:
+
+.thumb_func
+_p_88_plt_System_Numerics_System_Text_StringBuilder_Append_string_llvm:
+	.globl _p_88_plt_System_Numerics_System_Text_StringBuilder_Append_string_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 412,1264
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigNumber_ParseFormatSpecifier_string_int__thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigNumber_ParseFormatSpecifier_string_int__thumb
+plt_System_Numerics_System_Numerics_BigNumber_ParseFormatSpecifier_string_int__thumb:
+
+.thumb_func
+_p_89_plt_System_Numerics_System_Numerics_BigNumber_ParseFormatSpecifier_string_int__llvm:
+	.globl _p_89_plt_System_Numerics_System_Numerics_BigNumber_ParseFormatSpecifier_string_int__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 416,1269
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_BigNumber_FormatBigIntegerToHexString_System_Numerics_BigInteger_char_int_System_Globalization_NumberFormatInfo_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_BigNumber_FormatBigIntegerToHexString_System_Numerics_BigInteger_char_int_System_Globalization_NumberFormatInfo_thumb
+plt_System_Numerics_System_Numerics_BigNumber_FormatBigIntegerToHexString_System_Numerics_BigInteger_char_int_System_Globalization_NumberFormatInfo_thumb:
+
+.thumb_func
+_p_90_plt_System_Numerics_System_Numerics_BigNumber_FormatBigIntegerToHexString_System_Numerics_BigInteger_char_int_System_Globalization_NumberFormatInfo_llvm:
+	.globl _p_90_plt_System_Numerics_System_Numerics_BigNumber_FormatBigIntegerToHexString_System_Numerics_BigInteger_char_int_System_Globalization_NumberFormatInfo_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 420,1271
+.code 32
+	.thumb_func plt_System_Numerics_string__ctor_char___int_int_thumb
+	.no_dead_strip plt_System_Numerics_string__ctor_char___int_int_thumb
+plt_System_Numerics_string__ctor_char___int_int_thumb:
+
+.thumb_func
+_p_91_plt_System_Numerics_string__ctor_char___int_int_llvm:
+	.globl _p_91_plt_System_Numerics_string__ctor_char___int_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 424,1273
+.code 32
+	.thumb_func plt_System_Numerics_System_Number_NumberBuffer_PackForNative_thumb
+	.no_dead_strip plt_System_Numerics_System_Number_NumberBuffer_PackForNative_thumb
+plt_System_Numerics_System_Number_NumberBuffer_PackForNative_thumb:
+
+.thumb_func
+_p_92_plt_System_Numerics_System_Number_NumberBuffer_PackForNative_llvm:
+	.globl _p_92_plt_System_Numerics_System_Number_NumberBuffer_PackForNative_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 428,1278
+.code 32
+	.thumb_func plt_System_Numerics_System_Number_FormatNumberBuffer_byte__string_System_Globalization_NumberFormatInfo_char__thumb
+	.no_dead_strip plt_System_Numerics_System_Number_FormatNumberBuffer_byte__string_System_Globalization_NumberFormatInfo_char__thumb
+plt_System_Numerics_System_Number_FormatNumberBuffer_byte__string_System_Globalization_NumberFormatInfo_char__thumb:
+
+.thumb_func
+_p_93_plt_System_Numerics_System_Number_FormatNumberBuffer_byte__string_System_Globalization_NumberFormatInfo_char__llvm:
+	.globl _p_93_plt_System_Numerics_System_Number_FormatNumberBuffer_byte__string_System_Globalization_NumberFormatInfo_char__llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 432,1283
+.code 32
+	.thumb_func plt_System_Numerics_int_ToString_string_System_IFormatProvider_thumb
+	.no_dead_strip plt_System_Numerics_int_ToString_string_System_IFormatProvider_thumb
+plt_System_Numerics_int_ToString_string_System_IFormatProvider_thumb:
+
+.thumb_func
+_p_94_plt_System_Numerics_int_ToString_string_System_IFormatProvider_llvm:
+	.globl _p_94_plt_System_Numerics_int_ToString_string_System_IFormatProvider_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 436,1288
+.code 32
+	.thumb_func plt_System_Numerics_int_ToString_System_IFormatProvider_thumb
+	.no_dead_strip plt_System_Numerics_int_ToString_System_IFormatProvider_thumb
+plt_System_Numerics_int_ToString_System_IFormatProvider_thumb:
+
+.thumb_func
+_p_95_plt_System_Numerics_int_ToString_System_IFormatProvider_llvm:
+	.globl _p_95_plt_System_Numerics_int_ToString_System_IFormatProvider_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 440,1293
+.code 32
+	.thumb_func plt_System_Numerics__jit_icall_mono_helper_newobj_mscorlib_thumb
+	.no_dead_strip plt_System_Numerics__jit_icall_mono_helper_newobj_mscorlib_thumb
+plt_System_Numerics__jit_icall_mono_helper_newobj_mscorlib_thumb:
+
+.thumb_func
+_p_96_plt_System_Numerics__jit_icall_mono_helper_newobj_mscorlib_llvm:
+	.globl _p_96_plt_System_Numerics__jit_icall_mono_helper_newobj_mscorlib_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 444,1298
+.code 32
+	.thumb_func plt_System_Numerics_System_FormatException__ctor_string_System_Exception_thumb
+	.no_dead_strip plt_System_Numerics_System_FormatException__ctor_string_System_Exception_thumb
+plt_System_Numerics_System_FormatException__ctor_string_System_Exception_thumb:
+
+.thumb_func
+_p_97_plt_System_Numerics_System_FormatException__ctor_string_System_Exception_llvm:
+	.globl _p_97_plt_System_Numerics_System_FormatException__ctor_string_System_Exception_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 448,1328
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_ulong_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_ulong_thumb
+plt_System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_ulong_thumb:
+
+.thumb_func
+_p_98_plt_System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_ulong_llvm:
+	.globl _p_98_plt_System_Numerics_System_Numerics_NumericsHelpers_CbitHighZero_ulong_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 452,1333
+.code 32
+	.thumb_func plt_System_Numerics_System_Numerics_NumericsHelpers_resize_uint___int_thumb
+	.no_dead_strip plt_System_Numerics_System_Numerics_NumericsHelpers_resize_uint___int_thumb
+plt_System_Numerics_System_Numerics_NumericsHelpers_resize_uint___int_thumb:
+
+.thumb_func
+_p_99_plt_System_Numerics_System_Numerics_NumericsHelpers_resize_uint___int_llvm:
+	.globl _p_99_plt_System_Numerics_System_Numerics_NumericsHelpers_resize_uint___int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 456,1335
+.code 32
+	.thumb_func plt_System_Numerics__jit_icall_mono_thread_force_interruption_checkpoint_noraise_thumb
+	.no_dead_strip plt_System_Numerics__jit_icall_mono_thread_force_interruption_checkpoint_noraise_thumb
+plt_System_Numerics__jit_icall_mono_thread_force_interruption_checkpoint_noraise_thumb:
+
+.thumb_func
+_p_100_plt_System_Numerics__jit_icall_mono_thread_force_interruption_checkpoint_noraise_llvm:
+	.globl _p_100_plt_System_Numerics__jit_icall_mono_thread_force_interruption_checkpoint_noraise_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 460,1337
+.code 32
+	.thumb_func plt_System_Numerics__rgctx_fetch_0_thumb
+	.no_dead_strip plt_System_Numerics__rgctx_fetch_0_thumb
+plt_System_Numerics__rgctx_fetch_0_thumb:
+
+.thumb_func
+_p_101_plt_System_Numerics__rgctx_fetch_0_llvm:
+	.globl _p_101_plt_System_Numerics__rgctx_fetch_0_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 464,1408
+.code 32
+	.thumb_func plt_System_Numerics_System_Array_FastCopy_System_Array_int_System_Array_int_int_thumb
+	.no_dead_strip plt_System_Numerics_System_Array_FastCopy_System_Array_int_System_Array_int_int_thumb
+plt_System_Numerics_System_Array_FastCopy_System_Array_int_System_Array_int_int_thumb:
+
+.thumb_func
+_p_102_plt_System_Numerics_System_Array_FastCopy_System_Array_int_System_Array_int_int_llvm:
+	.globl _p_102_plt_System_Numerics_System_Array_FastCopy_System_Array_int_System_Array_int_int_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 468,1418
+.code 32
+	.thumb_func plt_System_Numerics__jit_icall_mono_helper_ldstr_mscorlib_thumb
+	.no_dead_strip plt_System_Numerics__jit_icall_mono_helper_ldstr_mscorlib_thumb
+plt_System_Numerics__jit_icall_mono_helper_ldstr_mscorlib_thumb:
+
+.thumb_func
+_p_103_plt_System_Numerics__jit_icall_mono_helper_ldstr_mscorlib_llvm:
+	.globl _p_103_plt_System_Numerics__jit_icall_mono_helper_ldstr_mscorlib_llvm
+.code 16
+.4byte 0xc008f8df
+.2byte 0x44fc
+.4byte 0xc000f8dc
+.2byte 0x4760
+
+	.long mono_aot_System_Numerics_got - . + 472,1423
+.code 32
+plt_end:
+_mono_aot_System_Numericsplt_end:
+	.globl _mono_aot_System_Numericsplt_end
+.section __DATA, __bss
+	.align 3
+jit_got:
+_mono_aot_System_Numericsjit_got:
+	.globl _mono_aot_System_Numericsjit_got
+.lcomm mono_aot_System_Numerics_got, 472
+got_end:
+.section __TEXT, __const
+	.align 3
+Lglobals_hash:
+
+	.short 11, 0, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 1, 0, 0
+	.short 0, 0, 0, 0, 0, 0, 0
+.section __TEXT, __const
+	.align 2
+name_0:
+	.asciz "_unbox_trampoline_p"
+.data
+	.align 3
+globals:
+_mono_aot_System_Numericsglobals:
+	.globl _mono_aot_System_Numericsglobals
+	.align 2
+	.long Lglobals_hash
+	.align 2
+	.long name_0
+	.align 2
+	.long _unbox_trampoline_p
+
+	.long 0,0
+.text
+	.align 3
+mem_end:

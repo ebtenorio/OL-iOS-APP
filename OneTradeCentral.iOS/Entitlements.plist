@@ -4,7 +4,7 @@
 <dict>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)com.orderlinc.mobiletst</string>
+		<string>$(AppIdentifierPrefix)com.orderlinc.mobile</string>
 	</array>
 </dict>
 </plist>
